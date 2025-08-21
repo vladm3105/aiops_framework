@@ -1,0 +1,242 @@
+# AI Agent Development Framework v3.7 - Git Ignore File
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+.vscode/.ropeproject
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+.nyc_output
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Cloud and Infrastructure
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+terraform.tfvars.json
+*.tfplan
+*.tfout
+.terraformrc
+terraform.rc
+
+# AWS
+.aws/
+aws-exports.js
+
+# Google Cloud
+.gcloud/
+service-account-key.json
+*.json
+!package.json
+!tsconfig.json
+!.vscode/extensions.json
+!.vscode/snippets.code-snippets
+
+# Azure
+.azure/
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+.dbshell
+
+# Secrets and Configuration
+.secrets/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config/secrets.yml
+config/database.yml
+.config
+
+# API Keys and Credentials
+**/secrets/
+**/*key*
+**/*secret*
+**/*token*
+**/*credential*
+**/*password*
+**/api-keys/
+.credentials/
+auth.json
+
+# Temporary Files
+tmp/
+temp/
+.tmp/
+.temp/
+*.tmp
+*.temp
+.cache/
+
+# Framework-Specific Ignores
+.ai_context/current_session_notes.md
+.ai_context/temp_context.md
+deployment/.secrets/
+deployment/terraform.tfvars
+deployment/helm-values-prod.yaml
+docs/validation/temp_*
+docs/specs/draft_*
+
+# Framework Work-in-Progress
+docs/ears/draft_*
+docs/bdd/temp_*
+docs/adr/draft_*
+docs/prd/draft_*
+docs/specs/wip_*
+
+# Session Management
+TODOS_backup_*.md
+session_archive_*.md
+.session_temp/
+
+# Testing
+test-results/
+coverage/
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+test_output/
+screenshots/
+videos/
+
+# Monitoring and Observability
+logs/
+monitoring/
+.grafana/
+.prometheus/
+
+# Backups
+*.backup
+*.bak
+backup_*
+*_backup
+restore_*
+
+# Archive Files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Framework Development
+.framework_dev/
+.development_notes/
+NOTES.md
+TODO_personal.md
+
+# AI Assistant Working Files
+.ai_working/
+.context_temp/
+ai_session_*.md
+
+# Production Exclusions
+.production/
+prod_config/
+production.env
+.prod/
+
+# Framework Validation (Keep validation reports but ignore temps)
+!docs/validation/phase_*_completion_report.md
+!docs/validation/final_project_validation.md
+!docs/validation/validated_architecture.md
+docs/validation/temp_*
+docs/validation/draft_*
+docs/validation/.working/
