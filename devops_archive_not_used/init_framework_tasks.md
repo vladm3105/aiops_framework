@@ -27,7 +27,7 @@ AI assistants **MUST** start by checking project structure and defining missing 
 - [ ] **🚨 MANDATORY PROJECT STRUCTURE ANALYSIS:**
   - [ ] Check root framework files: `find . -maxdepth 1 -name "*.md" | sort`
   - [ ] Check documentation structure: `find docs/ -type d | sort`
-  - [ ] Check framework directories: `ls -la .ai_context/ .framework/ deployment/`
+  - [ ] Check framework directories: `ls -la .ai_context/ development/ devops/ deployment/`
 - [ ] **Framework Compliance Validation:** Verify all Framework v3.7 root files exist
 - [ ] **Gap Remediation:** Create missing framework files and directories
 - [ ] **🚨 MANDATORY HUMAN INTERACTION - ASK DEVELOPER:**
@@ -527,7 +527,7 @@ docs/validation/
 └── final_project_validation.md     # Complete project validation summary
 ```
 
-**Validation Report Template:** Use mandatory template from `.framework/development_framework_v3.7.md` section 8.
+**Validation Report Template:** Use mandatory template from `development/development_framework_v3.7.md` section 8.
 
 **Quality Assurance:** All validation reports must follow the standardized template and demonstrate:
 - Requirements coverage verification

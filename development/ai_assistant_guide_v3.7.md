@@ -31,11 +31,11 @@ This guide provides AI assistants with comprehensive guidance for working within
 ### **Step 1: Framework Context Loading (Target: <5 seconds)**
 ```bash
 # AI Assistant Framework Initialization Command
-"general-purpose: Load Framework v3.7 context from .framework/development_framework_v3.7.md and initialize AI optimization for development acceleration"
+"general-purpose: Load Framework v3.7 context from development_framework_v3.7.md and initialize AI optimization for development acceleration"
 ```
 
 **Required Context Files (Priority Order):**
-1. `.framework/development_framework_v3.7.md` - Core framework methodology
+1. `development_framework_v3.7.md` - Core framework methodology
 2. `.ai_context/current_context.md` - Current project state and objectives
 3. `.ai_context/team_patterns.md` - Established coding standards and patterns
 4. `.ai_context/domain_context.md` - Domain knowledge and terminology

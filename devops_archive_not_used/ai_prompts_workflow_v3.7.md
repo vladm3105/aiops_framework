@@ -12,9 +12,12 @@
 
 **🚨 BEFORE ANY DEVOPS FRAMEWORK WORK: These requirements are NON-NEGOTIABLE and MUST be completed first:**
 
-1. **📋 Infrastructure Migration Assessment (First Run)**: Analyze existing infrastructure, create migration plan
-2. **🛡️ Version Control Preparation (Every Run)**: Ask developer choice, get confirmation 
-3. **✅ Change Submission (Every Run)**: Commit all changes, ensure clean working directory
+1. **📋 Infrastructure Migration Assessment (First Run)**: Analyze existing infrastructure, create migration plan  
+   **🤖 AI AUTONOMOUS** - AI can analyze and create infrastructure migration plans independently
+2. **🛡️ Version Control Preparation (Every Run)**: Ask developer choice, get confirmation  
+   **👤 HUMAN SUPERVISION REQUIRED** - Developer must choose approach and confirm backup strategy
+3. **✅ Change Submission (Every Run)**: Commit all changes, ensure clean working directory  
+   **🤖 AI AUTONOMOUS** - AI can check git status and commit changes independently
 
 **❌ DEVOPS FRAMEWORK WORK IS FORBIDDEN WITHOUT COMPLETING ALL THREE REQUIREMENTS**
 
@@ -28,65 +31,120 @@
 
 **Before ANY DevOps framework work begins, ALL three mandatory requirements must be completed:**
 
-### **-1.1 Initial Infrastructure Migration Assessment (First Run Only)**
+### **-1.1 Initial Infrastructure Migration Assessment (First Run Only)** 🤖 AI AUTONOMOUS
 ```bash
-# Analyze existing infrastructure and create migration plan
-"general-purpose: Review all existing infrastructure files, deployment configurations, and DevOps setup, analyze against DevOps Framework v3.7 requirements from devops_framework_v3.7.md, identify gaps, dependencies, and risks, then create detailed migration plan with specific actionable tasks for transitioning to framework structure"
-
-# Document infrastructure migration risks and mitigation strategies  
-"general-purpose: Document potential infrastructure migration risks including service disruption, configuration conflicts, dependency issues, and create specific mitigation strategies for each identified risk during DevOps framework migration"
-
-# Create step-by-step infrastructure migration tasks
-"general-purpose: Generate specific, actionable migration tasks in priority order including configuration moves, infrastructure updates, template application, and validation steps to achieve 100% DevOps framework v3.7 compliance"
+# Consolidated infrastructure migration assessment and planning
+"cloud-devops-expert + cloud-ops-engineer: Analyze existing infrastructure and DevOps setup against Framework v3.7 requirements, identify gaps and risks, then create comprehensive migration plan with prioritized tasks, risk mitigation strategies, and validation steps for complete DevOps framework compliance"
 ```
 
-### **-1.2 Version Control Preparation (Every Single Run)**
+### **-1.2 Version Control Preparation (Every Single Run)** 👤 HUMAN SUPERVISION REQUIRED
 ```bash
-# Check version control system availability
-"general-purpose: Verify git, GitHub, or other version control system is available and properly configured, check current repository status and branch information for infrastructure changes"
+# Infrastructure version control verification
+"cloud-devops-expert: Verify git status, repository configuration, and current branch information for infrastructure changes"
 
-# Ask developer for backup/versioning approach - MANDATORY HUMAN INTERACTION
-"Ask human developer: Choose your preferred approach for DevOps framework implementation:
+# MANDATORY HUMAN INTERACTION - Developer Choice Required
+"Ask human developer: Choose your DevOps framework implementation approach:
   Option A: Modify existing infrastructure in current project (requires git backup confirmation)
   Option B: Copy entire project to separated folder and create new DevOps framework version
   
-  Please confirm your choice and any specific requirements before proceeding."
+  Please confirm your choice before proceeding with any DevOps framework work."
 
-# Confirm developer choice and document approach
-"general-purpose: Document developer's chosen approach (Option A or B), confirm backup strategy is understood and acceptable, and ensure all requirements are met before proceeding with any DevOps framework work"
-
-# STOP POINT: Do not proceed without explicit developer confirmation
-"MANDATORY STOP: Do NOT proceed with ANY DevOps framework work until developer has explicitly confirmed their choice and backup strategy. DevOps framework work is FORBIDDEN without this confirmation."
+# STOP POINT: DevOps framework work forbidden without developer confirmation
+"MANDATORY STOP: Do NOT proceed until developer explicitly confirms their choice and backup strategy."
 ```
 
-### **-1.3 Change Submission Protocol (Every Single Run)**
+### **-1.3 Change Submission Protocol (Every Single Run)** 🤖 AI AUTONOMOUS
 ```bash
-# Check current git status and uncommitted changes
-"general-purpose: Execute 'git status' to check for any uncommitted infrastructure changes, untracked files, or staging area content in the current repository"
+# Git status check and commit all infrastructure changes
+"cloud-devops-expert: Check git status, commit all uncommitted infrastructure changes with appropriate messages, and verify clean working directory before proceeding with DevOps framework work"
 
-# Commit all existing changes before DevOps framework work
-"general-purpose: If any uncommitted changes exist, submit ALL changes to version control system using appropriate commit messages, ensure clean working directory before DevOps framework work begins"
-
-# Verify clean working state
-"general-purpose: Verify git working directory is clean with no uncommitted changes, confirm current branch is appropriate for DevOps framework changes, document current state for rollback purposes"
-
-# STOP POINT: Do not proceed with dirty working directory
-"MANDATORY STOP: Do NOT proceed with ANY DevOps framework work if there are uncommitted changes. DevOps framework work is FORBIDDEN with a dirty working directory."
+# STOP POINT: Ensure clean state before DevOps framework work
+"MANDATORY STOP: DevOps framework work is FORBIDDEN with uncommitted changes. Ensure clean git state."
 ```
 
-### **-1.4 Pre-Work Completion Validation**
+### **-1.4 Pre-Work Completion Validation** 🤖 AI AUTONOMOUS
 ```bash
-# Validate all mandatory pre-work requirements are complete
-"project-manager: Validate that ALL three mandatory pre-work requirements are completed:
-  ✓ Infrastructure migration assessment and plan created (first run)
-  ✓ Developer choice confirmed and documented  
-  ✓ All changes committed to version control
-  ✓ Clean working directory verified
-  Report PASS/FAIL status for each requirement."
-
-# Final safety check before DevOps framework work
-"FINAL CHECKPOINT: Confirm all pre-work requirements are COMPLETE before proceeding to Phase 0. DevOps framework work is FORBIDDEN if any pre-work requirement is incomplete."
+# Validate all DevOps pre-work requirements complete
+"project-manager: Validate all mandatory pre-work completed: infrastructure migration assessment, developer choice confirmed, clean git state. Report PASS/FAIL status before proceeding to Phase 0."
 ```
+
+---
+
+## 👤 **HUMAN SUPERVISION DEVOPS FRAMEWORK GUIDE**
+
+### **Understanding AI-First DevOps Operations with Human Oversight**
+
+Framework v3.7 DevOps operates as an **AI-first AI operational framework with human supervision** where:
+
+**🤖 AI AUTONOMOUS DevOps Operations:**
+- Infrastructure provisioning and configuration management
+- CI/CD pipeline execution and automation
+- Security scanning and compliance validation
+- Performance monitoring and optimization
+- Test generation and execution automation
+- Deployment artifact processing and validation
+
+**👤 HUMAN SUPERVISION REQUIRED for DevOps:**
+- Production deployment authorization
+- Infrastructure architecture decisions and approval
+- Security policy changes and compliance approval
+- Critical alert response and incident management
+- Business impact assessment and risk acceptance
+- DevOps strategy and governance decisions
+
+### **Human DevOps Team Responsibilities**
+
+**🎯 Strategic DevOps Oversight:**
+- Define infrastructure strategy and cloud architecture
+- Approve production deployment strategies
+- Validate security and compliance requirements
+- Authorize critical infrastructure changes
+
+**🔍 Operations Quality Assurance:**
+- Review AI-generated infrastructure configurations
+- Validate deployment strategies for business requirements
+- Approve scaling and resource allocation decisions
+- Monitor DevOps effectiveness and cost optimization
+
+**⚖️ DevOps Risk Management:**
+- Assess and approve infrastructure security models
+- Validate disaster recovery and backup procedures
+- Monitor compliance with regulatory requirements
+- Approve DevOps framework evolution and methodology changes
+
+### **AI Assistant DevOps Responsibilities**
+
+**⚡ Infrastructure Acceleration:**
+- Generate infrastructure-as-code following DevOps patterns
+- Automate CI/CD pipeline creation and optimization
+- Execute deployment automation and monitoring setup
+- Optimize infrastructure performance and cost efficiency
+
+**🛡️ DevOps Quality Enforcement:**
+- Ensure DevOps framework compliance throughout operations
+- Validate security-by-design infrastructure implementation
+- Execute comprehensive testing and infrastructure validation
+- Monitor and report DevOps effectiveness metrics
+
+**🔄 DevOps Continuous Improvement:**
+- Optimize infrastructure patterns for better performance
+- Identify and implement DevOps framework improvements
+- Maintain infrastructure documentation and pattern consistency
+- Learn from human feedback and operational decisions
+
+### **Development → DevOps Handoff Intelligence**
+
+**🤖 AI AUTONOMOUS Handoff Processing:**
+- Analyze and validate development deployment artifacts
+- Process deployment scripts and infrastructure requirements
+- Optimize deployment strategies based on development patterns
+- Generate infrastructure configurations from development specifications
+
+**👤 HUMAN SUPERVISION for Handoff:**
+- Approve production deployment strategies
+- Validate business impact of infrastructure changes
+- Authorize resource allocation and scaling decisions
+- Review and approve security and compliance implications
 
 ---
 
@@ -94,59 +152,38 @@
 
 **Note: Phase 0 can only begin AFTER successful completion of Phase -1 mandatory pre-work requirements.**
 
-### **0.1 DevOps Framework Structure Setup**
+### **0.1 DevOps Framework Structure Setup** 🤖 AI AUTONOMOUS
 ```bash
-# Execute migration plan from Phase -1 (first run) or validate existing structure
-"general-purpose: If this is first run, execute the migration plan created in Phase -1.1 to transition existing infrastructure to DevOps Framework v3.7 structure. If framework already exists, validate structure compliance against devops_framework_v3.7.md specification"
+# Complete DevOps framework structure implementation
+"cloud-devops-expert + cloud-ops-engineer: Execute migration plan or create complete DevOps Framework v3.7 structure including infrastructure-as-code, CI/CD pipelines, monitoring configurations, and deployment automation, then validate compliance against devops_framework_v3.7.md"
 
-# Initialize complete DevOps framework structure (new projects) or complete migration (existing projects)
-"general-purpose: Complete DevOps Framework v3.7 structure setup including deployment/terraform/, deployment/k8s/, deployment/scripts/, deployment/monitoring/, deployment/compliance-templates/, .ai_context/devops_patterns.md, and AI-first deployment configuration with proper framework v3.7 compliance"
-
-# Validate DevOps framework structure compliance and migration success
-"general-purpose: Validate DevOps framework v3.7 structure compliance by checking all required directories and files exist according to devops_framework_v3.7.md specification, verify migration completion if applicable, report any missing components"
 ```
 
-### **0.2 Project-Specific Instructions Review (Optional)**
-
+### **0.2 Project-Specific Instructions Review (Optional)** 🤖 AI AUTONOMOUS
 ```bash
-# Check for optional project-specific instructions
-"general-purpose: Check for .instructions/ directory and review any project-specific DevOps instructions, infrastructure guidance, or deployment constraints that supplement DevOps framework v3.7 methodology, noting that this directory is optional and may not exist"
-
-# Integrate project instructions with DevOps framework methodology
-"general-purpose: If .instructions/ exists, integrate project-specific DevOps guidance with framework methodology ensuring compatibility and complementary application, updating AI context accordingly"
+# Review and integrate project-specific DevOps instructions
+"cloud-devops-expert: Check for .instructions/ directory, review any project-specific infrastructure guidance, and integrate with DevOps framework methodology while updating AI context for compatibility"
 ```
 
-### **0.3 AI Context Initialization**
-
+### **0.3 AI Context Initialization** 🤖 AI AUTONOMOUS
 ```bash
-# Create optimized AI context files for DevOps
-"general-purpose: Create AI context optimization files in .ai_context/ including devops_patterns.md with infrastructure patterns, deployment_context.md with deployment procedures, testing_strategies.md with automation approaches, and compliance-templates/ references following DevOps framework v3.7 patterns"
-
-# Initialize AI assistant with DevOps system prompt integration
-"general-purpose: Initialize AI assistant with DevOps framework v3.7 system prompt from .framework/devops/ai_system_prompt_v3.7.md ensuring complete DevOps framework integration and performance target understanding"
+# Create and optimize DevOps AI context files
+"cloud-devops-expert: Create complete DevOps AI context optimization in .ai_context/ including devops_patterns.md, deployment_context.md, testing_strategies.md, and compliance references following DevOps framework v3.7 patterns"
 ```
 
-### **0.4 Cloud Platform Detection & Configuration**
-
+### **0.4 Cloud Platform Detection & Configuration** 👤 HUMAN SUPERVISION REQUIRED
 ```bash
-# Detect cloud platform and create infrastructure configuration
-"cloud-devops-expert: Analyze project structure, existing infrastructure files, and configuration to determine the cloud platform being used (GCP, AWS, Azure, etc.). If unable to determine platform, ask the human developer what cloud platform will be used for this project"
+# Detect cloud platform or ask human developer
+"cloud-devops-expert: Analyze project infrastructure to determine cloud platform being used, or ask human developer to specify their preferred cloud platform for this project"
 
 # Create cloud platform-specific configuration for DevOps framework v3.7
-"cloud-devops-expert: Create cloud platform-specific configuration files for [detected/specified platform] including Terraform templates, Kubernetes manifests, monitoring setup, and security configuration optimized for the project using DevOps framework v3.7 patterns"
-
-# Setup cloud environment integration
-"cloud-devops-expert: Configure cloud environment settings including resource management, service configurations, networking setup, and DevOps framework compliance validation tools for optimal DevOps v3.7 infrastructure experience"
+"cloud-devops-expert: Create cloud platform-specific configuration including Terraform templates, Kubernetes manifests, monitoring setup, and security configuration optimized for DevOps framework v3.7 patterns"
 ```
 
-### **0.5 Security-by-Design Foundation**
-
+### **0.5 Security-by-Design Foundation** 🤖 AI AUTONOMOUS
 ```bash
-# Create initial threat model and infrastructure security architecture
-"gcp-ai-architect + security-auditor: Create comprehensive threat model and security-by-design infrastructure architecture for [project name] following DevOps framework v3.7 security principles, including infrastructure attack surface analysis, security controls specification, and threat mitigation strategies"
-
-# Establish infrastructure security requirements
-"security-auditor: Create infrastructure security requirements covering cloud security, network protection, access control, and compliance following DevOps framework v3.7 security patterns and government-grade standards"
+# Create infrastructure threat model and security architecture
+"gcp-ai-architect + security-auditor: Create comprehensive infrastructure threat model and security-by-design architecture following DevOps framework v3.7 security principles, including infrastructure security controls and compliance requirements"
 ```
 
 ---

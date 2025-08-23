@@ -466,7 +466,7 @@ project_root/
 │           ├── 📄 azure-monitor.yaml # Azure Monitor configuration
 │           ├── 📄 log-analytics.yaml # Log Analytics workspace
 │           └── 📄 action-groups.yaml # Alert action groups
-├── 📁 .framework/                    # Framework templates and guides
+├── 📁 development/                  # Development framework methodology
 │   ├── 📄 readme.md                  # Framework overview and quick start
 │   ├── 📄 development_framework_v3.7.md # This framework file
 │   ├── 📄 adr_template_v3.7.md       # ADR template v3.7
@@ -970,7 +970,7 @@ REQ-CORE-001: WHEN a user submits a login request THE authentication system SHAL
 - **Hybrid Session Management:** Implement session lifecycle management with cumulative tracking and clean session focus
 
 ### Session Management Integration
-- **Three-Tier Tracking System:** Session-level (TODOS.md) + Project-level (framework_tasks.md) + Framework-level (.framework/init_framework_tasks.md)
+- **Three-Tier Tracking System:** Session-level (TODOS.md) + Project-level (framework_tasks.md) + Framework-level (init_framework_tasks.md)
 - **Session Lifecycle:** Start Protocol → During Protocol → End Protocol with automated archiving
 - **Cross-Project Compatibility:** Session management designed for reuse across all Framework v3.7 projects
 - **TodoWrite Integration:** Real-time session tracking with tool-based status management
@@ -1158,7 +1158,7 @@ project_root/
 ├── TODOS.md                    # Hybrid session management with cumulative tracking
 ├── framework_tasks.md          # Project-specific framework implementation tracking
 ├── tasks.md                    # Technical implementation roadmap
-└── .framework/                 # Framework templates and methodology
+└── development/               # Development framework methodology
     ├── development_framework_v3.7.md
     ├── AI_ASSISTANT_STARTUP.md
     └── init_framework_tasks.md
@@ -1774,7 +1774,7 @@ The framework implements enhanced ADR templates with complete framework integrat
    # AI assistants MUST execute this analysis first
    find . -maxdepth 1 -name "*.md" | sort  # Check root framework files
    find docs/ -type d | sort               # Check documentation structure  
-   ls -la .ai_context/ .framework/ deployment/ 2>/dev/null  # Check framework directories
+   ls -la .ai_context/ development/ devops/ deployment/ 2>/dev/null  # Check framework directories
    ```
 
 2. **Framework Compliance Validation (MANDATORY SECOND STEP)**

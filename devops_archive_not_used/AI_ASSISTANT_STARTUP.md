@@ -20,13 +20,13 @@
 **AI Action Steps:**
 ```bash
 # Initialize AI Assistant with Framework v3.7 System Prompt
-"Read and integrate the complete AI system prompt from .framework/ai_system_prompt_v3.7.md and .framework/readme.md ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols"
+"Read and integrate the complete AI system prompt from development/ai_system_prompt_v3.7.md and readme.md ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols"
 
 # Load Framework Workflow Commands
-"Read and integrate workflow commands from .framework/ai_prompts_workflow_v3.7.md for systematic execution of all 8 framework phases with proper command sequences"
+"Read and integrate workflow commands from development/ai_prompts_workflow_v3.7.md for systematic execution of all 8 framework phases with proper command sequences"
 
 # Initialize Framework Context
-"Read .framework/development_framework_v3.7.md for complete framework methodology understanding and .framework/QUICK_START.md for mandatory pre-work requirements"
+"Read development/development_framework_v3.7.md for complete framework methodology understanding and QUICK_START.md for mandatory pre-work requirements"
 
 # Initialize Project-Specific Task Tracking
 "Read framework_tasks.md for project-specific implementation roadmap and TODOS.md for AI assistant workflow tracking - use both files for dual-level task management throughout development"
@@ -84,7 +84,7 @@
 # 1. MANDATORY FIRST STEP: Project Structure Analysis
 find . -maxdepth 1 -name "*.md" | sort  # Check root framework files
 find docs/ -type d | sort               # Check documentation structure  
-ls -la .ai_context/ .framework/ deployment/ 2>/dev/null  # Check framework directories
+ls -la .ai_context/ development/ devops/ deployment/ 2>/dev/null  # Check framework directories
 
 # 2. MANDATORY SECOND STEP: Framework Compliance Validation
 "general-purpose: Verify all Framework v3.7 root files exist (product.md, requirements.md, design.md, tasks.md, deployment.md), check required directories (docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, .ai_context/, deployment/), identify missing framework components and document gaps before proceeding"
