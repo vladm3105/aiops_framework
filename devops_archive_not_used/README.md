@@ -1,8 +1,21 @@
-# DevOps Framework v3.7 - AI-First Enterprise Implementation
+# DevOps Framework v3.7 - DEPRECATED
 
-## 🚀 Revolutionary AI-Driven DevOps for Enterprise Agentic AI Platforms
+## ⚠️ **MIGRATION NOTICE: DevOps Framework Has Been Separated**
 
-**Framework v3.7 DevOps** transforms traditional DevOps practices through intelligent AI automation, delivering **10x development velocity**, **99.9% deployment reliability**, and **enterprise-grade security** for the CARA agentic AI platform.
+**This directory contains DEPRECATED files.** The DevOps framework has been logically separated into two specialized frameworks for better organization and clarity:
+
+### **🚀 NEW FRAMEWORK STRUCTURE:**
+- **🔨 Development Framework**: Located in `../development/` - AI-first development methodology
+- **🚀 Deployment Framework**: Located in `../deployment/` - Zero-downtime deployment strategies  
+- **⚙️ Operations Framework**: Located in `../operations/` - AI-autonomous operations and monitoring
+
+### **📋 MIGRATION PATH:**
+1. **For Development Work**: Use `../development/development_framework_v3.7.md`
+2. **For Deployment Work**: Use `../deployment/deployment_framework_v3.7.md`  
+3. **For Operations Work**: Use `../operations/operations_framework_v3.7.md`
+
+### **🎯 COMPLETE WORKFLOW:**
+**Development → Deployment → Operations** provides clear separation of concerns and specialized AI guidance for each phase.
 
 ---
 

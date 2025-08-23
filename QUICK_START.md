@@ -3,7 +3,7 @@
 **🚨 CRITICAL: This guide implements MANDATORY PRE-WORK REQUIREMENTS that CANNOT be skipped**
 
 **Version:** 3.7 - Production Ready with Mandatory Pre-Work Protection  
-**Date:** 2025-08-16  
+**Date:** 2025-08-22  
 **Purpose:** Safe framework initialization with complete project protection  
 
 ---
@@ -19,6 +19,19 @@ This startup guide enforces **three mandatory requirements** that protect your p
 - Framework implementation failures
 
 **✅ ONLY proceed step-by-step in the exact order specified below**
+
+### **🎯 NEW Framework v3.7 Complete Lifecycle**
+
+Framework v3.7 now provides complete **Init → Development → Deployment → Operations** lifecycle:
+
+```
+🎯 Init Framework      → 🔨 Development Framework → 🚀 Deployment Framework → ⚙️ Operations Framework
+   (Phase -1 & 0)           (Phases 1-6)              (Phase 7)                (Phase 8)
+      ↓                        ↓                         ↓                        ↓
+  Project Safety        Requirements → Code       Production Deploy       AI-Autonomous Ops
+```
+
+**🚨 This Quick Start covers INIT FRAMEWORK ONLY** - the foundation for all subsequent frameworks.
 
 ---
 
@@ -61,7 +74,7 @@ This startup guide enforces **three mandatory requirements** that protect your p
 
 ```bash
 # Start framework implementation with AI assistant
-"Read and integrate the complete AI system prompt from .framework/ai_system_prompt_v3.7.md ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols. Then begin Phase -1 mandatory pre-work requirements."
+"Read and integrate the complete AI system prompt from init/ai_system_prompt_v3.7.md ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols. Then begin Phase -1 mandatory pre-work requirements."
 ```
 
 ---
@@ -78,7 +91,7 @@ This startup guide enforces **three mandatory requirements** that protect your p
 **AI will automatically execute:**
 ```bash
 # Analyze existing project structure
-"general-purpose: Review all existing project files and directory structure in /opt/data/techtrend/RisenOne/risen-one-api-integartion/, analyze against Framework v3.7 requirements from .framework/development_framework_v3.7.md, identify structural gaps, missing components, and existing files that need preservation"
+"general-purpose: Review all existing project files and directory structure, analyze against Framework v3.7 requirements from init/init_framework_v3.7.md, identify structural gaps, missing components, and existing files that need preservation"
 
 # Document current project state
 "general-purpose: Create detailed inventory of existing project files including code files, configuration files, documentation, and any existing development artifacts that must be preserved during framework migration"
@@ -314,10 +327,10 @@ Report PASS/FAIL status for each requirement with detailed validation results"
 # 1. MANDATORY FIRST STEP: Project Structure Analysis
 find . -maxdepth 1 -name "*.md" | sort  # Check root framework files
 find docs/ -type d | sort               # Check documentation structure  
-ls -la .ai_context/ .framework/ deployment/ 2>/dev/null  # Check framework directories
+ls -la .ai_context/ init/ development/ deployment/ operations/ 2>/dev/null  # Check framework directories
 
 # 2. MANDATORY SECOND STEP: Framework Compliance Validation
-"general-purpose: Verify all Framework v3.7 root files exist (product.md, requirements.md, design.md, tasks.md, deployment.md), check required directories (docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, .ai_context/, deployment/), identify missing framework components and document gaps before proceeding"
+"general-purpose: Verify all Framework v3.7 root files exist (product.md, requirements.md, design.md, tasks.md, deployment.md), check required directories (docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, .ai_context/, init/, development/, deployment/, operations/), identify missing framework components and document gaps before proceeding"
 
 # 3. MANDATORY THIRD STEP: Gap Remediation  
 "general-purpose: Create missing framework files following v3.7 specifications, populate empty required directories with appropriate content, update existing files to meet framework compliance standards, achieve 100% framework structure compliance before development tasks"
@@ -334,7 +347,7 @@ ls -la .ai_context/ .framework/ deployment/ 2>/dev/null  # Check framework direc
 "general-purpose: Based on developer choice from Step 2:
 - Option A: Execute migration plan created in Step 1 to transition existing project to Framework v3.7 structure
 - Option B: Copy project to new location and initialize Framework v3.7 structure
-Ensure all required directories and base files are created following development_framework_v3.7.md specification"
+Ensure all required directories and base files are created following init/init_framework_v3.7.md specification"
 ```
 
 ### **5.2 IDE Configuration & Development Environment Setup**
@@ -386,43 +399,30 @@ Ensure all required directories and base files are created following development
 **Your time commitment:** 1-2 hours of oversight over 1-2 weeks
 **Your role:** Approve each phase as AI progresses through systematic development
 
-### **Overview of the 8 Phases You'll Oversee:**
+### **Complete Framework Lifecycle You'll Oversee:**
 
-**Phase 0: Framework Initialization** *(AI executing now)*
+**🎯 Init Framework (Phase -1 & 0)** *(AI executing now)*
+- AI completes pre-work requirements and project safety validation
 - AI sets up complete framework structure based on your Option A/B choice
-- Creates all required directories and files
+- Creates all required directories and files with AI context optimization
 
-**Phase 1: Requirements Development** *(~30 minutes your review time)*
-- AI creates EARS requirements and PRD documents
-- You review and approve requirements for accuracy
+**🔨 Development Framework (Phases 1-6)** *(~2.5 hours your review time)*
+- **Phase 1**: Requirements Development - EARS requirements and PRD documents
+- **Phase 2**: BDD Scenario Development - Behavioral validation scenarios
+- **Phase 3**: Architecture & ADR Development - Technical architecture and decision records
+- **Phase 4**: Technical Specifications - Detailed implementation specifications
+- **Phase 5**: Implementation - Code implementation following specifications
+- **Phase 6**: Testing & Quality Assurance - Comprehensive testing and validation
 
-**Phase 2: BDD Scenario Development** *(~20 minutes your review time)*
-- AI creates behavioral validation scenarios
-- You approve BDD scenarios for testing
+**🚀 Deployment Framework (Phase 7)** *(~30 minutes your review time)*
+- AI prepares infrastructure automation and CI/CD pipelines
+- AI executes zero-downtime production deployment strategies
+- You approve deployment strategy and production readiness
 
-**Phase 3: Architecture & ADR Development** *(~30 minutes your review time)*
-- AI creates technical architecture and decision records
-- You approve architectural decisions
-
-**Phase 4: Technical Specifications** *(~20 minutes your review time)*
-- AI creates detailed implementation specifications
-- You approve specifications before implementation
-
-**Phase 5: Implementation** *(~45 minutes your review time)*
-- AI implements code following specifications
-- You review and approve implementation
-
-**Phase 6: Testing & Quality Assurance** *(~15 minutes your review time)*
-- AI executes comprehensive testing
-- You review test results and quality metrics
-
-**Phase 7: Deployment Preparation** *(~20 minutes your review time)*
-- AI prepares deployment automation
-- You approve deployment strategy
-
-**Phase 8: Production Operations** *(~10 minutes your review time)*
-- AI executes production deployment
-- You monitor and approve production system
+**⚙️ Operations Framework (Phase 8)** *(~15 minutes your review time)*
+- AI establishes AI-autonomous observability operations
+- AI implements predictive monitoring and incident response
+- You monitor operational excellence and approve production operations
 
 ### **6.1 Requirements Development Commands**
 
@@ -561,15 +561,23 @@ Ensure all required directories and base files are created following development
 
 **You now have two options:**
 
-**Option 1: Continue with Full Framework Implementation**
-- AI will systematically execute Phases 1-8 with your approval
-- You'll oversee requirements, architecture, implementation, and deployment
-- Expected timeline: 1-2 weeks with 1-2 hours of your oversight time
+**Option 1: Continue with Development Framework**
+```bash
+# Continue to Development Framework
+"Read and integrate development/ai_system_prompt_v3.7.md and begin Development Framework Phase 1 (Requirements Analysis) with complete Init Framework handoff"
+```
+- AI will systematically execute Development Phases 1-6 with your approval
+- You'll oversee requirements, architecture, implementation, and testing
+- Expected timeline: 1-2 weeks with 2-3 hours of your oversight time
 
 **Option 2: Pause and Return Later**
-- Framework is safely initialized and ready when you are
-- Use this command to resume: "Continue Framework v3.7 implementation from Phase 1"
-- All pre-work is complete, no need to repeat these steps
+- Init Framework is safely completed and ready when you are
+- Use this command to resume: "Continue with Development Framework from Phase 1"
+- All pre-work and init setup complete, no need to repeat these steps
+
+**Option 3: Jump to Specific Framework**
+- **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP_DEPLOYMENT.md`
+- **Operations Framework**: `operations/AI_ASSISTANT_STARTUP_OPERATIONS.md`
 
 ### **🎯 Framework v3.7 Success Formula Achieved**
 
@@ -594,10 +602,11 @@ Ensure all required directories and base files are created following development
 ```
 
 ### **Support Resources**
-- **Detailed Guide**: `.framework/AI_ASSISTANT_STARTUP.md`
-- **Complete Methodology**: `.framework/development_framework_v3.7.md`
-- **Workflow Commands**: `.framework/ai_prompts_workflow_v3.7.md`
-- **Framework Overview**: `.framework/readme.md`
+- **Init Framework**: `init/AI_ASSISTANT_STARTUP_INIT.md`
+- **Development Framework**: `development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md`
+- **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP_DEPLOYMENT.md`
+- **Operations Framework**: `operations/AI_ASSISTANT_STARTUP_OPERATIONS.md`
+- **Complete Framework Overview**: `README.md`
 
 ---
 

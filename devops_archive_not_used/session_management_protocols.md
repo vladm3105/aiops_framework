@@ -3,7 +3,7 @@
 ## Universal Cross-Project Session Management System
 
 **Version:** 3.7 - Universal Session Management Edition  
-**Date:** 2025-08-17  
+**Date:** 2025-08-22  
 **Purpose:** Standardized session management protocols for all Framework v3.7 projects  
 **Scope:** Cross-project compatibility and AI assistant workflow optimization
 
@@ -18,15 +18,56 @@ The Framework v3.7 implements a **Hybrid Session Management System** that combin
 - **Cumulative Progress Tracking**: Complete historical record of all achievements
 - **Cross-Session Continuity**: Seamless context preservation across sessions
 - **Framework Compliance**: Maintained quality gates and methodology adherence
-- **Universal Compatibility**: Consistent experience across all projects
+- **Universal Compatibility**: Consistent experience across all framework phases
+- **Complete Lifecycle Support**: Init → Development → Deployment → Operations workflow
 
 ### **Core Session Management Components**
 
-1. **TODOS.md**: Hybrid session + cumulative tracking
-2. **framework_tasks.md**: Project-specific phase tracking
-3. **tasks.md**: Technical implementation roadmap
-4. **TodoWrite Tool**: Real-time session task management
+1. **TodoWrite Tool**: Real-time session task management across all frameworks
+2. **.ai_context/framework_progress.md**: Master state file (single source of truth)
+3. **TODOS.md**: Session-specific tracking (optional project-level)
+4. **framework_tasks.md**: Project-specific phase tracking (optional)
 5. **Git Integration**: Immutable session evidence and audit trail
+6. **Framework-Specific Guides**: AI startup guides for each framework phase
+
+---
+
+## 🎯 **Framework v3.7 Complete Lifecycle Integration**
+
+### **Init → Development → Deployment → Operations Workflow**
+
+Framework v3.7 now provides complete lifecycle coverage with specialized session management for each phase:
+
+```
+🎯 Init Framework      → 🔨 Development Framework → 🚀 Deployment Framework → ⚙️ Operations Framework
+   (Phase -1 & 0)           (Phases 1-6)              (Phase 7)                (Phase 8)
+      ↓                        ↓                         ↓                        ↓
+  Project Safety        Requirements → Code       Production Deploy       AI-Autonomous Ops
+```
+
+### **Session Management Across Framework Phases**
+
+Each framework phase has its own specialized startup guide and context, but **universal session management protocols apply across all phases**:
+
+- **Init Framework**: Session management for pre-work and project initialization
+- **Development Framework**: Session management for requirements through testing
+- **Deployment Framework**: Session management for production deployment  
+- **Operations Framework**: Session management for post-deployment operations
+
+### **Master State Management**
+
+The `.ai_context/framework_progress.md` serves as the **single source of truth** for:
+- Current framework phase and status
+- Completed phases and achievements  
+- Next phase readiness and prerequisites
+- Framework compliance validation
+- Human approval tracking
+
+Session management **complements** this by providing:
+- Real-time task management within each phase
+- Session-specific progress tracking
+- TodoWrite tool integration
+- Cross-session continuity
 
 ---
 
@@ -37,11 +78,12 @@ The Framework v3.7 implements a **Hybrid Session Management System** that combin
 #### **Step 1: Context Loading**
 ```markdown
 AI Assistant Actions:
-1. Read TODOS.md completely for project context
-2. Review SESSION HISTORY for previous achievements
-3. Check CURRENT PHASE status from PHASE TRACKING
-4. Understand project-specific priorities and goals
-5. Load framework_tasks.md for phase alignment
+1. Load .ai_context/framework_progress.md as authoritative state source
+2. Determine current framework phase (Init/Development/Deployment/Operations)
+3. Load appropriate framework-specific context and startup guide
+4. Review session history and previous achievements
+5. Understand current phase priorities and next actions
+6. Load project-specific context and goals
 ```
 
 #### **Step 2: Session Archiving**
@@ -100,11 +142,11 @@ AI Assistant Workflow:
 #### **Cross-Reference Validation**
 ```markdown
 AI Assistant Checks:
-1. **Framework Alignment**: Ensure session tasks align with framework_tasks.md
-2. **Phase Consistency**: Maintain consistency with current framework phase
+1. **Framework Alignment**: Ensure session tasks align with current framework phase
+2. **State Management**: Update .ai_context/framework_progress.md with progress
 3. **Quality Standards**: Validate Framework v3.7 compliance
 4. **Human Checkpoints**: Prepare for required human approvals
-5. **Progress Metrics**: Update cumulative tracking metrics
+5. **Framework Transition**: Prepare for handoffs between framework phases
 ```
 
 ### **🏁 Session End Protocol (Every Session)**
@@ -145,11 +187,12 @@ AI Assistant Actions:
 #### **Step 4: Next Session Preparation**
 ```markdown
 AI Assistant Actions:
-1. Identify next session priorities from framework_tasks.md
-2. Prepare goals for subsequent session
-3. Document any human interaction requirements
-4. Set up context for seamless session transition
-5. Update AI context files for continuity
+1. Update .ai_context/framework_progress.md with session achievements
+2. Identify next session priorities based on current framework phase
+3. Prepare goals for subsequent session or framework transition
+4. Document any human interaction requirements
+5. Set up context for seamless session or framework transition
+6. Update AI context files for continuity
 ```
 
 #### **Step 5: Git Commitment**
@@ -321,16 +364,21 @@ TodoWrite Tool Framework Support:
 ### **Framework v3.7 Project Setup Requirements**
 
 #### **Required Files (Mandatory)**
-- [ ] **TODOS.md**: Created using universal template with project-specific adaptations
-- [ ] **framework_tasks.md**: Project-specific framework implementation tracking
-- [ ] **tasks.md**: Technical implementation roadmap with AI agent assignments
-- [ ] **.framework/**: Complete framework template directory
+- [ ] **.ai_context/framework_progress.md**: Master state file (single source of truth)
+- [ ] **init/**: Complete init framework methodology directory
+- [ ] **development/**: Complete development framework methodology directory  
+- [ ] **deployment/**: Complete deployment framework methodology directory
+- [ ] **operations/**: Complete operations framework methodology directory
+- [ ] **TODOS.md**: Optional project-level session tracking
+- [ ] **framework_tasks.md**: Optional project-specific phase tracking
+- [ ] **tasks.md**: Optional technical implementation roadmap
 
 #### **Session Management Setup**
-- [ ] **Session Protocols**: TODOS.md includes all required session management sections
-- [ ] **TodoWrite Integration**: Tool configured for project-specific task management
+- [ ] **Master State Integration**: .ai_context/framework_progress.md configured as single source of truth
+- [ ] **TodoWrite Integration**: Tool configured for real-time task management across all framework phases
+- [ ] **Framework Phase Awareness**: Session management understands current framework phase
 - [ ] **Git Integration**: Session archiving and commit protocols established
-- [ ] **Cross-Reference**: Bidirectional integration between all tracking files
+- [ ] **Cross-Reference**: Integration between state management and session tracking
 
 #### **Quality Assurance Setup**
 - [ ] **Framework Compliance**: Structure validation against Framework v3.7 requirements

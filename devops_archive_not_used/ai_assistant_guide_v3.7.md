@@ -31,11 +31,11 @@ This guide provides AI assistants with comprehensive guidance for working within
 ### **Step 1: DevOps Framework Context Loading (Target: <5 seconds)**
 ```bash
 # AI Assistant DevOps Framework Initialization Command
-"general-purpose: Load DevOps Framework v3.7 context from .framework/devops/devops_framework_v3.7.md and initialize AI optimization for DevOps acceleration"
+"general-purpose: Load DevOps Framework v3.7 context from devops_framework_v3.7.md and initialize AI optimization for DevOps acceleration"
 ```
 
 **Required Context Files (Priority Order):**
-1. `.framework/devops/devops_framework_v3.7.md` - Core DevOps framework methodology
+1. `devops_framework_v3.7.md` - Core DevOps framework methodology
 2. `.ai_context/devops_patterns.md` - Established DevOps patterns and practices
 3. `.ai_context/deployment_context.md` - Infrastructure and deployment intelligence
 4. `.ai_context/testing_strategies.md` - Testing automation and validation approaches

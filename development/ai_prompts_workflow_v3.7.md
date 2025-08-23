@@ -12,9 +12,12 @@
 
 **🚨 BEFORE ANY FRAMEWORK WORK: These requirements are NON-NEGOTIABLE and MUST be completed first:**
 
-1. **📋 Migration Assessment (First Run)**: Analyze existing project, create migration plan
-2. **🛡️ Version Control Preparation (Every Run)**: Ask developer choice, get confirmation 
-3. **✅ Change Submission (Every Run)**: Commit all changes, ensure clean working directory
+1. **📋 Migration Assessment (First Run)**: Analyze existing project, create migration plan  
+   **🤖 AI AUTONOMOUS** - AI can analyze and create migration plans independently
+2. **🛡️ Version Control Preparation (Every Run)**: Ask developer choice, get confirmation  
+   **👤 HUMAN SUPERVISION REQUIRED** - Developer must choose approach and confirm backup strategy
+3. **✅ Change Submission (Every Run)**: Commit all changes, ensure clean working directory  
+   **🤖 AI AUTONOMOUS** - AI can check git status and commit changes independently
 
 **❌ FRAMEWORK WORK IS FORBIDDEN WITHOUT COMPLETING ALL THREE REQUIREMENTS**
 
@@ -28,64 +31,41 @@
 
 **Before ANY framework work begins, ALL three mandatory requirements must be completed:**
 
-### **-1.1 Initial Project Migration Assessment (First Run Only)**
+### **-1.1 Initial Project Migration Assessment (First Run Only)** 🤖 AI AUTONOMOUS
 ```bash
-# Analyze existing project structure and create migration plan
-"general-purpose: Review all existing project files and directory structure, analyze against Framework v3.7 requirements from development_framework_v3.7.md, identify gaps, dependencies, and risks, then create detailed migration plan with specific actionable tasks for transitioning to framework structure"
-
-# Document migration risks and mitigation strategies  
-"general-purpose: Document potential migration risks including data loss, structure conflicts, dependency issues, and create specific mitigation strategies for each identified risk during framework migration"
-
-# Create step-by-step migration tasks
-"general-purpose: Generate specific, actionable migration tasks in priority order including file moves, directory creation, template application, and validation steps to achieve 100% framework v3.7 compliance"
+# Consolidated migration assessment and planning
+"general-purpose: Analyze existing project structure against Framework v3.7 requirements, identify gaps and risks, then create comprehensive migration plan with prioritized tasks, risk mitigation strategies, and validation steps for complete framework compliance"
 ```
 
-### **-1.2 Version Control Preparation (Every Single Run)**
+### **-1.2 Version Control Preparation (Every Single Run)** 👤 HUMAN SUPERVISION REQUIRED
 ```bash
-# Check version control system availability
-"general-purpose: Verify git, GitHub, or other version control system is available and properly configured, check current repository status and branch information"
+# Version control verification (AI can do this)
+"general-purpose: Verify git status, repository configuration, and current branch information"
 
-# Ask developer for backup/versioning approach - MANDATORY HUMAN INTERACTION
-"Ask human developer: Choose your preferred approach for framework implementation:
+# MANDATORY HUMAN INTERACTION - Developer Choice Required
+"Ask human developer: Choose your framework implementation approach:
   Option A: Modify existing files in current project (requires git backup confirmation)
   Option B: Copy entire project to separated folder and create new framework version
   
-  Please confirm your choice and any specific requirements before proceeding."
+  Please confirm your choice before proceeding with any framework work."
 
-# Confirm developer choice and document approach
-"general-purpose: Document developer's chosen approach (Option A or B), confirm backup strategy is understood and acceptable, and ensure all requirements are met before proceeding with any framework work"
-
-# STOP POINT: Do not proceed without explicit developer confirmation
-"MANDATORY STOP: Do NOT proceed with ANY framework work until developer has explicitly confirmed their choice and backup strategy. Framework work is FORBIDDEN without this confirmation."
+# STOP POINT: Framework work forbidden without developer confirmation
+"MANDATORY STOP: Do NOT proceed until developer explicitly confirms their choice and backup strategy."
 ```
 
-### **-1.3 Change Submission Protocol (Every Single Run)**
+### **-1.3 Change Submission Protocol (Every Single Run)** 🤖 AI AUTONOMOUS
 ```bash
-# Check current git status and uncommitted changes
-"general-purpose: Execute 'git status' to check for any uncommitted changes, untracked files, or staging area content in the current repository"
+# Git status check and commit all changes
+"general-purpose: Check git status, commit all uncommitted changes with appropriate messages, and verify clean working directory before proceeding with framework work"
 
-# Commit all existing changes before framework work
-"general-purpose: If any uncommitted changes exist, submit ALL changes to version control system using appropriate commit messages, ensure clean working directory before framework work begins"
-
-# Verify clean working state
-"general-purpose: Verify git working directory is clean with no uncommitted changes, confirm current branch is appropriate for framework changes, document current state for rollback purposes"
-
-# STOP POINT: Do not proceed with dirty working directory
-"MANDATORY STOP: Do NOT proceed with ANY framework work if there are uncommitted changes. Framework work is FORBIDDEN with a dirty working directory."
+# STOP POINT: Ensure clean state before framework work
+"MANDATORY STOP: Framework work is FORBIDDEN with uncommitted changes. Ensure clean git state."
 ```
 
-### **-1.4 Pre-Work Completion Validation**
+### **-1.4 Pre-Work Completion Validation** 🤖 AI AUTONOMOUS
 ```bash
-# Validate all mandatory pre-work requirements are complete
-"project-manager: Validate that ALL three mandatory pre-work requirements are completed:
-  ✓ Migration assessment and plan created (first run)
-  ✓ Developer choice confirmed and documented  
-  ✓ All changes committed to version control
-  ✓ Clean working directory verified
-  Report PASS/FAIL status for each requirement."
-
-# Final safety check before framework work
-"FINAL CHECKPOINT: Confirm all pre-work requirements are COMPLETE before proceeding to Phase 0. Framework work is FORBIDDEN if any pre-work requirement is incomplete."
+# Validate all pre-work requirements complete
+"project-manager: Validate all mandatory pre-work completed: migration assessment, developer choice confirmed, clean git state. Report PASS/FAIL status before proceeding to Phase 0."
 ```
 
 ---
@@ -94,124 +74,142 @@
 
 **Note: Phase 0 can only begin AFTER successful completion of Phase -1 mandatory pre-work requirements.**
 
-### **0.1 Framework Structure Setup**
+### **0.1 Framework Structure Setup** 🤖 AI AUTONOMOUS
 ```bash
-# Execute migration plan from Phase -1 (first run) or validate existing structure
-"general-purpose: If this is first run, execute the migration plan created in Phase -1.1 to transition existing project to Framework v3.7 structure. If framework already exists, validate structure compliance against development_framework_v3.7.md specification"
-
-# Initialize complete framework structure (new projects) or complete migration (existing projects)
-"general-purpose: Complete Framework v3.7 structure setup including product.md, requirements.md, design.md, tasks.md, deployment.md, docs/ears/, docs/bdd/, docs/adr/, docs/specs/, .ai_context/, and deployment/ directories with proper framework v3.7 compliance"
-
-# Validate framework structure compliance and migration success
-"general-purpose: Validate framework v3.7 structure compliance by checking all required files and directories exist according to development_framework_v3.7.md specification, verify migration completion if applicable, report any missing components"
+# Complete framework structure implementation
+"general-purpose: Execute migration plan or create complete Framework v3.7 structure including all required files and directories (product.md, requirements.md, design.md, docs/ears/, docs/bdd/, docs/adr/, .ai_context/, deployment/), then validate compliance against development_framework_v3.7.md"
 ```
 
-### **0.2 Project-Specific Instructions Review (Optional)**
-
+### **0.2 Project-Specific Instructions Review (Optional)** 🤖 AI AUTONOMOUS
 ```bash
-# Check for optional project-specific instructions
-"general-purpose: Check for .instructions/ directory and review any project-specific instructions, guidance, or constraints that supplement framework v3.7 methodology, noting that this directory is optional and may not exist"
-
-# Integrate project instructions with framework methodology
-"general-purpose: If .instructions/ exists, integrate project-specific guidance with framework methodology ensuring compatibility and complementary application, updating AI context accordingly"
+# Review and integrate project-specific instructions
+"general-purpose: Check for .instructions/ directory, review any project-specific guidance, and integrate with framework methodology while updating AI context for compatibility"
 ```
 
-### **0.3 AI Context Initialization**
-
+### **0.3 AI Context Initialization** 🤖 AI AUTONOMOUS
 ```bash
-# Create optimized AI context files
-"general-purpose: Create AI context optimization files in .ai_context/ including current_context.md with project overview, team_patterns.md with coding standards, domain_context.md with domain knowledge, and deployment_context.md with infrastructure requirements following framework v3.7 patterns"
-
-# Initialize AI assistant system prompt integration
-"general-purpose: Initialize AI assistant with framework v3.7 system prompt from .framework/ai_system_prompt_v3.7.md ensuring complete framework integration and performance target understanding"
+# Create and optimize AI context files
+"general-purpose: Create complete AI context optimization in .ai_context/ including current_context.md, team_patterns.md, domain_context.md, and deployment_context.md following framework v3.7 patterns, then initialize AI assistant with system prompt integration"
 ```
 
-### **0.4 IDE Configuration & Development Environment**
-
+### **0.4 IDE Configuration & Development Environment** 👤 HUMAN SUPERVISION REQUIRED
 ```bash
-# Detect IDE and create project configuration
-"general-purpose: Analyze project structure, file types, and existing configuration files to determine the IDE being used (VS Code, IntelliJ, PyCharm, etc.). If unable to determine IDE, ask the human developer what IDE will be used for this project"
+# Detect IDE or ask developer
+"general-purpose: Analyze project structure to determine IDE being used, or ask human developer to specify their preferred IDE for this project"
 
 # Create IDE-specific configuration for framework v3.7
-"general-purpose: Create IDE-specific configuration files for [detected/specified IDE] including settings optimized for the project using framework v3.7 for code formatting, linting, debugging, testing, and AI assistant integration following framework v3.7 development patterns"
-
-# Setup development environment integration
-"general-purpose: Configure development environment settings including file associations, build tasks, debugging configurations, and framework compliance validation tools for optimal framework v3.7 development experience"
+"general-purpose: Create IDE-specific configuration optimized for framework v3.7 development including formatting, linting, debugging, testing, and AI assistant integration patterns"
 ```
 
-### **0.5 Security-by-Design Foundation**
-
+### **0.5 Security-by-Design Foundation** 🤖 AI AUTONOMOUS
 ```bash
-# Create initial threat model and security architecture
-"gcp-ai-architect + security-auditor: Create comprehensive threat model and security-by-design architecture for [project name] following framework v3.7 security principles, including attack surface analysis, security controls specification, and threat mitigation strategies"
-
-# Establish security requirements in EARS format
-"security-auditor: Create security requirements in EARS format covering authentication, authorization, data protection, and compliance following REQ-SEC-XXX numbering scheme and framework v3.7 security patterns"
+# Create threat model and security architecture
+"gcp-ai-architect + security-auditor: Create comprehensive threat model and security-by-design architecture following framework v3.7 security principles, including attack surface analysis, security controls, and EARS format security requirements (REQ-SEC-XXX)"
 ```
+
+---
+
+## 👤 **HUMAN SUPERVISION FRAMEWORK GUIDE**
+
+### **Understanding AI-First with Human Oversight**
+
+Framework v3.7 operates as an **AI-first AI operational framework with human supervision** where:
+
+**🤖 AI AUTONOMOUS Operations:**
+- Technical analysis and code generation
+- Framework structure creation and validation  
+- Requirements documentation in EARS format
+- BDD scenario creation and testing
+- Security threat modeling and controls
+- Deployment automation and monitoring
+
+**👤 HUMAN SUPERVISION REQUIRED:**
+- Strategic business decisions and prioritization
+- Technology stack and architecture choices
+- Security approval and compliance validation
+- Production deployment authorization
+- Quality gate approval and risk acceptance
+- Framework evolution and methodology changes
+
+### **Human Developer Responsibilities**
+
+**🎯 Strategic Oversight:**
+- Define business objectives and success criteria
+- Approve architectural decisions (ADRs) 
+- Validate security and compliance requirements
+- Authorize production deployments
+
+**🔍 Quality Assurance:**
+- Review AI-generated code for business logic accuracy
+- Validate framework compliance and quality gates
+- Approve release and deployment strategies
+- Monitor framework effectiveness metrics
+
+**⚖️ Risk Management:**
+- Assess and approve security threat models
+- Validate disaster recovery and rollback procedures
+- Monitor compliance with regulatory requirements
+- Approve framework evolution and methodology changes
+
+### **AI Assistant Responsibilities**
+
+**⚡ Development Acceleration:**
+- Generate code following framework patterns
+- Create comprehensive documentation and tests
+- Automate deployment and infrastructure management
+- Optimize AI context and development patterns
+
+**🛡️ Quality Enforcement:**
+- Ensure framework compliance throughout development
+- Validate security-by-design implementation
+- Execute comprehensive testing and validation
+- Monitor and report framework effectiveness metrics
+
+**🔄 Continuous Improvement:**
+- Optimize AI context for better performance
+- Identify and implement framework improvements
+- Maintain documentation and pattern consistency
+- Learn from human feedback and decisions
 
 ---
 
 ## 📋 **Phase 1: Requirements Analysis & Specification**
 
-### **1.1 Business Vision & Product Definition**
+### **1.1 Business Vision & Product Definition** 👤 HUMAN SUPERVISION REQUIRED
 ```bash
-# Create comprehensive product vision
-"api-design-architect + project-manager: Create product.md with comprehensive business vision, system capabilities, stakeholder needs, and success criteria following framework v3.7 product specification format"
-
-# Create Product Requirements Document (PRD)
-"api-design-architect: Create PRD using prd_template_v3.7.md for [feature/system] including business objectives, user stories, functional requirements, and framework compliance specifications"
+# Create comprehensive product vision and PRD
+"api-design-architect + project-manager: Create product.md and PRD using prd_template_v3.7.md including business vision, stakeholder needs, success criteria, and framework compliance specifications for human review and approval"
 ```
 
-### **1.2 EARS Requirements Development**
+### **1.2 EARS Requirements Development** 🤖 AI AUTONOMOUS
 ```bash
-# Create core system requirements
-"api-design-architect + security-auditor: Create core system requirements in docs/ears/core_requirements.md using EARS format (WHEN-THE-SHALL-WITHIN) covering all primary system behaviors with complete requirement traceability"
-
-# Create performance requirements
-"performance-optimizer + api-design-architect: Create performance requirements in docs/ears/performance_requirements.md specifying response times, throughput, scalability, and availability targets in EARS format with measurable criteria"
-
-# Create security requirements
-"security-auditor: Create security requirements in docs/ears/security_requirements.md covering authentication, authorization, data protection, compliance, and threat mitigation in EARS format with security controls specification"
-
-# Create integration requirements
-"api-design-architect: Create integration requirements in docs/ears/integration_requirements.md covering external system integration, API specifications, data exchange, and interoperability in EARS format"
+# Create comprehensive EARS requirements
+"api-design-architect + security-auditor + performance-optimizer: Create complete EARS requirements suite in docs/ears/ including core_requirements.md, performance_requirements.md, security_requirements.md, and integration_requirements.md using EARS format (WHEN-THE-SHALL-WITHIN) with complete traceability"
 ```
 
-### **1.3 Requirements Validation & Traceability**
+### **1.3 Requirements Validation & Traceability** 🤖 AI AUTONOMOUS
 ```bash
-# Validate EARS requirements compliance
-"project-manager: Validate all EARS requirements in docs/ears/ for format compliance, completeness, testability, and traceability ensuring 100% framework v3.7 compliance"
-
-# Create requirements traceability matrix
-"project-manager: Create comprehensive requirements traceability matrix mapping business objectives to EARS requirements to BDD scenarios ensuring complete coverage and framework compliance"
+# Validate requirements and create traceability
+"project-manager: Validate all EARS requirements for compliance, completeness, and testability, then create comprehensive traceability matrix mapping business objectives to EARS requirements to BDD scenarios ensuring 100% framework v3.7 compliance"
 ```
 
 ---
 
 ## 🧪 **Phase 2: Behavioral Specification & BDD Development**
 
-### **2.1 Core BDD Scenario Development**
+### **2.1 Core BDD Scenario Development** 🤖 AI AUTONOMOUS
 ```bash
-# Create core system behavior scenarios
-"test-engineer: Create core system BDD scenarios in docs/bdd/core_scenarios.md validating EARS requirements from docs/ears/core_requirements.md using Given-When-Then format with complete behavioral coverage"
-
-# Create security validation scenarios
-"security-auditor + test-engineer: Create security BDD scenarios in docs/bdd/security_scenarios.md validating security requirements and threat model controls with penetration testing and security validation approaches"
-
-# Create performance validation scenarios
-"performance-optimizer + test-engineer: Create performance BDD scenarios in docs/bdd/performance_scenarios.md validating performance requirements including load testing, stress testing, and scalability validation"
+# Create comprehensive BDD scenarios
+"test-engineer + security-auditor + performance-optimizer: Create complete BDD scenario suite in docs/bdd/ including core_scenarios.md, security_scenarios.md, and performance_scenarios.md validating all EARS requirements using Given-When-Then format with behavioral coverage"
 ```
 
-### **2.2 Integration & Error Handling Scenarios**
+### **2.2 Integration & Error Handling Scenarios** 🤖 AI AUTONOMOUS
 ```bash
-# Create integration validation scenarios
-"test-engineer + api-design-architect: Create integration BDD scenarios in docs/bdd/integration_scenarios.md validating external system integration, API behavior, and data exchange requirements"
-
-# Create error handling and resilience scenarios
-"test-engineer: Create error handling BDD scenarios in docs/bdd/error_handling_scenarios.md covering failure modes, recovery behaviors, graceful degradation, and system resilience validation"
+# Create integration and error handling scenarios
+"test-engineer + api-design-architect: Create integration and error handling BDD scenarios in docs/bdd/ covering external system integration, API behavior, failure modes, and resilience validation"
 ```
 
-### **2.3 BDD Scenario Validation**
+### **2.3 BDD Scenario Validation** 🤖 AI AUTONOMOUS
 ```bash
 # Validate BDD scenario coverage
 "test-engineer + project-manager: Validate BDD scenario coverage ensuring all EARS requirements have corresponding behavioral scenarios with >95% coverage target and framework v3.7 compliance"
@@ -448,46 +446,50 @@
 
 ---
 
-## 📚 **Quick Reference: Essential Workflow Commands**
+## 📚 **Quick Reference: Streamlined AI Commands**
 
 ### **🚨 MANDATORY PRE-WORK (Phase -1) - ALWAYS FIRST**
 ```bash
-# 1. Migration Assessment (First Run Only)
-"general-purpose: Review existing project structure against Framework v3.7, create migration plan"
+# 1. Migration Assessment (First Run Only) 🤖 AI AUTONOMOUS
+"general-purpose: Analyze existing project structure against Framework v3.7 requirements, create comprehensive migration plan with prioritized tasks and risk mitigation"
 
-# 2. Version Control Preparation (Every Run)
-"Ask developer: Choose Option A (modify existing) or Option B (copy to new folder)"
+# 2. Version Control Preparation (Every Run) 👤 HUMAN SUPERVISION REQUIRED
+"Ask developer: Choose Option A (modify existing) or Option B (copy to new folder). STOP until confirmed."
 
-# 3. Change Submission (Every Run) 
-"general-purpose: Check git status, commit all changes, ensure clean working directory"
+# 3. Change Submission (Every Run) 🤖 AI AUTONOMOUS
+"general-purpose: Check git status, commit all changes with appropriate messages, ensure clean working directory"
 
-# 4. Pre-Work Validation (Every Run)
-"project-manager: Validate ALL pre-work requirements complete before proceeding"
+# 4. Pre-Work Validation (Every Run) 🤖 AI AUTONOMOUS
+"project-manager: Validate ALL pre-work requirements complete before proceeding to Phase 0"
 ```
 
-### **Framework Initialization (Phase 0) - Only After Pre-Work**
+### **Framework Phases - Streamlined Commands**
 ```bash
-"general-purpose: Initialize Framework v3.7 with complete structure and AI context optimization"
+# Phase 0: Framework Setup 🤖 AI AUTONOMOUS
+"general-purpose: Execute migration plan, create complete Framework v3.7 structure, initialize AI context, create threat model, configure IDE (ask developer if needed)"
+
+# Phase 1: Requirements 👤 HUMAN SUPERVISION for vision, 🤖 AI AUTONOMOUS for EARS
+"api-design-architect + project-manager: Create product vision and PRD for human approval"
+"api-design-architect + security-auditor: Create complete EARS requirements suite with traceability"
+
+# Phase 2: BDD Development 🤖 AI AUTONOMOUS
+"test-engineer + security-auditor + performance-optimizer: Create complete BDD scenario suite validating all EARS requirements"
+
+# Phase 3: Architecture 👤 HUMAN SUPERVISION for decisions, 🤖 AI AUTONOMOUS for documentation
+"gcp-ai-architect: Create foundational ADRs and technical design for human approval"
+
+# Phase 4-8: Implementation & Deployment 🤖 AI AUTONOMOUS with 👤 HUMAN oversight
+"coder-agent + security-auditor + test-engineer: Implement features with security integration and BDD validation"
+"cloud-devops-expert: Execute AI-first deployment with infrastructure automation"
 ```
 
-### **Requirements & BDD Development**
+### **AI-First Development Pattern**
 ```bash
-"api-design-architect + test-engineer: Create EARS requirements and BDD scenarios for [functionality] with framework compliance"
-```
+# Complete feature development cycle 🤖 AI AUTONOMOUS with 👤 HUMAN oversight points
+"coder-agent + security-auditor + test-engineer: Implement [functionality] following EARS requirements, validate with BDD scenarios, ensure security-by-design principles, and execute comprehensive quality gates"
 
-### **Implementation with Quality Gates**
-```bash
-"coder-agent + security-auditor + test-engineer: Implement [functionality] with security integration and BDD validation"
-```
-
-### **Quality Assurance & Validation**
-```bash
-"project-manager: Execute comprehensive quality validation including framework compliance and all quality gates"
-```
-
-### **AI-First Deployment**
-```bash
-"cloud-devops-expert: Execute AI-first deployment with infrastructure automation and comprehensive validation"
+# Production deployment 👤 HUMAN SUPERVISION for authorization
+"cloud-devops-expert: Execute AI-first deployment with infrastructure automation after human authorization"
 ```
 
 ---

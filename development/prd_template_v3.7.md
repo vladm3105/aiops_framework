@@ -417,6 +417,22 @@
 - [ ] **ADR Documentation:** All architectural decisions documented with rationale
 
 ### AI Context Integration
+
+**🤖 AI AUTONOMOUS Operations for This PRD:**
+- Technical implementation following EARS requirements
+- BDD scenario creation and validation
+- Security-by-design pattern implementation
+- Framework compliance validation and testing
+- Code generation following team patterns
+- Documentation creation and maintenance
+
+**👤 HUMAN SUPERVISION REQUIRED for This PRD:**
+- Business vision and strategy validation
+- User story and acceptance criteria approval
+- Security threat model review and approval
+- Production deployment authorization
+- Quality gate approval and risk acceptance
+
 **AI Assistant Guidance for This PRD:**
 [Specific context for AI assistants working on this PRD implementation]
 - Use framework v3.7 patterns consistently
@@ -424,12 +440,15 @@
 - Apply security-by-design principles from threat model
 - Optimize for AI-first deployment automation
 - Maintain framework compliance throughout implementation
+- Request human supervision for business logic validation
 
 **Implementation Prompts for AI Assistants:**
-```
-"Using PRD-XXX and framework v3.7 patterns, implement [specific functionality] 
-following EARS requirement REQ-[ID], ensuring BDD scenario validation and 
-security-by-design principles from the established threat model."
+```bash
+# AI autonomous implementation
+"coder-agent + security-auditor: Using PRD-XXX and framework v3.7 patterns, implement [specific functionality] following EARS requirement REQ-[ID], ensuring BDD scenario validation and security-by-design principles"
+
+# Human supervision checkpoint
+"Human review required: Validate business logic accuracy and approve implementation approach before proceeding with production deployment"
 ```
 
 ---
@@ -503,10 +522,10 @@ security-by-design principles from the established threat model."
 ## Appendices
 
 ### A. Framework v3.7 Reference Links
-- [Framework Documentation](../.framework/development_framework_v3.7.md)
-- [ADR Template](../.framework/adr_template_v3.7.md)
-- [Development Patterns](../.framework/development_guide_v3.7.md)
-- [BDD Integration Guide](../.framework/bdd_integration_guide_v3.7.md)
+- [Framework Documentation](development_framework_v3.7.md)
+- [ADR Template](adr_template_v3.7.md)
+- [Development Patterns](development_guide_v3.7.md)
+- [BDD Integration Guide](bdd_integration_guide_v3.7.md)
 
 ### B. User Research Data
 [Surveys, interviews, usability testing results with framework consideration]

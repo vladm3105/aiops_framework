@@ -250,11 +250,27 @@ Then [expected outcome validating the decision]
 
 ## AI Assistant Integration
 
+### **🤖 AI AUTONOMOUS Operations for This ADR:**
+- Technical implementation of architectural decision
+- Code generation following decision patterns
+- Security control implementation from decision
+- Framework compliance validation and testing
+- Documentation updates and maintenance
+- Performance optimization according to decision
+
+### **👤 HUMAN SUPERVISION REQUIRED for This ADR:**
+- Architectural decision approval and rationale validation
+- Business impact assessment and acceptance
+- Security architecture review and approval
+- Technology choice validation and risk acceptance
+- Production deployment authorization for changes
+
 ### AI Context Updates Required
 **Immediate Updates:**
 - Update AI context files with new patterns and considerations
 - Document new coding standards or architectural patterns
 - Update deployment context with infrastructure changes
+- Add decision rationale to team knowledge base
 
 **AI Assistant Guidance:**
 [Specific guidance for AI assistants when implementing this decision:]
@@ -262,13 +278,16 @@ Then [expected outcome validating the decision]
 - Security considerations to maintain
 - Performance optimizations to apply
 - Integration approaches to use
+- Framework compliance requirements to enforce
 
 ### Implementation Prompts
 [Ready-to-use prompts for AI assistants implementing this decision:]
-```
-"Using the architectural decision in ADR-XXXX, implement [specific functionality] 
-following the chosen [option] approach while maintaining [security/performance/quality] 
-requirements outlined in the decision."
+```bash
+# AI autonomous implementation
+"coder-agent + security-auditor: Using architectural decision ADR-XXXX, implement [specific functionality] following the chosen [option] approach while maintaining security, performance, and framework compliance requirements"
+
+# Human supervision checkpoint  
+"Human review required: Validate architectural decision implementation aligns with business objectives before production deployment"
 ```
 
 ---
