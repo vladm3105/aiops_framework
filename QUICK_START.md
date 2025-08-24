@@ -1,616 +1,425 @@
-# AI Agent Development Framework v3.7 - Quick Startup Guide
+# Quick Start: AI Agent Development Framework v3.7
 
-**🚨 CRITICAL: This guide implements MANDATORY PRE-WORK REQUIREMENTS that CANNOT be skipped**
-
-**Version:** 3.7 - Production Ready with Mandatory Pre-Work Protection  
-**Date:** 2025-08-22  
-**Purpose:** Safe framework initialization with complete project protection  
+**Version:** 3.7 - Production Ready  
+**Date:** August 22, 2025  
+**Purpose:** A guide for safe framework initialization and project protection.
 
 ---
 
-## ⚠️ **MANDATORY WARNING: READ BEFORE PROCEEDING**
+## **WARNING: READ BEFORE PROCEEDING**
 
-**🚨 FRAMEWORK WORK IS FORBIDDEN WITHOUT COMPLETING ALL PRE-WORK REQUIREMENTS**
-
-This startup guide enforces **three mandatory requirements** that protect your project from:
+This guide enforces **three mandatory requirements** to protect your project from:
 - Data loss or corruption
 - Project structure damage
 - Loss of development history
 - Framework implementation failures
 
-**✅ ONLY proceed step-by-step in the exact order specified below**
+**Proceed step-by-step in the exact order specified below.**
 
-### **🎯 NEW Framework v3.7 Complete Lifecycle**
+### **Framework v3.7 Lifecycle**
 
-Framework v3.7 now provides complete **Init → Development → Deployment → Operations** lifecycle:
+Framework v3.7 provides a complete **Init → Development → Deployment → Operations** lifecycle:
 
 ```
-🎯 Init Framework      → 🔨 Development Framework → 🚀 Deployment Framework → ⚙️ Operations Framework
-   (Phase -1 & 0)           (Phases 1-6)              (Phase 7)                (Phase 8)
-      ↓                        ↓                         ↓                        ↓
-  Project Safety        Requirements → Code       Production Deploy       AI-Autonomous Ops
+🎯 Init      → 🔨 Development → 🚀 Deployment → ⚙️ Operations
+(Phase -1 & 0)  (Phases 1-6)    (Phase 7)      (Phase 8)
+      ↓             ↓               ↓              ↓
+Project Safety  Reqs → Code     Prod Deploy    AI-Autonomous Ops
 ```
 
-**🚨 This Quick Start covers INIT FRAMEWORK ONLY** - the foundation for all subsequent frameworks.
+**This guide covers the INIT FRAMEWORK ONLY** - the foundation for all subsequent frameworks.
 
 ---
 
-## 🎯 **HUMAN DEVELOPER QUICK OVERVIEW**
+## **Developer Overview**
 
-### **What You Need to Know Before Starting**
+### **What You Need to Know**
 
 **Framework Benefits:**
-- **2-3x development acceleration** through AI optimization
-- **>95% defect reduction** through systematic validation
-- **Complete project safety** with mandatory pre-work protection
-- **Full human control** over all decisions and changes
+- **Development acceleration:** 2–3x through AI optimization.
+- **Defect reduction:** >95% through systematic validation.
+- **Project safety:** Achieved via mandatory pre-work.
+- **Developer control:** All decisions and changes remain under developer approval.
 
 **Your Role:**
-- **Answer 3 critical questions** during pre-work (10-15 minutes)
-- **Approve each phase** as AI progresses through implementation
-- **Maintain full control** while AI handles technical complexity
+- **Answer 3 critical questions** during pre-work (10-15 minutes).
+- **Approve each phase** as the AI progresses.
+- **Maintain full control** while the AI handles technical complexity.
 
-**AI Assistant Role:**
-- **Cannot proceed** without completing mandatory pre-work
-- **Asks permission** before making any significant changes
-- **Follows exact framework patterns** with no deviations
-- **Provides detailed explanations** for all decisions
+**AI's Role:**
+- **Cannot proceed** without completing mandatory pre-work.
+- **Asks permission** before making any significant changes.
+- **Follows exact framework patterns** with no deviations.
+- **Provides detailed explanations** for all decisions.
 
-### **Critical Decision You'll Make: Option A vs Option B**
+### **Important Decision: Option A vs. Option B**
 
-**You WILL be asked to choose:**
+You will be asked to choose between:
 
-**Option A: Modify Existing Files in Current Project**
-- ✅ **Choose if:** You want to work directly in your current project
-- ⚠️ **Requirements:** All changes committed to git first
-- **Result:** Framework implemented in current project location
+**Option A: Modify Existing Files**
+- **Choose if:** You want to work directly in your current project.
+- **Requirements:** All changes committed to git first.
+- **Result:** The framework is implemented in the current project location.
 
-**Option B: Copy Project to Separated Folder**
-- ✅ **Choose if:** You want original project completely untouched
-- ⚠️ **Requirements:** Sufficient disk space, separate git repository
-- **Result:** New framework-compliant project in separate location
+**Option B: Copy Project to a Separate Folder**
+- **Choose if:** You want your original project to remain untouched.
+- **Requirements:** Sufficient disk space, separate git repository.
+- **Result:** A new, framework-compliant project in a separate location.
 
 ### **Quick Command to Start**
 
-```bash
-# Start framework implementation with AI assistant
-"Read and integrate the complete AI system prompt from init/ai_system_prompt_v3.7.md ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols. Then begin Phase -1 mandatory pre-work requirements."
-```
+To start the framework implementation, the AI will be instructed to:
+"Read and integrate the complete AI system prompt from `init/ai_system_prompt_v3.7.md`, ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols. Then begin Phase -1 mandatory pre-work requirements."
 
 ---
 
-## **📋 STEP 1: INITIAL PROJECT MIGRATION ASSESSMENT (FIRST RUN ONLY)**
+## **📋 STEP 1: Initial Project Migration Assessment (First Run Only)**
 
-### **🎯 Human Developer Understanding**
-**What happens:** AI analyzes your existing project and creates a safe migration plan
-**Your time commitment:** 2-3 minutes to review and approve
-**Why this matters:** Ensures no existing work is lost during framework implementation
+### **Developer Understanding**
+**What happens:** The AI analyzes your existing project and creates a safe migration plan.
+**Your time commitment:** 2-3 minutes to review and approve.
+**Why this matters:** Ensures no existing work is lost during framework implementation.
 
 ### **1.1 Project Analysis and Gap Assessment**
 
-**AI will automatically execute:**
-```bash
-# Analyze existing project structure
-"general-purpose: Review all existing project files and directory structure, analyze against Framework v3.7 requirements from init/init_framework_v3.7.md, identify structural gaps, missing components, and existing files that need preservation"
-
-# Document current project state
-"general-purpose: Create detailed inventory of existing project files including code files, configuration files, documentation, and any existing development artifacts that must be preserved during framework migration"
-
-# Identify migration risks and dependencies
-"general-purpose: Analyze potential migration risks including file conflicts, directory structure changes, dependency issues, and create specific mitigation strategies for each identified risk"
-```
+**The AI will automatically execute:**
+- **Analyze existing project structure:** Review all existing project files and directory structure, analyze against Framework v3.7 requirements from `init/init_framework_v3.7.md`, identify structural gaps, missing components, and existing files that need preservation.
+- **Document current project state:** Create a detailed inventory of existing project files, including code, configuration, and documentation.
+- **Identify migration risks and dependencies:** Analyze potential migration risks and create mitigation strategies.
 
 ### **1.2 Migration Plan Creation**
 
-**AI will automatically execute:**
-```bash
-# Generate step-by-step migration plan
-"general-purpose: Create detailed migration plan with specific actionable tasks in priority order including: 1) File preservation steps, 2) Directory structure creation, 3) Template application, 4) Content migration, 5) Validation procedures to achieve 100% Framework v3.7 compliance"
+**The AI will automatically execute:**
+- **Generate step-by-step migration plan:** Create a detailed migration plan with specific, actionable tasks.
+- **Risk mitigation strategy:** Document a comprehensive risk mitigation strategy.
 
-# Risk mitigation strategy
-"general-purpose: Document comprehensive risk mitigation strategy including backup procedures, rollback steps, conflict resolution approaches, and recovery procedures for each phase of migration"
-```
+### **Approval Required**
+**The AI will ask:** "I've completed the migration assessment. Should I proceed with the migration plan?"
+**Your response:** "Yes, the migration plan looks good. Proceed to Step 2."
 
-### **👤 YOUR APPROVAL REQUIRED**
-**AI will ask:** "I've completed the migration assessment. Should I proceed with the migration plan?"
-**Your response:** "Yes, the migration plan looks good, proceed to Step 2."
+### **Review Point: Migration Assessment Complete?**
+- [ ] **Project analysis completed**
+- [ ] **Migration plan created**
+- [ ] **Risk assessment completed**
+- [ ] **Dependencies identified**
+- [ ] **Developer approval obtained**
 
-### **⚠️ STOP CHECKPOINT: Migration Assessment Complete?**
-- [ ] **Project analysis completed**: All existing files and structure documented
-- [ ] **Migration plan created**: Step-by-step actionable plan with priorities
-- [ ] **Risk assessment completed**: Mitigation strategies for all identified risks
-- [ ] **Dependencies identified**: All project dependencies and constraints documented
-- [ ] **Human approval obtained**: You have reviewed and approved the migration plan
-
-**🚨 DO NOT PROCEED TO STEP 2 UNTIL ALL CHECKBOXES ARE CHECKED**
+**Do not proceed to Step 2 until all checkboxes are checked.**
 
 ---
 
-## **🛡️ STEP 2: VERSION CONTROL PREPARATION (EVERY RUN)**
+## **🛡️ STEP 2: Version Control Preparation (Every Run)**
 
-### **🎯 Human Developer Understanding**
-**What happens:** You make the CRITICAL DECISION about how to implement the framework
-**Your time commitment:** 3-5 minutes to choose and confirm your approach
-**Why this matters:** This choice determines whether your original project is modified or preserved
+### **Developer Understanding**
+**What happens:** You make the critical decision about how to implement the framework.
+**Your time commitment:** 3-5 minutes to choose and confirm your approach.
+**Why this matters:** This choice determines whether your original project is modified or preserved.
 
 ### **2.1 Version Control System Verification**
 
-**AI will automatically execute:**
-```bash
-# Check version control availability
-"general-purpose: Verify git, GitHub, or other version control system is properly configured and accessible, check current repository status, branch information, and remote repository connections"
+**The AI will automatically execute:**
+- **Check version control availability:** Verify that a version control system is properly configured and accessible.
+- **Repository status analysis:** Execute a comprehensive `git status` check.
 
-# Repository status analysis
-"general-purpose: Execute comprehensive git status check including working directory state, staging area content, untracked files, and current branch information"
-```
+### **2.2 Choose Your Approach**
 
-### **2.2 🚨 CRITICAL DECISION: YOU MUST CHOOSE YOUR APPROACH**
+**The AI will present you with this choice:**
 
-**AI will present you with this choice:**
+**Option A: Modify Existing Files**
+- **Advantages:** Maintain existing git history, work in a familiar location.
+- **Requirements:** All changes must be committed to git first.
+- **Result:** The framework is implemented in the current project location.
 
-### **Option A: Modify Existing Files in Current Project**
-- ✅ **Choose this if:** You want to work directly in your current project
-- ✅ **Advantages:** Maintain existing git history, work in familiar location
-- ⚠️ **Requirements:** All changes must be committed to git first
-- 📁 **Result:** Framework implemented in current project location
-- **When to choose:** You're confident in git backup and want to enhance existing project
+**Option B: Copy Project to a Separate Folder**
+- **Advantages:** Complete safety, the original project is preserved.
+- **Requirements:** Sufficient disk space, a separate git repository for the new version.
+- **Result:** A new, framework-compliant project in a separate location.
 
-### **Option B: Copy Project to Separated Folder**
-- ✅ **Choose this if:** You want to keep original project completely untouched
-- ✅ **Advantages:** Complete safety, original project preserved exactly as-is
-- ⚠️ **Requirements:** Sufficient disk space, separate git repository for new version
-- 📁 **Result:** New framework-compliant project in separate location
-- **When to choose:** You want maximum safety or are experimenting with the framework
+### **Conversation with the AI**
 
-### **💬 EXACT CONVERSATION WITH AI**
-
-**AI will ask:**
+**The AI will ask:**
 > "Choose your preferred approach for framework implementation:
-> Option A: Modify existing files in current project (requires git backup confirmation)
-> Option B: Copy entire project to separated folder and create new framework version
+> Option A: Modify existing files in the current project (requires git backup confirmation).
+> Option B: Copy the entire project to a separate folder and create a new framework version.
 > 
 > Please confirm your choice and any specific requirements before proceeding."
 
-**Your response should be exactly:**
-```
-"I choose Option A - Modify existing files in current project"
-```
-**OR**
-```
-"I choose Option B - Copy project to separated folder for new version"
-```
+**Your response should be:**
+"I choose Option A" or "I choose Option B"
 
-**Optional:** Add any additional requirements like:
-```
-"Additional requirements: Create backup branch named 'pre-framework-backup'"
-```
+**Optional:** Add any additional requirements, like:
+"Additional requirements: Create a backup branch named 'pre-framework-backup'"
 
 ### **2.3 Approach Documentation and Confirmation**
 
-**AI will automatically execute:**
-```bash
-# Document developer choice
-"general-purpose: Document developer's chosen approach (Option A or B), record any additional requirements or preferences, confirm backup strategy is understood and acceptable"
+**The AI will automatically execute:**
+- **Document developer choice:** Document the developer's chosen approach (Option A or B).
+- **Confirm readiness to proceed:** Confirm that all requirements are met for the chosen approach.
 
-# Confirm readiness to proceed
-"general-purpose: Confirm all requirements are met for chosen approach, verify developer understanding of implications, ensure all preparatory steps are completed"
-```
+### **Review Point: Developer Choice Confirmed?**
+- [ ] **Version control verified**
+- [ ] **Developer choice obtained**
+- [ ] **Approach documented**
+- [ ] **Confirmation received**
+- [ ] **Backup strategy confirmed**
 
-### **⚠️ STOP CHECKPOINT: Developer Choice Confirmed?**
-- [ ] **Version control verified**: Git/GitHub system is accessible and configured
-- [ ] **Developer choice obtained**: Option A or B explicitly chosen by developer
-- [ ] **Approach documented**: Choice recorded with any additional requirements
-- [ ] **Confirmation received**: Developer confirms understanding and readiness
-- [ ] **Backup strategy confirmed**: Git protection strategy understood and accepted
-
-**🚨 AI CANNOT PROCEED TO STEP 3 UNTIL YOU HAVE EXPLICITLY CONFIRMED YOUR CHOICE**
+**The AI cannot proceed to Step 3 until you have explicitly confirmed your choice.**
 
 ---
 
-## **✅ STEP 3: CHANGE SUBMISSION PROTOCOL (EVERY RUN)**
+## **✅ STEP 3: Change Submission Protocol (Every Run)**
 
-### **🎯 Human Developer Understanding**
-**What happens:** AI ensures all your existing work is safely committed to git
-**Your time commitment:** 1-2 minutes to confirm commit messages if needed
-**Why this matters:** Protects all your existing work before framework changes begin
+### **Developer Understanding**
+**What happens:** The AI ensures all your existing work is safely committed to git.
+**Your time commitment:** 1-2 minutes to confirm commit messages if needed.
+**Why this matters:** Protects all your existing work before framework changes begin.
 
 ### **3.1 Git Status Verification**
 
-**AI will automatically execute:**
-```bash
-# Complete git status check
-"general-purpose: Execute detailed git status command to identify all uncommitted changes, untracked files, staging area content, and working directory state"
-
-# Working directory analysis
-"general-purpose: Analyze working directory for any uncommitted changes, modified files, deleted files, or untracked content that needs to be committed before framework work"
-```
+**The AI will automatically execute:**
+- **Complete git status check:** Identify all uncommitted changes, untracked files, and the state of the working directory.
+- **Working directory analysis:** Analyze the working directory for any uncommitted changes.
 
 ### **3.2 Change Submission and Clean State**
 
-**AI will automatically execute:**
-```bash
-# Commit all existing changes
-"general-purpose: If any uncommitted changes exist, create appropriate commit messages and submit ALL changes to version control system ensuring complete working directory cleanup"
+**The AI will automatically execute:**
+- **Commit all existing changes:** If any uncommitted changes exist, create appropriate commit messages and submit all changes to the version control system.
+- **Verify clean working directory:** Verify that the git working directory is clean.
+- **Document current state for rollback:** Document the current git state for potential rollback.
 
-# Verify clean working directory
-"general-purpose: Verify git working directory is completely clean with no uncommitted changes, confirm staging area is empty, validate current branch is appropriate for framework changes"
-
-# Document current state for rollback
-"general-purpose: Document current git state including branch name, last commit hash, and repository status for potential rollback procedures if needed"
-```
-
-### **👤 YOUR CONFIRMATION MAY BE REQUIRED**
-**If uncommitted changes exist, AI will ask:**
-> "I found uncommitted changes. Should I commit them with message: 'Pre-framework implementation commit' or would you prefer a different message?"
+### **Confirmation May Be Required**
+**If uncommitted changes exist, the AI will ask:**
+> "I found uncommitted changes. Should I commit them with the message: 'Pre-framework implementation commit' or would you prefer a different message?"
 
 **Your typical response:**
-```
-"Yes, commit with that message"
-```
-**OR**
-```
-"Use this message instead: [your custom message]"
-```
+"Yes, commit with that message" or "Use this message instead: [your custom message]"
 
 ### **3.3 Branch Strategy Confirmation**
 
-**AI will automatically execute:**
-```bash
-# Confirm branch strategy
-"general-purpose: Confirm current branch is appropriate for framework implementation, verify branch protection rules, ensure proper branch strategy for framework changes"
-```
+**The AI will automatically execute:**
+- **Confirm branch strategy:** Confirm the current branch is appropriate for framework implementation.
 
-### **⚠️ STOP CHECKPOINT: Clean Working Directory Achieved?**
-- [ ] **Git status checked**: All uncommitted changes identified
-- [ ] **All changes committed**: No uncommitted changes remain in working directory
-- [ ] **Clean state verified**: Git working directory is completely clean
-- [ ] **Branch confirmed**: Appropriate branch selected for framework work
-- [ ] **Rollback state documented**: Current state recorded for potential rollback
-- [ ] **Human confirmation obtained**: Any commit messages approved by developer
+### **Review Point: Clean Working Directory Achieved?**
+- [ ] **Git status checked**
+- [ ] **All changes committed**
+- [ ] **Clean state verified**
+- [ ] **Branch confirmed**
+- [ ] **Rollback state documented**
+- [ ] **Developer confirmation obtained**
 
-**🚨 AI CANNOT PROCEED TO STEP 4 IF ANY UNCOMMITTED CHANGES REMAIN**
+**The AI cannot proceed to Step 4 if any uncommitted changes remain.**
 
 ---
 
-## **🔍 STEP 4: PRE-WORK COMPLETION VALIDATION**
+## **🔍 STEP 4: Pre-Work Completion Validation**
 
-### **🎯 Human Developer Understanding**
-**What happens:** AI validates all mandatory requirements are complete before proceeding
-**Your time commitment:** 30 seconds to confirm validation results
-**Why this matters:** Final safety check ensuring your project is fully protected
+### **Developer Understanding**
+**What happens:** The AI validates that all mandatory requirements are complete before proceeding.
+**Your time commitment:** 30 seconds to confirm validation results.
+**Why this matters:** A final safety check to ensure your project is fully protected.
 
 ### **4.1 Comprehensive Pre-Work Validation**
 
-**AI will automatically execute:**
-```bash
-# Validate all mandatory pre-work requirements
-"project-manager: Conduct comprehensive validation that ALL three mandatory pre-work requirements are 100% completed:
-✓ Step 1: Migration assessment and plan created (first run only)
-✓ Step 2: Developer choice confirmed and documented
-✓ Step 3: All changes committed to version control and clean working directory verified
-Report PASS/FAIL status for each requirement with detailed validation results"
-```
+**The AI will automatically execute:**
+- **Validate all mandatory pre-work requirements:** Conduct a comprehensive validation that all three mandatory pre-work requirements are 100% completed.
 
 ### **4.2 Final Safety Check**
 
-**AI will automatically execute:**
-```bash
-# Final pre-work checkpoint
-"project-manager: Execute final safety check including framework readiness assessment, risk mitigation validation, backup strategy confirmation, and developer choice verification before authorizing framework initialization"
-```
+**The AI will automatically execute:**
+- **Final pre-work checkpoint:** Execute a final safety check before authorizing framework initialization.
 
-### **👤 YOUR FINAL APPROVAL REQUIRED**
-**AI will ask:** "All pre-work requirements are complete. Should I proceed to framework initialization?"
+### **Final Approval Required**
+**The AI will ask:** "All pre-work requirements are complete. Should I proceed to framework initialization?"
 **Your response:** "Yes, proceed with framework initialization."
 
-### **⚠️ FINAL CHECKPOINT: All Pre-Work Requirements Complete?**
-- [ ] **Migration Assessment**: ✅ PASS - Assessment completed (first run)
-- [ ] **Developer Choice**: ✅ PASS - Choice confirmed and documented
-- [ ] **Change Submission**: ✅ PASS - Clean working directory verified
-- [ ] **Risk Mitigation**: ✅ PASS - All risks assessed and mitigated
-- [ ] **Backup Strategy**: ✅ PASS - Version control protection confirmed
-- [ ] **Human final approval**: ✅ PASS - Developer authorizes framework initialization
+### **Final Review Point: All Pre-Work Requirements Complete?**
+- [ ] **Migration Assessment**: ✅ PASS
+- [ ] **Developer Choice**: ✅ PASS
+- [ ] **Change Submission**: ✅ PASS
+- [ ] **Risk Mitigation**: ✅ PASS
+- [ ] **Backup Strategy**: ✅ PASS
+- [ ] **Developer final approval**: ✅ PASS
 
-**🚨 FRAMEWORK WORK IS FORBIDDEN IF ANY REQUIREMENT SHOWS FAIL STATUS**
+**Framework work is forbidden if any requirement shows a FAIL status.**
 
 ---
 
-## **🚀 STEP 5: FRAMEWORK INITIALIZATION (ONLY AFTER 100% PRE-WORK COMPLETION)**
+## **🚀 STEP 5: Framework Initialization**
 
-### 🚨 **MANDATORY AI ASSISTANT REQUIREMENT - CRITICAL**
+### **AI Compliance Requirement**
 
-**⚠️ FRAMEWORK COMPLIANCE REQUIREMENT:** AI assistants **MUST** start from checking the project structure at first and define the missing files and documents in respect with the framework before proceeding with any development work.
+**AI assistants MUST start by checking the project structure and defining the missing files and documents in respect to the framework before proceeding with any development work.**
 
-#### **Required AI Assistant Process (CANNOT BE SKIPPED):**
+#### **Required AI Process:**
 
-```bash
-# 1. MANDATORY FIRST STEP: Project Structure Analysis
-find . -maxdepth 1 -name "*.md" | sort  # Check root framework files
-find docs/ -type d | sort               # Check documentation structure  
-ls -la .ai_context/ init/ development/ deployment/ operations/ 2>/dev/null  # Check framework directories
+1.  **Project Structure Analysis**
+2.  **Framework Compliance Validation**
+3.  **Gap Remediation**
+4.  **Proceed with Development Tasks**
 
-# 2. MANDATORY SECOND STEP: Framework Compliance Validation
-"general-purpose: Verify all Framework v3.7 root files exist (product.md, requirements.md, design.md, tasks.md, deployment.md), check required directories (docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, .ai_context/, init/, development/, deployment/, operations/), identify missing framework components and document gaps before proceeding"
-
-# 3. MANDATORY THIRD STEP: Gap Remediation  
-"general-purpose: Create missing framework files following v3.7 specifications, populate empty required directories with appropriate content, update existing files to meet framework compliance standards, achieve 100% framework structure compliance before development tasks"
-
-# 4. ONLY AFTER 100% COMPLIANCE: Proceed with Development Tasks
-```
-
-**🚨 VIOLATION CONSEQUENCE:** AI assistants that skip project structure analysis and framework compliance validation will produce non-compliant implementations that must be rejected and restarted.
+**Consequences of Non-Compliance:** AI assistants that skip project structure analysis and framework compliance validation will produce non-compliant implementations that must be rejected and restarted.
 
 ### **5.1 Execute Migration Plan or Initialize Structure**
 
-```bash
-# Framework structure implementation (ONLY AFTER COMPLIANCE VALIDATION)
-"general-purpose: Based on developer choice from Step 2:
-- Option A: Execute migration plan created in Step 1 to transition existing project to Framework v3.7 structure
-- Option B: Copy project to new location and initialize Framework v3.7 structure
-Ensure all required directories and base files are created following init/init_framework_v3.7.md specification"
-```
+- **Framework structure implementation:** Based on the developer's choice from Step 2, the AI will either execute the migration plan or copy the project and initialize the framework structure.
 
 ### **5.2 IDE Configuration & Development Environment Setup**
 
-```bash
-# Detect IDE and create framework-optimized configuration
-"general-purpose: Analyze project structure, file types, and existing configuration files to determine the IDE being used (VS Code, IntelliJ, PyCharm, etc.). If unable to determine IDE, ask the human developer what IDE will be used for this project"
-
-# Create IDE-specific configuration for framework v3.7
-"general-purpose: Create IDE-specific configuration files for [detected/specified IDE] including settings optimized for framework v3.7 development: code formatting, linting, debugging, testing, and AI assistant integration following framework development patterns"
-
-# VS Code Configuration (if detected/specified)
-"Create .vscode/settings.json with Python analysis paths, formatting, linting, and project-specific optimization"
-"Create .vscode/launch.json with debug configurations for testing, local startup, and deployment validation"  
-"Create .vscode/tasks.json with build tasks for dependency management, testing, deployment, and framework validation"
-"Create .vscode/extensions.json with recommended extensions for Python development, cloud tools, documentation"
-"Create .vscode/snippets.code-snippets with framework-specific code snippets for ADR templates, BDD scenarios, test patterns"
-
-# Setup development environment integration
-"general-purpose: Configure development environment settings including file associations, build tasks, debugging configurations, and framework compliance validation tools for optimal framework v3.7 development experience"
-```
+- **Detect IDE and create framework-optimized configuration:** The AI will analyze the project to determine the IDE being used and create an optimized configuration.
+- **Create IDE-specific configuration:** The AI will create IDE-specific configuration files.
+- **Setup development environment integration:** The AI will configure the development environment settings.
 
 ### **5.3 AI Context Optimization Setup**
 
-```bash
-# Initialize AI context files
-"general-purpose: Create AI context optimization files in .ai_context/ including current_context.md with project overview, team_patterns.md with coding standards, domain_context.md with domain knowledge, and deployment_context.md with infrastructure requirements"
-
-# Framework compliance validation
-"general-purpose: Validate framework v3.7 structure compliance by checking all required files and directories exist according to specification, verify migration completion if applicable"
-```
+- **Initialize AI context files:** The AI will create AI context optimization files.
+- **Framework compliance validation:** The AI will validate the framework structure compliance.
 
 ### **5.4 Project-Specific Instructions Integration**
 
-```bash
-# Check for optional project instructions
-"general-purpose: Check for .instructions/ directory and review any project-specific instructions, guidance, or constraints that supplement framework v3.7 methodology"
-
-# Integrate project instructions
-"general-purpose: If .instructions/ exists, integrate project-specific guidance with framework methodology ensuring compatibility and complementary application"
-```
+- **Check for optional project instructions:** The AI will check for a `.instructions/` directory.
+- **Integrate project instructions:** If the directory exists, the AI will integrate the project-specific guidance.
 
 ---
 
-## **✅ STEP 6: FRAMEWORK DEVELOPMENT WORKFLOW**
+## **✅ STEP 6: Framework Development Workflow**
 
-### **🎯 Human Developer Understanding**
-**What happens next:** AI executes the full 8-phase framework implementation
-**Your time commitment:** 1-2 hours of oversight over 1-2 weeks
-**Your role:** Approve each phase as AI progresses through systematic development
+### **Developer Understanding**
+**What happens next:** The AI executes the full 8-phase framework implementation.
+**Your time commitment:** 1-2 hours of oversight over 1-2 weeks.
+**Your role:** Approve each phase as the AI progresses.
 
-### **Complete Framework Lifecycle You'll Oversee:**
+### **Complete Framework Lifecycle:**
 
-**🎯 Init Framework (Phase -1 & 0)** *(AI executing now)*
-- AI completes pre-work requirements and project safety validation
-- AI sets up complete framework structure based on your Option A/B choice
-- Creates all required directories and files with AI context optimization
+**🎯 Init Framework (Phase -1 & 0)**
+- Pre-work requirements and project safety validation.
+- Framework structure setup.
+- AI context optimization.
 
-**🔨 Development Framework (Phases 1-6)** *(~2.5 hours your review time)*
-- **Phase 1**: Requirements Development - EARS requirements and PRD documents
-- **Phase 2**: BDD Scenario Development - Behavioral validation scenarios
-- **Phase 3**: Architecture & ADR Development - Technical architecture and decision records
-- **Phase 4**: Technical Specifications - Detailed implementation specifications
-- **Phase 5**: Implementation - Code implementation following specifications
-- **Phase 6**: Testing & Quality Assurance - Comprehensive testing and validation
+**🔨 Development Framework (Phases 1-6)**
+- **Phase 1**: Requirements Development
+- **Phase 2**: BDD Scenario Development
+- **Phase 3**: Architecture & ADR Development
+- **Phase 4**: Technical Specifications
+- **Phase 5**: Implementation
+- **Phase 6**: Testing & Quality Assurance
 
-**🚀 Deployment Framework (Phase 7)** *(~30 minutes your review time)*
-- AI prepares infrastructure automation and CI/CD pipelines
-- AI executes zero-downtime production deployment strategies
-- You approve deployment strategy and production readiness
+**🚀 Deployment Framework (Phase 7)**
+- Infrastructure automation and CI/CD pipelines.
+- Zero-downtime production deployment.
 
-**⚙️ Operations Framework (Phase 8)** *(~15 minutes your review time)*
-- AI establishes AI-autonomous observability operations
-- AI implements predictive monitoring and incident response
-- You monitor operational excellence and approve production operations
+**⚙️ Operations Framework (Phase 8)**
+- AI-autonomous observability.
+- Predictive monitoring and incident response.
 
-### **6.1 Requirements Development Commands**
+### **Communication with the AI**
 
-**AI will execute these automatically when Phase 1 begins:**
-```bash
-# Create EARS requirements
-"api-design-architect: Create EARS requirements in docs/ears/ using WHEN-THE-SHALL-WITHIN format for all system behaviors with complete requirement traceability"
-
-# Create BDD scenarios
-"test-engineer: Create BDD scenarios in docs/bdd/ validating all EARS requirements using Given-When-Then format with framework compliance"
-```
-
-### **6.2 Architecture and Design Commands**
-
-**AI will execute these automatically when Phase 3 begins:**
-```bash
-# Create ADR decisions
-"gcp-ai-architect: Create ADR decisions in docs/adr/ using adr_template_v3.7.md for all significant architectural choices with framework integration"
-
-# Update design documentation
-"gcp-ai-architect: Create or update design.md with technical architecture including ADR references and framework compliance"
-```
-
-### **6.3 Implementation with Quality Gates Commands**
-
-**AI will execute these automatically when Phase 5 begins:**
-```bash
-# Implement with framework patterns
-"coder-agent: Implement functionality following framework patterns from .ai_context/team_patterns.md, ensuring BDD scenario validation, security-by-design, and complete framework compliance"
-
-# Quality validation
-"project-manager: Execute comprehensive quality validation including framework compliance verification, security validation, performance testing, and deployment readiness assessment"
-```
-
-### **💬 How AI Will Communicate with You During Each Phase**
-
-**At the end of each phase, AI will ask:**
-> "I have completed Phase [X]: [Phase Name]. Please review:
-> 1. [Deliverable 1]
-> 2. [Deliverable 2]
-> 3. [Deliverable 3]
-> 
-> Do you approve this phase to proceed to Phase [X+1]?
-> Any modifications needed before proceeding?"
-
-**Your typical responses:**
-- **"Yes, approved. Proceed to the next phase."**
-- **"Approved with minor changes: [specify changes]"**
-- **"Please modify [specific item] before proceeding"**
+**At the end of each phase, the AI will ask for your approval to proceed to the next phase.**
 
 ---
 
-## **🎯 SUCCESS VALIDATION**
+## **🎯 Success Validation**
 
-### **What Success Looks Like for You**
+### **What Success Looks Like**
 
-**After completing all steps, you'll have achieved:**
+**Immediate Results:**
+- [ ] **Pre-Work Compliance**: 100% completion of all mandatory pre-work requirements.
+- [ ] **Migration Success**: Successful project migration or framework initialization.
+- [ ] **Version Control Safety**: Complete version control protection maintained.
+- [ ] **Structure Compliance**: 100% framework v3.7 structure compliance achieved.
+- [ ] **AI Context Ready**: AI context optimization files created and configured.
+- [ ] **Development Ready**: Ready for requirements, architecture, and implementation phases.
 
-### **Immediate Results (Today)**
-- [ ] **Pre-Work Compliance**: 100% completion of all mandatory pre-work requirements
-- [ ] **Migration Success**: Successful project migration or framework initialization
-- [ ] **Version Control Safety**: Complete version control protection maintained
-- [ ] **Structure Compliance**: 100% framework v3.7 structure compliance achieved
-- [ ] **AI Context Ready**: AI context optimization files created and configured
-- [ ] **Development Ready**: Ready for requirements, architecture, and implementation phases
-
-### **Framework Benefits You'll Experience**
-- **Development Acceleration**: 2-3x faster development through AI optimization
-- **Quality Assurance**: >95% defect reduction through systematic validation
-- **Security Integration**: Built-in security throughout development lifecycle
-- **Complete Traceability**: Business vision → Requirements → Implementation → Production
-- **AI-First Development**: <5 second context loading for optimal AI assistance
+### **Framework Benefits:**
+- **Development Acceleration**: 2-3x faster development.
+- **Quality Assurance**: >95% defect reduction.
+- **Security Integration**: Built-in security.
+- **Complete Traceability**: From business vision to production.
+- **AI-First Development**: <5 second context loading.
 
 ### **Framework Effectiveness Validation**
 
-**AI will execute this final validation:**
-```bash
-# Measure framework effectiveness
-"project-manager: Validate framework implementation success including structure compliance, AI context effectiveness, development workflow readiness, and complete safety protocol adherence"
-```
+**The AI will execute this final validation:**
+- **Measure framework effectiveness:** Validate framework implementation success.
 
 ---
 
-## **🚨 EMERGENCY PROCEDURES**
+## **🚨 Troubleshooting**
 
-### **If Something Goes Wrong During Pre-Work**
+### **If Something Goes Wrong**
 
-**Step-by-Step Recovery Process:**
+1.  **STOP immediately** - Tell the AI: "Stop all framework work immediately."
+2.  **Check git status** - Run: `git status`.
+3.  **Restore from backup** - Use: `git reset --hard HEAD`.
+4.  **Contact support** - Get developer guidance before proceeding.
+5.  **Re-execute pre-work** - Start over with Step 1 when ready.
 
-1. **STOP immediately** - Tell AI: "Stop all framework work immediately"
-2. **Check git status** - Run: `git status` to verify current repository state
-3. **Restore from backup** - Use: `git reset --hard HEAD` to restore previous state
-4. **Contact support** - Get human developer guidance before proceeding
-5. **Re-execute pre-work** - Start over with Step 1 when ready
-
-### **Common Issues and Solutions**
+### **Common Issues**
 
 **Issue: "AI says pre-work incomplete"**
-- **Solution**: Check that you've answered all three critical questions
-- **Verify**: Option A/B choice confirmed, git status clean, migration plan approved
+- **Solution**: Check that you've answered all three critical questions.
 
 **Issue: "Git commit errors"**
-- **Solution**: Manually commit: `git add . && git commit -m "Pre-framework commit"`
-- **Then**: Tell AI to proceed with verification
+- **Solution**: Manually commit: `git add . && git commit -m "Pre-framework commit"`.
 
 **Issue: "Framework structure conflicts"**
-- **Solution**: Choose Option B to create separate project copy
-- **Benefit**: Original project remains completely untouched
+- **Solution**: Choose Option B to create a separate project copy.
 
-### **Emergency Rollback Procedures**
+### **Emergency Rollback**
 
-```bash
-# Emergency rollback command
-"general-purpose: Execute emergency rollback procedures using documented git state from Step 3, restore previous project state, and report rollback completion"
-```
+- **Emergency rollback command:** The AI can execute an emergency rollback to the previous state.
 
 ---
 
-## **🎉 QUICK START COMPLETION**
+## **🎉 Quick Start Completion**
 
-### **✅ You've Successfully Completed Framework v3.7 Quick Start When:**
+### **You've successfully completed the Quick Start when:**
 
 **Pre-Work Phase Complete:**
-1. **Migration assessment** completed with safe migration plan
-2. **Developer choice** confirmed (Option A or B) with backup strategy
-3. **Version control protection** activated with clean working directory
-4. **Framework structure** initialized with complete compliance
+1.  **Migration assessment** completed.
+2.  **Developer choice** confirmed.
+3.  **Version control protection** activated.
+4.  **Framework structure** initialized.
 
 **Ready for Development:**
-1. **AI context optimization** configured for maximum effectiveness
-2. **Development workflow** ready for systematic 8-phase implementation
-3. **Quality gates** established for comprehensive validation
-4. **Human oversight** framework activated for controlled AI assistance
+1.  **AI context optimization** configured.
+2.  **Development workflow** ready.
+3.  **Quality gates** established.
+4.  **Developer oversight** framework activated.
 
 ### **🚀 What Happens Next**
 
 **You now have two options:**
 
 **Option 1: Continue with Development Framework**
-```bash
-# Continue to Development Framework
-"Read and integrate development/ai_system_prompt_v3.7.md and begin Development Framework Phase 1 (Requirements Analysis) with complete Init Framework handoff"
-```
-- AI will systematically execute Development Phases 1-6 with your approval
-- You'll oversee requirements, architecture, implementation, and testing
-- Expected timeline: 1-2 weeks with 2-3 hours of your oversight time
+- The AI will systematically execute Development Phases 1-6 with your approval.
 
 **Option 2: Pause and Return Later**
-- Init Framework is safely completed and ready when you are
-- Use this command to resume: "Continue with Development Framework from Phase 1"
-- All pre-work and init setup complete, no need to repeat these steps
+- The Init Framework is safely completed and ready when you are.
 
-**Option 3: Jump to Specific Framework**
-- **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP_DEPLOYMENT.md`
-- **Operations Framework**: `operations/AI_ASSISTANT_STARTUP_OPERATIONS.md`
-
-### **🎯 Framework v3.7 Success Formula Achieved**
-
-**Mandatory Pre-Work ✅ + Human Guidance ✅ + AI Execution Ready ✅ + Safety Protection ✅ = Production-Ready Development Excellence**
-
-**Your project is now protected, enhanced, and ready for AI-accelerated development with complete human control over all decisions and outcomes.**
+**Option 3: Jump to a Specific Framework**
+- **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP.md`
+- **Operations Framework**: `operations/AI_ASSISTANT_STARTUP.md`
 
 ---
 
-## **📚 Quick Reference for Future Use**
+## **📚 Quick Reference**
 
 ### **To Resume Framework Work**
-```bash
-# Resume framework implementation
-"Continue Framework v3.7 implementation from current phase with complete human oversight"
-```
+- "Continue Framework v3.7 implementation from the current phase."
 
 ### **To Validate Framework Status**
-```bash
-# Check framework status
-"project-manager: Validate current framework v3.7 status and next phase requirements"
-```
+- "Validate current framework v3.t status and next phase requirements."
 
 ### **Support Resources**
-- **Init Framework**: `init/AI_ASSISTANT_STARTUP_INIT.md`
-- **Development Framework**: `development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md`
-- **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP_DEPLOYMENT.md`
-- **Operations Framework**: `operations/AI_ASSISTANT_STARTUP_OPERATIONS.md`
-- **Complete Framework Overview**: `README.md`
+- **Init Framework**: `init/AI_ASSISTANT_STARTUP.md`
+- **Development Framework**: `development/AI_ASSISTANT_STARTUP.md`
+- **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP.md`
+- **Operations Framework**: `operations/AI_ASSISTANT_STARTUP.md`
+- **Framework Overview**: `README.md`
 
 ---
 
-*Quick Startup Guide Version: v3.7 - Human Developer Integrated Edition*  
-*Framework: AI Agent Development Framework v3.7*  
-*Created: 2025-08-16*  
-*Purpose: Safe framework initialization with complete project protection and human developer guidance*
+*Quick Start v3.7*
+*AI Agent Development Framework v3.7*
+*August 22, 2025*
+*Safe framework initialization with project protection and developer guidance.*

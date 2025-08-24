@@ -6,7 +6,7 @@
 **Framework Version:** v3.7  
 **Deciders:** [List of people involved in the decision]  
 **Technical Story:** [Link to relevant issue/story/ticket]  
-**Related Requirements:** [REQ-XXX references from requirements.md]  
+**Related Requirements:** [REQ-XXX references from requirements.md.template]  
 **Supersedes:** [ADR-XXXX if applicable]  
 **Superseded by:** [ADR-XXXX if applicable]  
 
@@ -100,9 +100,9 @@
   - [ ] Update .ai_context/deployment_context.md (if applicable)
 
 - **Framework Documentation Updates:**
-  - [ ] Update requirements.md with new constraints
-  - [ ] Update design.md with architectural changes
-  - [ ] Update deployment.md with infrastructure changes
+  - [ ] Update requirements.md.template with new constraints
+  - [ ] Update design.md.template with architectural changes
+  - [ ] Update deployment.md.template with infrastructure changes
   - [ ] Create/update BDD scenarios for validation
 
 ### Implementation Strategy
@@ -228,9 +228,9 @@ Then [expected outcome validating the decision]
 ## References and Dependencies
 
 ### Framework References
-- [Link to related framework requirements](../requirements.md#section)
+- [Link to related framework requirements](../requirements.md.template#section)
 - [Link to related BDD scenarios](../docs/bdd/scenario-name.md)
-- [Link to related design patterns](../design.md#section)
+- [Link to related design patterns](../design.md.template#section)
 
 ### External References
 - [External documentation and research]

@@ -31,6 +31,10 @@ Init Framework (Phases -1 to 0) → Development Framework (Phases 1-6) →
 Deployment Framework (Phase 7) → Operations Framework (Phase 8)
 ```
 
+## 🤖 AI-First Workflow
+
+This framework is designed to be executed by an AI assistant with a human developer providing supervision and approval. The human developer provides the initial PRD and architecture during the init stage, and the AI assistant handles the rest of the development, deployment, and operations, with the human developer confirming the completion of each phase.
+
 ### **AI-First Init Operations**
 
 **🤖 AI AUTONOMOUS Init Operations (90%):**
@@ -87,14 +91,14 @@ Update analysis results in .ai_context/project_analysis.md"
 "general-purpose: Execute Framework v3.7 compliance gap analysis including:
 1. Compare current project structure against Framework v3.7 requirements
 2. Identify missing directories: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/
-3. Identify missing root files: product.md, requirements.md, design.md, tasks.md, deployment.md
+3. Identify missing root files: product.md.template, requirements.md.template, design.md.template, tasks.md.template, deployment.md.template
 4. Assess .ai_context/ directory and optimization files
 5. Document compliance gaps and remediation requirements
 Update gap analysis in .ai_context/compliance_gaps.md"
 ```
 
 **Compliance Validation Checklist:**
-- [ ] **Root Files**: product.md, requirements.md, design.md, tasks.md, deployment.md
+- [ ] **Root Files**: product.md.template, requirements.md.template, design.md.template, tasks.md.template, deployment.md.template
 - [ ] **Documentation Structure**: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/
 - [ ] **Framework Directories**: .ai_context/, development/, deployment/, operations/
 - [ ] **Validation Directory**: docs/validation/ for phase completion reports
@@ -347,11 +351,11 @@ Document implementation results in .ai_context/structure_implementation.md"
 **Root Level Files:**
 ```
 .
-├── product.md                    # Business vision and product definition
-├── requirements.md              # Master requirements document
-├── design.md                    # System architecture and design
-├── tasks.md                     # Project tasks and implementation plan
-├── deployment.md                # Deployment strategy and procedures
+├── product.md.template                    # Business vision and product definition
+├── requirements.md.template              # Master requirements document
+├── design.md.template                    # System architecture and design
+├── tasks.md.template                     # Project tasks and implementation plan
+├── deployment.md.template                # Deployment strategy and procedures
 ├── CLAUDE.md                    # AI assistant instructions and guidance
 ├── .gitignore                   # Version control ignore patterns
 └── README.md                    # Project overview and quick start
@@ -530,18 +534,9 @@ Create init framework handoff package for development framework including:
 
 #### **Development Framework Preparation**
 
-**AI Action Steps:**
-```bash
-# Development framework activation preparation
-"project-manager: Prepare development framework activation including:
-1. Update .ai_context/framework_progress.md with init completion and development readiness
-2. Prepare development framework context with project-specific information
-3. Validate development framework prerequisites and requirements
-4. Create development framework transition documentation
-5. Prepare handoff to development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md
+**AI Assistant Action Steps:**
 
-Final init state update: Init Framework complete, Development Framework Phase 1 ready to begin"
-```
+1.  **Prepare for the development framework:** Update the `.ai_context/framework_progress.md` file with the init completion and development readiness. Prepare the development framework context with project-specific information. Validate the development framework prerequisites and requirements. Create the development framework transition documentation. Prepare the handoff to the `development/AI_ASSISTANT_STARTUP.md` file.
 
 **Init Framework Output for Development:**
 - ✅ **Complete Framework v3.7 Structure** with full compliance and validation
@@ -555,7 +550,7 @@ Final init state update: Init Framework complete, Development Framework Phase 1 
 ```
 🚀 Init Framework Complete - Ready for Development Framework
 
-Continue with: development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md
+Continue with: development/AI_ASSISTANT_STARTUP.md
 This guide will handle Phase 1 (Requirements Analysis & Specification) through Phase 6 (Testing & QA)
 ```
 

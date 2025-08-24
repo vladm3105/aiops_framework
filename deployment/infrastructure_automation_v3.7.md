@@ -9,7 +9,7 @@
 
 ---
 
-## 🚀 **Executive Summary: Infrastructure Automation Excellence**
+## **Executive Summary: Infrastructure Automation Excellence**
 
 ### **Infrastructure Automation Core Capabilities**
 Framework v3.7 delivers **enterprise-grade infrastructure automation** as an **AI-first AI operational framework with human supervision**:

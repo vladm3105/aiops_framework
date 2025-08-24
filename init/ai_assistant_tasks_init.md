@@ -64,7 +64,7 @@ Create analysis in .ai_context/project_analysis.md and update .ai_context/framew
 "general-purpose: Execute Framework v3.7 compliance gap analysis including:
 1. Compare current structure against Framework v3.7 requirements
 2. Identify missing directories: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, docs/validation/
-3. Identify missing root files: product.md, requirements.md, design.md, tasks.md, deployment.md
+3. Identify missing root files: product.md.template, requirements.md.template, design.md.template, tasks.md.template, deployment.md.template
 4. Assess .ai_context/ optimization requirements and current state
 5. Document complete compliance gaps and remediation requirements
 Create gap analysis in .ai_context/compliance_gaps.md and update .ai_context/framework_progress.md"
@@ -225,11 +225,11 @@ Document implementation results and validation in .ai_context/structure_implemen
 "general-purpose: Create complete Framework v3.7 directory structure including:
 
 **Root Level Files:**
-1. product.md - Business vision template with project-specific content
-2. requirements.md - Master requirements template with initial content
-3. design.md - System architecture template ready for development
-4. tasks.md - Project tasks template with framework integration
-5. deployment.md - Deployment strategy template with project context
+1. product.md.template - Business vision template with project-specific content
+2. requirements.md.template - Master requirements template with initial content
+3. design.md.template - System architecture template ready for development
+4. tasks.md.template - Project tasks template with framework integration
+5. deployment.md.template - Deployment strategy template with project context
 6. CLAUDE.md - AI assistant instructions with project-specific guidance
 7. .gitignore - Framework-optimized ignore patterns with project additions
 8. README.md - Project overview with framework integration and quick start
@@ -399,7 +399,7 @@ Document Phase 0 completion in .ai_context/phase_0_completion.md with comprehens
 - Security foundation establishment and threat model documentation
 - Version control safety confirmation and backup procedures validation
 
-Prepare transition to development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md with complete readiness"
+Prepare transition to development/AI_ASSISTANT_STARTUP.md with complete readiness"
 ```
 
 ---

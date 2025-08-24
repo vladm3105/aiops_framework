@@ -1,4 +1,11 @@
 # AI Agent Development Framework v3.7
+
+**🚀 [GET STARTED IN 5 MINUTES](GET_STARTED.md) | [See Quick Start Options](GET_STARTED.md#quick-decision-guide)**
+
+This project is not a software application, but rather a comprehensive and highly structured **methodology** for building software using an "AI-first" approach. The core idea is to leverage AI agents to automate and accelerate the entire software development lifecycle, from initial project setup to production operations, with humans providing strategic oversight and approval at key checkpoints.
+
+**Proven Results:** 10x development velocity • >99.9% reliability • Zero-downtime deployments
+
 ## Complete AI-First Init → Development → Deployment → Operations Lifecycle
 
 **Version:** 3.7 - Production Ready AI-First Edition  
@@ -8,9 +15,9 @@
 
 ---
 
-## 🚀 **Framework Overview**
+## **Framework Overview**
 
-The AI Agent Development Framework v3.7 provides a complete **AI-first methodology** with **human supervision** covering the entire software lifecycle:
+The AI Agent Development Framework v3.7 provides a complete **AI-first methodology** designed to be executed by an AI assistant with human supervision. The human developer provides the initial PRD and architecture during the init stage, and the AI assistant handles the rest of the development, deployment, and operations, with the human developer confirming the completion of each phase.
 
 - **🎯 Init**: Project initialization, pre-work, and framework setup with human decision points
 - **🔨 Development**: AI-accelerated development with Framework v3.7 methodology
@@ -22,11 +29,11 @@ The AI Agent Development Framework v3.7 provides a complete **AI-first methodolo
 2. **Security-by-Design**: Integrated security throughout the complete lifecycle
 3. **Complete Lifecycle Coverage**: Init → Development → Deployment → Operations workflow
 4. **Human Supervision**: Strategic oversight with operational autonomy
-5. **Framework Compliance**: 100% structure compliance, >95% implementation adherence
+5. **Framework Compliance Targets**: Full structure compliance; >95% implementation adherence
 
 ---
 
-## 📋 **Framework Workflow**
+## **Framework Workflow**
 
 ### **Complete Init → Development → Deployment → Operations Flow**
 
@@ -108,44 +115,6 @@ graph TD
 
 ---
 
-## 🎯 **Quick Start by Role**
-
-### **For New Projects & Migration** 🎯
-**Start Here:** `init/` directory
-1. **Project Initialization:** [Init Framework](init/init_framework_v3.7.md)
-2. **AI Assistant Init:** [AI Init Startup Guide](init/AI_ASSISTANT_STARTUP_INIT.md)
-3. **Pre-Work Requirements:** Complete before any development work
-4. **Framework Setup:** Migration and structure establishment
-
-### **For Development Teams** 🔨
-**Start Here:** `development/` directory (after Init completion)
-1. **Framework Methodology:** [Development Framework](development/development_framework_v3.7.md)
-2. **AI Assistant Setup:** [AI Assistant Guide](development/ai_assistant_guide_v3.7.md)
-3. **Development Workflow:** [AI Prompts Workflow](development/ai_prompts_workflow_v3.7.md)
-4. **Requirements Management:** [PRD Template](development/prd_template_v3.7.md)
-
-### **For DevOps/Deployment Teams** 🚀
-**Start Here:** `deployment/` directory
-1. **Deployment Framework:** [Deployment Framework](deployment/deployment_framework_v3.7.md)
-2. **Infrastructure Automation:** [Infrastructure Automation](deployment/infrastructure_automation_v3.7.md)
-3. **Deployment Strategies:** [Deployment Strategies](deployment/deployment_strategies_v3.7.md)
-4. **CI/CD Pipelines:** [CI/CD Pipeline Framework](deployment/ci_cd_pipeline_v3.7.md)
-
-### **For Operations/SRE Teams** ⚙️
-**Start Here:** `operations/` directory
-1. **Operations Framework:** [Operations Framework](operations/operations_framework_v3.7.md)
-2. **Monitoring & Observability:** [Monitoring Framework](operations/monitoring_observability_v3.7.md)
-3. **AI Assistant Operations:** [AI Assistant Guide](operations/ai_assistant_guide_v3.7.md)
-4. **Operations Workflow:** [AI Prompts Workflow](operations/ai_prompts_workflow_v3.7.md)
-
-### **For AI Assistants** 🤖
-**AI Agent Directory:** `agents/` directory
-- **16 Specialized Agents:** Each with specific domain expertise
-- **Multi-Agent Coordination:** Patterns for complex task coordination
-- **Framework Integration:** AI-optimized for Framework v3.7 compliance
-
----
-
 ## 📁 **Directory Structure**
 
 ```
@@ -155,7 +124,7 @@ graph TD
 │   └── [agent-definitions]     # Individual agent specifications
 ├── 📁 init/                   # Init Framework v3.7
 │   ├── init_framework_v3.7.md        # Project initialization methodology
-│   ├── AI_ASSISTANT_STARTUP_INIT.md  # AI init startup guide
+│   ├── AI_ASSISTANT_STARTUP.md  # AI init startup guide
 │   ├── ai_system_prompt_v3.7.md      # AI init system prompt
 │   └── ai_assistant_tasks_init.md    # Init task automation
 ├── 📁 development/            # Development Framework v3.7
@@ -181,7 +150,6 @@ graph TD
 │   ├── ai_assistant_guide_v3.7.md       # AI operations optimization
 │   ├── ai_prompts_workflow_v3.7.md      # Operations workflow prompts
 │   └── ai_system_prompt_v3.7.md         # AI operations configuration
-├── CLAUDE.md                  # Universal session management
 └── README.md                  # This file
 ```
 
@@ -211,21 +179,25 @@ graph TD
 
 ## 🤖 **AI-First Methodology**
 
-### **AI Autonomous Operations (90-95%)**
-- Code generation and implementation
-- Infrastructure provisioning and configuration
-- Monitoring and incident response
-- Performance optimization and scaling
-- Security scanning and compliance validation
-- Testing automation and quality assurance
+This framework is designed to be executed by an AI assistant with a human developer providing supervision and approval. The AI assistant is responsible for the following:
 
-### **Human Supervision Required (5-10%)**
-- Strategic architecture decisions
-- Business impact assessment
-- Policy and compliance approval
-- Production deployment authorization
-- Critical incident escalation
-- Framework evolution and methodology changes
+*   **Code generation and implementation**
+*   **Infrastructure provisioning and configuration**
+*   **Monitoring and incident response**
+*   **Performance optimization and scaling**
+*   **Security scanning and compliance validation**
+*   **Testing automation and quality assurance**
+
+The human developer is responsible for the following:
+
+*   **Providing the initial PRD and architecture**
+*   **Confirming the completion of each phase**
+*   **Making strategic architecture decisions**
+*   **Assessing business impact**
+*   **Approving policy and compliance changes**
+*   **Authorizing production deployments**
+*   **Handling critical incident escalations**
+*   **Evolving the framework and methodology**
 
 ---
 
@@ -266,110 +238,52 @@ graph TD
 
 ---
 
-## 🚀 **Getting Started**
+## 🚀 **Getting Started (Choose Your Path)**
 
-### **Phase 1: Choose Your Starting Point**
-1. **New Project or Migration**: Start with `init/AI_ASSISTANT_STARTUP_INIT.md`
-2. **Continue Development** (after Init): Start with `development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md`
-3. **Deploy Existing Project**: Start with `deployment/AI_ASSISTANT_STARTUP_DEPLOYMENT.md`  
-4. **Manage Production**: Start with `operations/AI_ASSISTANT_STARTUP_OPERATIONS.md`
+### 📝 **I Want to Start a New Project**
+**→ [GET STARTED in 5 minutes](GET_STARTED.md#new-project-5-minute-setup)**
+- Complete setup with AI guidance
+- Framework structure creation
+- Ready for development in minutes
 
-### **Phase 2: AI Assistant Setup**
-1. **Load Framework Context**: Use appropriate AI assistant guide for your phase
-2. **Initialize AI Context**: Follow AI system prompt setup for optimal performance
-3. **Configure Workflow**: Use AI prompts workflow for systematic implementation
+### 🔄 **I Have an Existing Project**
+**→ [Integrate Framework](GET_STARTED.md#existing-project-integration)**
+- Safe integration options (modify OR copy)
+- Existing code protection
+- Enhanced with AI development
 
-### **Phase 3: Framework Implementation**
-1. **Follow Methodology**: Use framework-specific implementation guides
-2. **Maintain Compliance**: Ensure 100% framework structure compliance
-3. **Validate Quality**: Use comprehensive quality gates and validation
+### 🚀 **I Want to Deploy Existing Code**
+**→ [Deploy in 15 minutes](GET_STARTED.md#deployment-only)**
+- Zero-downtime deployment strategies
+- Infrastructure-as-Code setup
+- Production monitoring included
 
-### **Phase 4: Continuous Improvement**
-1. **Monitor Effectiveness**: Track framework effectiveness metrics
-2. **Optimize Performance**: Implement AI-driven optimizations
-3. **Evolve Framework**: Contribute to framework evolution and improvement
+### 🤖 **I Want AI-Autonomous Operations**
+**→ [Operations Setup](GET_STARTED.md#operations-setup)**
+- Predictive monitoring
+- Self-healing systems
+- Cost optimization
+
+### ❓ **I Want to Learn More**
+**→ [Framework Overview](GET_STARTED.md#framework-overview)**
+- Understand the methodology  
+- See proven results
+- Review agent capabilities
 
 ---
 
-## 📋 **Session Management & TodoWrite Integration**
+## 📋 **Session Management**
 
-### **Universal Session Management System**
-
-Framework v3.7 implements a **Hybrid Session Management System** that ensures consistent AI assistant workflow across all framework phases:
-
-- **Clean Session Focus**: Each session starts with clear, prioritized tasks
-- **Cumulative Progress Tracking**: Complete historical record of all achievements  
-- **Cross-Session Continuity**: Seamless context preservation across sessions
-- **Framework Compliance**: Maintained quality gates and methodology adherence
-- **Complete Lifecycle Support**: Init → Development → Deployment → Operations workflow
-
-### **Core Session Management Components**
-
-1. **TodoWrite Tool**: Real-time session task management across all frameworks
-2. **.ai_context/framework_progress.md**: Master state file (single source of truth)
-3. **Framework-Specific Protocols**: Specialized session management for each phase
-4. **Git Integration**: Immutable session evidence and audit trail
-5. **Human Oversight**: Strategic decision points and approval requirements
-
-### **TodoWrite Tool Integration Standards**
-
-#### **Required TodoWrite Behaviors**
-```markdown
-TodoWrite Tool Requirements:
-1. **Single Focus Enforcement**: Prevent multiple IN_PROGRESS tasks
-2. **Real-Time Updates**: Immediate status reflection and state management
-3. **Framework Phase Alignment**: Validates tasks align with current framework phase
-4. **Quality Gates**: Enforces quality validation before task completion
-5. **Human Checkpoints**: Identifies required human approval points
-```
-
-#### **Session Management Rules**
-```markdown
-Universal Session Rules:
-1. **ONE TASK RULE**: Only ONE task can be "IN_PROGRESS" at any time
-2. **Status Updates**: Use TodoWrite tool for immediate status changes
-3. **Framework Alignment**: Ensure session tasks align with current framework phase
-4. **Quality Validation**: Validate deliverables before marking completed
-5. **Human Approval**: Required at designated framework checkpoints
-```
-
-### **Framework-Specific Session Management**
-
-Each framework phase has specialized session management protocols:
-
-- **Init Framework**: [Safety-First Session Management](init/session_management_protocols_init.md)
-- **Development Framework**: [Quality-Driven Session Management](development/session_management_protocols_development.md)
-- **Deployment Framework**: [Production-Ready Session Management](deployment/session_management_protocols_deployment.md)
-- **Operations Framework**: [Autonomous Operations Session Management](operations/session_management_protocols_operations.md)
-
-### **Session Lifecycle Protocol**
-
-#### **Session Start (Every Session)**
-1. **Context Loading**: Load .ai_context/framework_progress.md as authoritative state
-2. **Phase Determination**: Identify current framework phase and requirements
-3. **Priority Setting**: Set session goals based on framework phase objectives
-4. **Environment Validation**: Ensure all prerequisites satisfied for current phase
-
-#### **Session Work (Continuous)**
-1. **Single Focus Discipline**: Only ONE task IN_PROGRESS at any time
-2. **Real-Time Updates**: Immediate status changes via TodoWrite tool
-3. **Quality Gates**: Comprehensive validation before task completion
-4. **Framework Compliance**: Maintain adherence to Framework v3.7 methodology
-
-#### **Session End (Every Session)**
-1. **Task Completion**: Complete all IN_PROGRESS tasks or document handoff
-2. **State Updates**: Update .ai_context/framework_progress.md with achievements
-3. **Git Commitment**: Commit all session work with comprehensive messages
-4. **Next Session Preparation**: Prepare context for seamless continuation
+For a detailed explanation of the session management protocols, please see the [SESSION_MANAGEMENT.md](SESSION_MANAGEMENT.md) file.
 
 ---
 
 ## 📚 **Additional Resources**
 
 ### **Support and Documentation**
-- **AI Assistant Optimization**: [CLAUDE.md](CLAUDE.md) - Universal session management and AI optimization
 - **Agent Coordination**: [Agents Directory](agents/) - Specialized AI agents
-- **Session Management**: Framework-specific protocols for each phase (see Session Management section above)
+- **Style Guide**: [STYLE_GUIDE.md](STYLE_GUIDE.md) - The style guide for the framework documentation.
+- **Glossary**: [GLOSSARY.md](GLOSSARY.md) - A glossary of key terms and concepts.
 
 ### **Framework Evolution**
 This framework evolves continuously based on:

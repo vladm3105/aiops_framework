@@ -335,7 +335,7 @@ deployment/monitoring/
 "cloud-ops-engineer: Deploy comprehensive monitoring stack including Prometheus, Grafana, ELK stack, and cloud-native monitoring across GCP/AWS/Azure platforms with intelligent alerting and business metrics tracking"
 
 # Application observability setup
-"cloud-ops-engineer: Configure application observability including distributed tracing, custom metrics collection, structured logging, performance monitoring, and business KPI tracking for CARA framework compliance"
+"cloud-ops-engineer: Configure application observability including distributed tracing, custom metrics collection, structured logging, performance monitoring, and business KPI tracking for [Project Name] framework compliance"
 
 # Security monitoring integration
 "security-auditor + cloud-ops-engineer: Implement security monitoring including audit logging, security event detection, threat monitoring, compliance reporting, and incident response automation"

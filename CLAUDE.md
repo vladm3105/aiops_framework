@@ -11,29 +11,30 @@ This is the **AI Agent Development Framework v3.7** - a production-ready develop
 ### Framework Structure
 The project implements a complete development lifecycle framework with two main phases:
 
-1. **Development Framework** (`.framework_v3.7/development/`): Product requirements → deployment scripts preparation
-2. **DevOps Framework** (`.framework_v3.7/devops/`): Artifact validation → enhancement → deployment → testing
+1. **Development Framework** (`development/`): Product requirements → deployment scripts preparation
+2. **Deployment Framework** (`deployment/`): Artifact validation → enhancement → deployment
+3. **Operations Framework** (`operations/`): Production operations → monitoring → optimization
 
 ### Core Components
-- **Business Vision**: `product.md` + `docs/prd/` (Product Requirements Documents)
-- **Requirements**: `requirements.md` + `docs/ears/` (EARS format) + `docs/bdd/` (BDD scenarios)
-- **Architecture**: `design.md` + `docs/adr/` (Architecture Decision Records)
+- **Business Vision**: `product.md.template` + `docs/prd/` (Product Requirements Documents)
+- **Requirements**: `requirements.md.template` + `docs/ears/` (EARS format) + `docs/bdd/` (BDD scenarios)
+- **Architecture**: `design.md.template` + `docs/adr/` (Architecture Decision Records)
 - **Specifications**: `docs/specs/` (SPECS-NNNN format technical specifications)
-- **Implementation**: `tasks.md` + AI assistant code implementation
-- **Deployment**: `deployment.md` + infrastructure automation
+- **Implementation**: `tasks.md.template` + AI assistant code implementation
+- **Deployment**: `deployment.md.template` + infrastructure automation
 
 ### AI-First Development Patterns
-- **Context Optimization**: Files in `.ai_context/` for development acceleration (<5 second context loading target)
-- **Framework Compliance**: 100% structure compliance with v3.7 specification required
-- **Quality Gates**: >95% quality validation success target at each phase
-- **BDD Integration**: All requirements validated through behavioral scenarios
+- **Context Optimization**: Files in `.ai_context/` for development acceleration (target: <5 second context loading)
+- **Framework Compliance**: Target full structure compliance with v3.7 specification
+- **Quality Gates**: Target >95% quality validation success at each phase
+- **BDD Integration**: Validate requirements through behavioral scenarios
 
 ## Development Commands
 
 ### Framework Initialization
 ```bash
 # Initialize new framework project (MANDATORY PRE-WORK FIRST)
-"Read and integrate the complete AI system prompt from .framework_v3.7/development/ai_system_prompt_v3.7.md ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols. Then begin Phase -1 mandatory pre-work requirements."
+"Read and integrate the complete AI system prompt from development/ai_system_prompt_v3.7.md ensuring full understanding of mandatory pre-work requirements, framework compliance standards, and human interaction protocols. Then begin Phase -1 mandatory pre-work requirements."
 ```
 
 ### Phase-Based Development
@@ -75,12 +76,12 @@ The framework implements hybrid session management:
 ## Quality Assurance & Compliance
 
 ### Mandatory Requirements
-- **Pre-Work Compliance**: 100% completion of Phase -1 requirements before any framework work
-- **Framework Structure**: All required directories and files per v3.7 specification
-- **EARS Requirements**: Formal technical requirements in WHEN-THE-SHALL-WITHIN format
-- **BDD Coverage**: 100% requirements validation through Given-When-Then scenarios
-- **ADR Documentation**: All architectural decisions documented with rationale
-- **Validation Reports**: Mandatory reports in `docs/validation/` for each phase
+- **Pre-Work Compliance**: Complete Phase -1 requirements before any framework work
+- **Framework Structure**: Ensure required directories and files per v3.7 specification
+- **EARS Requirements**: Formal technical requirements in WHEN–THE–SHALL–WITHIN format
+- **BDD Coverage**: Target full requirements validation through Given–When–Then scenarios
+- **ADR Documentation**: Document architectural decisions with rationale
+- **Validation Reports**: Produce reports in `docs/validation/` for each phase
 
 ### Security Integration
 - **Security-by-Design**: Integrated throughout development lifecycle
@@ -111,12 +112,20 @@ Testing integrated into framework phases:
 - **Monitoring**: Comprehensive observability with predictive incident prevention
 - **Zero-Downtime**: Automated rollback and self-healing capabilities
 
-### DevOps Integration
-The DevOps framework (`.framework_v3.7/devops/`) provides:
+### Deployment & Operations Integration
+The Deployment and Operations frameworks provide:
+
+**Deployment Framework (`deployment/`):**
 - Infrastructure automation across multi-cloud environments
-- CI/CD pipelines with AI enhancement
-- Enterprise monitoring and observability
-- Production deployment strategies
+- AI-first CI/CD pipelines with comprehensive automation
+- Zero-downtime production deployment strategies
+- Security-integrated deployment validation
+
+**Operations Framework (`operations/`):**
+- AI-autonomous observability and monitoring
+- Predictive incident response and resolution
+- Performance optimization and cost management
+- Government-grade security and compliance operations
 
 ## Important Framework Rules
 
@@ -126,6 +135,25 @@ The DevOps framework (`.framework_v3.7/devops/`) provides:
 4. **Single Focus**: Only one task in progress at any time via TodoWrite tool
 5. **Quality Gates**: Comprehensive validation before phase progression
 6. **Documentation**: Maintain complete traceability from requirements to implementation
+
+## 🚨 Archive Directories - DO NOT ANALYZE
+
+**CRITICAL**: The following directories contain ARCHIVED LEGACY FILES and must NOT be analyzed or referenced:
+
+- `.archive_devops_legacy_files/` - Legacy DevOps files (deprecated)
+- `devops_archive_not_used/` - Old archive directory (if exists)
+- Any directory matching `*_archive_not_used/` or `.archive_*/`
+
+**Why these are archived:**
+- All valuable content has been migrated to active framework structure
+- Files are outdated and may contain incorrect information
+- Framework compliance requires using active files only
+
+**Use these active directories instead:**
+- `init/` - Project initialization framework
+- `development/` - Development framework  
+- `deployment/` - Deployment framework
+- `operations/` - Operations framework
 
 ## Getting Started
 

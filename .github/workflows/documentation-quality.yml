@@ -1,0 +1,199 @@
+name: Documentation Quality Check
+
+on:
+  push:
+    branches: [ main, develop, aiops_v3.7 ]
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - '**.md'
+      - '.github/workflows/documentation-quality.yml'
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    name: Check Markdown Links
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Markdown Link Check
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/workflows/markdown-link-check-config.json'
+        folder-path: '.'
+        max-depth: -1
+        file-path: './README.md'
+        
+    - name: Check All Framework Markdown Files
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'no'
+        use-verbose-mode: 'yes'
+        config-file: '.github/workflows/markdown-link-check-config.json'
+        folder-path: '.'
+        max-depth: -1
+        check-modified-files-only: 'no'
+
+  markdown-lint:
+    runs-on: ubuntu-latest
+    name: Lint Markdown Files
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install markdownlint-cli
+      run: npm install -g markdownlint-cli
+      
+    - name: Lint Framework Documentation
+      run: |
+        markdownlint --config .github/workflows/markdownlint-config.json \
+          --ignore node_modules \
+          --ignore .archive_devops_legacy_files \
+          '**/*.md'
+      continue-on-error: false
+
+  heading-structure-check:
+    runs-on: ubuntu-latest
+    name: Check Heading Structure
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Check Heading Structure
+      run: |
+        python3 << 'EOF'
+        import os
+        import re
+        import sys
+        
+        def check_heading_structure(file_path):
+            """Check markdown heading structure for consistency"""
+            errors = []
+            
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    
+                # Extract headings
+                headings = re.findall(r'^(#{1,6})\s+(.+)$', content, re.MULTILINE)
+                
+                prev_level = 0
+                for i, (hash_marks, title) in enumerate(headings):
+                    level = len(hash_marks)
+                    
+                    # Check for proper heading progression (no skipping levels)
+                    if prev_level > 0 and level > prev_level + 1:
+                        errors.append(f"Line {i+1}: Heading level jumps from {prev_level} to {level}")
+                    
+                    # Check for consistent formatting
+                    if not re.match(r'^[A-Z0-9🎯📋🚀🔄🛡️📊🎉✅📚🤖👤🔧📈📁🎯🚨⚡🏁]', title):
+                        errors.append(f"Line {i+1}: Heading should start with capital letter or emoji: '{title}'")
+                    
+                    prev_level = level
+                    
+            except Exception as e:
+                errors.append(f"Error reading file: {str(e)}")
+                
+            return errors
+        
+        # Check all markdown files
+        total_errors = 0
+        for root, dirs, files in os.walk('.'):
+            # Skip archive directories
+            dirs[:] = [d for d in dirs if not d.startswith('.archive')]
+            
+            for file in files:
+                if file.endswith('.md'):
+                    file_path = os.path.join(root, file)
+                    errors = check_heading_structure(file_path)
+                    
+                    if errors:
+                        print(f"\n❌ {file_path}:")
+                        for error in errors:
+                            print(f"  - {error}")
+                        total_errors += len(errors)
+        
+        if total_errors > 0:
+            print(f"\n💥 Found {total_errors} heading structure issues")
+            sys.exit(1)
+        else:
+            print("✅ All markdown files have proper heading structure")
+        EOF
+
+  framework-compliance-check:
+    runs-on: ubuntu-latest
+    name: Check Framework Compliance
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Check Framework Structure Compliance
+      run: |
+        python3 << 'EOF'
+        import os
+        import sys
+        
+        def check_framework_structure():
+            """Check that framework structure matches documentation"""
+            errors = []
+            
+            # Required root files
+            required_root_files = [
+                'README.md', 'product.md', 'requirements.md', 'design.md', 
+                'tasks.md', 'deployment.md', 'CLAUDE.md', '.gitignore'
+            ]
+            
+            for file in required_root_files:
+                if not os.path.exists(file):
+                    errors.append(f"Missing required root file: {file}")
+            
+            # Required directories
+            required_dirs = [
+                'docs/', 'docs/adr/', 'docs/ears/', 'docs/bdd/', 
+                'docs/prd/', 'docs/specs/', 'docs/validation/',
+                'init/', 'development/', 'deployment/', 'operations/', 
+                'agents/', '.ai_context/'
+            ]
+            
+            for dir_path in required_dirs:
+                if not os.path.exists(dir_path):
+                    errors.append(f"Missing required directory: {dir_path}")
+                elif not os.path.isdir(dir_path):
+                    errors.append(f"Path exists but is not a directory: {dir_path}")
+            
+            # Check for README files in major directories
+            readme_dirs = ['docs/', 'init/', 'development/', 'deployment/', 'operations/', 'agents/']
+            for dir_path in readme_dirs:
+                readme_path = os.path.join(dir_path, 'README.md')
+                if os.path.exists(dir_path) and not os.path.exists(readme_path):
+                    errors.append(f"Missing README.md in directory: {dir_path}")
+            
+            return errors
+        
+        errors = check_framework_structure()
+        
+        if errors:
+            print("❌ Framework structure compliance issues:")
+            for error in errors:
+                print(f"  - {error}")
+            sys.exit(1)
+        else:
+            print("✅ Framework structure is compliant with v3.7 specifications")
+        EOF

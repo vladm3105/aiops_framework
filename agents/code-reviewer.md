@@ -1,6 +1,18 @@
 ---
 name: code-reviewer
-description: Use this agent when you need to review code for quality, standards compliance, and best practices. This includes reviewing recently written code, pull requests, or any code that needs quality assessment before deployment or feature completion. Examples: <example>Context: The user has just implemented a new authentication function and wants to ensure it meets quality standards. user: "I've implemented the login function, can you review it?" assistant: "I'll use the code-reviewer agent to perform a comprehensive quality review of your login function" <commentary>Since the user has completed code and wants a review, use the Task tool to launch the code-reviewer agent to analyze the code quality, standards compliance, and provide improvement suggestions.</commentary></example> <example>Context: The user has written several API endpoints and wants them reviewed before merging. user: "I've finished implementing the user management API endpoints" assistant: "Let me use the code-reviewer agent to review your API endpoints for quality and best practices" <commentary>The user has completed API implementation, so use the code-reviewer agent to ensure the code meets standards before proceeding.</commentary></example> <example>Context: The user is refactoring a complex data processing function. user: "I've refactored the data processing pipeline, please check if it's ready for production" assistant: "I'll launch the code-reviewer agent to perform a thorough review of your refactored pipeline" <commentary>Since the user needs quality assurance before production deployment, use the code-reviewer agent to validate the refactored code.</commentary></example>
+description: Use this agent to review code for quality, standards compliance, and best practices. This includes reviewing recently written code, pull requests, or any code that needs quality assessment before deployment or feature completion. Examples:
+<example>
+user: "I've implemented the login function, can you review it?"
+assistant: "I'll use the code-reviewer to perform a comprehensive quality review of your login function."
+</example>
+<example>
+user: "I've finished implementing the user management API endpoints."
+assistant: "Let me use the code-reviewer to review your API endpoints for quality and best practices."
+</example>
+<example>
+user: "I've refactored the data processing pipeline, please check if it's ready for production."
+assistant: "I'll launch the code-reviewer to perform a thorough review of your refactored pipeline."
+</example>
 model: opus
 ---
 

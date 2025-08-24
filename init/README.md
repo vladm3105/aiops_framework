@@ -24,7 +24,7 @@ The Init Framework provides **complete project initialization and pre-work found
 ## 🚀 **Quick Start Guide**
 
 ### **For New Projects**
-1. **Start Here**: [AI Assistant Init Startup Guide](AI_ASSISTANT_STARTUP_INIT.md)
+1. **Start Here**: [AI Assistant Init Startup Guide](AI_ASSISTANT_STARTUP.md)
 2. **Follow**: Complete Phase -1 pre-work requirements (MANDATORY)
 3. **Execute**: Framework initialization with human approval
 4. **Transition**: Seamless handoff to Development Framework
@@ -61,7 +61,7 @@ The Init Framework provides **complete project initialization and pre-work found
 
 ### **Core Framework Files**
 - **[init_framework_v3.7.md](init_framework_v3.7.md)**: Complete init methodology and implementation guide
-- **[AI_ASSISTANT_STARTUP_INIT.md](AI_ASSISTANT_STARTUP_INIT.md)**: AI assistant startup guide for init execution
+- **[AI_ASSISTANT_STARTUP.md](AI_ASSISTANT_STARTUP.md)**: AI assistant startup guide for init execution
 - **[ai_system_prompt_v3.7.md](ai_system_prompt_v3.7.md)**: AI assistant system prompt for init framework
 - **[ai_assistant_tasks_init.md](ai_assistant_tasks_init.md)**: Complete task automation for init phases
 
@@ -139,7 +139,7 @@ Upon successful completion, the Init Framework provides:
 ```bash
 🚀 Init Framework Complete - Ready for Development Framework
 
-Continue with: development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md
+Continue with: development/AI_ASSISTANT_STARTUP.md
 Prerequisites: All Init Framework phases completed with human approval
 ```
 

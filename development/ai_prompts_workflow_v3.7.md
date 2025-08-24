@@ -77,7 +77,7 @@
 ### **0.1 Framework Structure Setup** 🤖 AI AUTONOMOUS
 ```bash
 # Complete framework structure implementation
-"general-purpose: Execute migration plan or create complete Framework v3.7 structure including all required files and directories (product.md, requirements.md, design.md, docs/ears/, docs/bdd/, docs/adr/, .ai_context/, deployment/), then validate compliance against development_framework_v3.7.md"
+"general-purpose: Execute migration plan or create complete Framework v3.7 structure including all required files and directories (product.md.template, requirements.md.template, design.md.template, docs/ears/, docs/bdd/, docs/adr/, .ai_context/, deployment/), then validate compliance against development_framework_v3.7.md"
 ```
 
 ### **0.2 Project-Specific Instructions Review (Optional)** 🤖 AI AUTONOMOUS
@@ -178,7 +178,7 @@ Framework v3.7 operates as an **AI-first AI operational framework with human sup
 ### **1.1 Business Vision & Product Definition** 👤 HUMAN SUPERVISION REQUIRED
 ```bash
 # Create comprehensive product vision and PRD
-"api-design-architect + project-manager: Create product.md and PRD using prd_template_v3.7.md including business vision, stakeholder needs, success criteria, and framework compliance specifications for human review and approval"
+"api-design-architect + project-manager: Create product.md.template and PRD using prd_template_v3.7.md including business vision, stakeholder needs, success criteria, and framework compliance specifications for human review and approval"
 ```
 
 ### **1.2 EARS Requirements Development** 🤖 AI AUTONOMOUS
@@ -234,7 +234,7 @@ Framework v3.7 operates as an **AI-first AI operational framework with human sup
 ### **3.2 Technical Design Specification**
 ```bash
 # Create comprehensive technical design
-"gcp-ai-architect: Create design.md with comprehensive technical architecture including system components, data flow, integration patterns, security architecture, and ADR references following framework v3.7 design specifications"
+"gcp-ai-architect: Create design.md.template with comprehensive technical architecture including system components, data flow, integration patterns, security architecture, and ADR references following framework v3.7 design specifications"
 
 # Validate ADR decisions against requirements
 "project-manager: Validate ADR decisions ensure alignment with EARS requirements, BDD scenarios, and framework v3.7 compliance with complete architectural traceability"
@@ -277,7 +277,7 @@ Framework v3.7 operates as an **AI-first AI operational framework with human sup
 ### **4.4 Integration Implementation**
 ```bash
 # Implement external system integration
-"coder-agent + api-design-architect: Implement external system integration following EARS requirements REQ-INT-XXX with proper error handling, retry logic, and integration patterns from design.md"
+"coder-agent + api-design-architect: Implement external system integration following EARS requirements REQ-INT-XXX with proper error handling, retry logic, and integration patterns from design.md.template"
 
 # Validate integration scenarios
 "test-engineer: Execute integration BDD scenarios validating external system integration, API behavior, data exchange, and error handling according to docs/bdd/integration_scenarios.md"
@@ -373,7 +373,7 @@ Framework v3.7 operates as an **AI-first AI operational framework with human sup
 ### **7.2 Production Deployment Execution**
 ```bash
 # Execute AI-first production deployment
-"cloud-devops-expert: Execute AI-first production deployment following deployment.md strategy using deployment automation from deployment/scripts/ with comprehensive monitoring and validation"
+"cloud-devops-expert: Execute AI-first production deployment following deployment.md.template strategy using deployment automation from deployment/scripts/ with comprehensive monitoring and validation"
 
 # Validate production deployment
 "cloud-devops-expert + test-engineer: Validate production deployment by executing deployment BDD scenarios, health checks, monitoring validation, and system functionality verification"
