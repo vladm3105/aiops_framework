@@ -80,7 +80,7 @@ Update .ai_context/framework_progress.md with deployment readiness assessment"
 # Verify deployment prerequisites
 "cloud-devops-expert: Verify deployment prerequisites including:
 - Complete technical specifications (SPECS-NNNN files)
-- Infrastructure architecture (ADRs and templates/framework/design.md.template)
+- Infrastructure architecture (ADRs and templates/framework/design.md)
 - Security requirements and implementation
 - Performance requirements and validation
 - Integration specifications and testing

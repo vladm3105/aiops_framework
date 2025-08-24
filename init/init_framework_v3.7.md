@@ -1,4 +1,5 @@
 # Init Framework v3.7 - Project Initialization and Pre-Work
+
 ## Complete Project Setup: Pre-Work through Framework Initialization
 
 **Version:** 3.7 - Project Initialization Edition  
@@ -28,6 +29,7 @@ The Init Framework v3.7 provides comprehensive project initialization capabiliti
 The init framework includes ready-to-use templates for immediate project setup:
 
 **Project Initialization:**
+
 - [Project structure template](../templates/init/project-structure.template) - Complete directory layout
 - [Setup automation script](../templates/init/setup-script.sh) - Automated project initialization
 - Environment configuration templates with cloud provider support
@@ -43,13 +45,14 @@ chmod +x templates/init/setup-script.sh
 # - Git repository with comprehensive .gitignore  
 # - Environment configuration files
 # - AI context system initialization
-# - CLAUDE.md for Claude Code integration
+# - AI assistant configuration file for integration
 ```
 
 ### **Init Framework Integration**
 
 **Complete Workflow Integration:**
-```
+
+```plaintext
 Init Framework (Phases -1 to 0) → Development Framework (Phases 1-6) → 
 Deployment Framework (Phase 7) → Operations Framework (Phase 8)
 ```
@@ -61,6 +64,7 @@ This framework is designed to be executed by an AI assistant with a human develo
 ### **AI-First Init Operations**
 
 **AI AUTONOMOUS Init Operations (90%):**
+
 - Project structure analysis and gap identification
 - Framework directory creation and file initialization
 - Template application and content migration
@@ -68,6 +72,7 @@ This framework is designed to be executed by an AI assistant with a human develo
 - AI context optimization and configuration
 
 **HUMAN SUPERVISION REQUIRED for Init (10%):**
+
 - Project migration strategy decision (Option A vs B)
 - Version control approach approval and confirmation
 - Business requirements and constraints validation
@@ -85,9 +90,10 @@ This framework is designed to be executed by an AI assistant with a human develo
 
 **Purpose:** Analyze existing projects and create comprehensive migration plan for Framework v3.7 adoption.
 
-##### **Project Analysis**
+##### Project Analysis
 
 **AI Action Steps:**
+
 ```bash
 # Comprehensive project analysis
 "general-purpose: Execute complete project analysis including:
@@ -100,36 +106,40 @@ Update analysis results in .ai_context/project_analysis.md"
 ```
 
 **Analysis Checklist:**
+
 - [ ] **File Inventory**: Complete list of all project files and directories
 - [ ] **Documentation Assessment**: Existing README, documentation, specifications
 - [ ] **Code Analysis**: Programming languages, frameworks, dependencies
 - [ ] **Infrastructure Assessment**: Existing deployment and operational setup
 - [ ] **Team Analysis**: Development practices, tools, and workflows
 
-##### **Framework Compliance Gap Analysis**
+##### Framework Compliance Gap Analysis
 
 **AI Action Steps:**
+
 ```bash
 # Framework v3.7 compliance assessment
 "general-purpose: Execute Framework v3.7 compliance gap analysis including:
 1. Compare current project structure against Framework v3.7 requirements
 2. Identify missing directories: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/
-3. Identify missing root template files: templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template
+3. Identify missing root template files: templates/framework/product.md, templates/framework/requirements.md, templates/framework/design.md, templates/framework/tasks.md, templates/framework/deployment.md
 4. Assess .ai_context/ directory and optimization files
 5. Document compliance gaps and remediation requirements
 Update gap analysis in .ai_context/compliance_gaps.md"
 ```
 
 **Compliance Validation Checklist:**
-- [ ] **Root Templates**: templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template
+
+- [ ] **Root Templates**: templates/framework/product.md, templates/framework/requirements.md, templates/framework/design.md, templates/framework/tasks.md, templates/framework/deployment.md
 - [ ] **Documentation Structure**: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/
 - [ ] **Framework Directories**: .ai_context/, development/, deployment/, operations/
 - [ ] **Validation Directory**: docs/validation/ for phase completion reports
 - [ ] **AI Optimization**: .ai_context optimization files for development acceleration
 
-##### **Migration Strategy Development**
+##### Migration Strategy Development
 
 **AI Action Steps:**
+
 ```bash
 # Comprehensive migration plan creation
 "general-purpose: Create detailed migration plan including:
@@ -142,15 +152,17 @@ Document complete migration plan in .ai_context/migration_plan.md"
 ```
 
 **Migration Plan Components:**
+
 - [ ] **Preservation Strategy**: Which files to preserve and how
 - [ ] **Structure Creation**: Framework v3.7 directory and file creation plan
 - [ ] **Content Migration**: How to migrate existing content to framework format
 - [ ] **Template Application**: Framework templates and format conversion
 - [ ] **Validation Plan**: How to verify successful migration
 
-##### **Risk Assessment and Mitigation**
+##### Risk Assessment and Mitigation
 
 **AI Action Steps:**
+
 ```bash
 # Comprehensive risk assessment
 "general-purpose: Execute migration risk assessment including:
@@ -163,6 +175,7 @@ Document risk assessment in .ai_context/migration_risks.md"
 ```
 
 **Risk Categories:**
+
 - [ ] **Data Loss Risk**: File overwriting, deletion, corruption
 - [ ] **Version Control Risk**: History loss, branch conflicts, merge issues
 - [ ] **Team Impact Risk**: Workflow disruption, training requirements
@@ -173,9 +186,10 @@ Document risk assessment in .ai_context/migration_risks.md"
 
 **Purpose:** Ensure complete version control safety and obtain human approval for migration approach.
 
-##### **Version Control System Validation**
+##### Version Control System Validation
 
 **AI Action Steps:**
+
 ```bash
 # Version control system assessment
 "general-purpose: Execute version control validation including:
@@ -188,19 +202,20 @@ Update version control status in .ai_context/version_control_status.md"
 ```
 
 **Version Control Checklist:**
+
 - [ ] **System Availability**: Git or other VCS properly installed and configured
 - [ ] **Repository Status**: Clean working directory, no conflicts
 - [ ] **Remote Sync**: All changes synchronized with remote repository
 - [ ] **Branch Status**: Appropriate branch for framework migration work
 - [ ] **Backup Verification**: Remote repository accessible and up-to-date
 
-##### **MANDATORY HUMAN INTERACTION - Migration Approach Decision**
+##### MANDATORY HUMAN INTERACTION - Migration Approach Decision
 
 **🚨 CRITICAL HUMAN APPROVAL REQUIRED:**
 
 AI assistants **MUST** obtain explicit human approval before proceeding with any framework work. Present the following decision to the human developer:
 
-```
+```plaintext
 🚨 CRITICAL HUMAN DECISION REQUIRED
 
 "Human Developer: Before I can proceed with Framework v3.7 implementation, I need your explicit choice for the migration approach:
@@ -241,9 +256,10 @@ AI assistants **MUST** obtain explicit human approval before proceeding with any
 ⚠️ I cannot proceed with ANY framework work until you explicitly confirm your choice."
 ```
 
-##### **Choice Documentation and Validation**
+##### Choice Documentation and Validation
 
 **AI Action Steps:**
+
 ```bash
 # Document human developer choice
 "general-purpose: Document developer's migration approach choice including:
@@ -256,6 +272,7 @@ Document choice and plan in .ai_context/migration_choice.md"
 ```
 
 **Choice Validation Checklist:**
+
 - [ ] **Choice Recorded**: Option A or B clearly documented with timestamp
 - [ ] **Requirements Documented**: All additional requirements and constraints
 - [ ] **Implications Understood**: Migration approach implications confirmed
@@ -266,9 +283,10 @@ Document choice and plan in .ai_context/migration_choice.md"
 
 **Purpose:** Ensure clean working directory and committed changes before framework work begins.
 
-##### **Current State Assessment**
+##### Current State Assessment
 
 **AI Action Steps:**
+
 ```bash
 # Comprehensive git status assessment
 "general-purpose: Execute comprehensive git status including:
@@ -281,15 +299,17 @@ Update repository state in .ai_context/repository_state.md"
 ```
 
 **Repository State Checklist:**
+
 - [ ] **Working Directory**: Clean with no uncommitted changes
 - [ ] **Staging Area**: Empty with no staged files
 - [ ] **Untracked Files**: All files either tracked or intentionally ignored
 - [ ] **Branch Status**: Up-to-date with remote tracking branch
 - [ ] **Merge Status**: No pending merges, rebases, or other operations
 
-##### **Change Submission and Validation**
+##### Change Submission and Validation
 
 **AI Action Steps:**
+
 ```bash
 # Commit all existing changes
 "general-purpose: If uncommitted changes exist, execute change submission:
@@ -302,6 +322,7 @@ Document submission results in .ai_context/change_submission.md"
 ```
 
 **Change Submission Checklist:**
+
 - [ ] **Changes Committed**: All modifications committed with descriptive messages
 - [ ] **Remote Sync**: Changes pushed to remote repository if applicable
 - [ ] **Clean Directory**: Working directory clean and ready for framework work
@@ -312,9 +333,10 @@ Document submission results in .ai_context/change_submission.md"
 
 **Purpose:** Validate all mandatory pre-work requirements completed before proceeding to Phase 0.
 
-##### **Comprehensive Pre-Work Validation**
+##### Comprehensive Pre-Work Validation
 
 **AI Action Steps:**
+
 ```bash
 # Complete pre-work validation
 "project-manager: Execute comprehensive pre-work validation including:
@@ -327,6 +349,7 @@ Create validation report in docs/validation/pre_work_validation_report.md"
 ```
 
 **Pre-Work Validation Checklist:**
+
 - [ ] **✅ Migration Assessment Complete**: Project analysis, gap analysis, migration plan, risk assessment
 - [ ] **✅ Human Choice Documented**: Migration approach approved, requirements confirmed
 - [ ] **✅ Changes Committed**: Clean working directory, all changes in version control
@@ -348,6 +371,7 @@ Create validation report in docs/validation/pre_work_validation_report.md"
 **Execute Migration Plan Implementation**
 
 **AI Action Steps:**
+
 ```bash
 # Execute chosen migration approach
 "general-purpose: Based on human-approved migration approach:
@@ -372,21 +396,23 @@ Document implementation results in .ai_context/structure_implementation.md"
 **Framework Structure Requirements:**
 
 **Root Level Files:**
-```
+
+```plaintext
 .
 ├── templates/                   # Framework templates directory
 │   └── framework/               # Framework project templates
-│       ├── templates/framework/product.md.template                    # Business vision and product definition
-│       ├── templates/framework/requirements.md.template              # Master requirements document
-│       ├── templates/framework/design.md.template                    # System architecture and design
-│       ├── templates/framework/tasks.md.template                     # Project tasks and implementation plan
-│       └── templates/framework/deployment.md.template                # Deployment strategy and procedures
+│       ├── templates/framework/product.md                    # Business vision and product definition
+│       ├── templates/framework/requirements.md              # Master requirements document
+│       ├── templates/framework/design.md                    # System architecture and design
+│       ├── templates/framework/tasks.md                     # Project tasks and implementation plan
+│       └── templates/framework/deployment.md                # Deployment strategy and procedures
 ├── .gitignore                   # Version control ignore patterns
 └── README.md                    # Project overview and quick start
 ```
 
 **Framework Directories:**
-```
+
+```plaintext
 ├── .ai_context/                 # AI optimization and context files
 │   ├── framework_progress.md    # Master state file (single source of truth)
 │   ├── current_context.md       # Active working context
@@ -409,9 +435,10 @@ Document implementation results in .ai_context/structure_implementation.md"
 └── operations/                  # Operations framework (Phase 8)
 ```
 
-##### **Structure Validation and Compliance**
+##### Structure Validation and Compliance
 
 **AI Action Steps:**
+
 ```bash
 # Comprehensive structure validation
 "general-purpose: Execute Framework v3.7 structure validation including:
@@ -426,6 +453,7 @@ Generate structure validation report in docs/validation/structure_validation_rep
 #### **0.2 Project-Specific Instructions Integration**
 
 **AI Action Steps:**
+
 ```bash
 # Project instructions integration
 "general-purpose: Integrate project-specific guidance including:
@@ -442,6 +470,7 @@ Update integration status in .ai_context/project_instructions.md"
 **AI Context Files Creation and Configuration**
 
 **AI Action Steps:**
+
 ```bash
 # Create comprehensive AI context optimization
 "general-purpose: Create and configure AI context optimization including:
@@ -458,6 +487,7 @@ Validate AI context optimization for <5 second context loading target."
 ```
 
 **AI Context Optimization Validation:**
+
 - [ ] **Context Loading Speed**: Target <5 seconds for complete context loading
 - [ ] **Content Relevance**: Project-specific content and domain knowledge
 - [ ] **Framework Integration**: Complete integration with Framework v3.7 methodology
@@ -469,6 +499,7 @@ Validate AI context optimization for <5 second context loading target."
 **Development Environment Optimization**
 
 **AI Action Steps:**
+
 ```bash
 # IDE and development environment setup
 "general-purpose: Configure development environment for Framework v3.7 including:
@@ -491,6 +522,7 @@ Document environment setup in .ai_context/development_environment.md"
 #### **0.5 Security-by-Design Foundation**
 
 **AI Action Steps:**
+
 ```bash
 # Security foundation establishment
 "gcp-ai-architect: Work with security-auditor to establish security-by-design foundation:
@@ -508,6 +540,7 @@ Document security foundation in docs/ears/security_requirements.md and .ai_conte
 **Complete Framework Setup Validation**
 
 **AI Action Steps:**
+
 ```bash
 # Comprehensive framework integration validation
 "project-manager: Execute complete framework integration validation including:
@@ -522,6 +555,7 @@ Update .ai_context/framework_progress.md with Phase 0 completion and Development
 ```
 
 **Phase 0 Completion Checklist:**
+
 - [ ] **Framework Structure**: 100% compliant with v3.7 specification
 - [ ] **AI Context Optimization**: Configured and performance validated (<5s loading)
 - [ ] **Development Environment**: Configured for framework methodology
@@ -539,6 +573,7 @@ Update .ai_context/framework_progress.md with Phase 0 completion and Development
 #### **Init Framework Completion Validation**
 
 **AI Action Steps:**
+
 ```bash
 # Complete init framework validation
 "project-manager: Execute comprehensive init framework completion including:
@@ -560,9 +595,10 @@ Create init framework handoff package for development framework including:
 
 **AI Assistant Action Steps:**
 
-1.  **Prepare for the development framework:** Update the `.ai_context/framework_progress.md` file with the init completion and development readiness. Prepare the development framework context with project-specific information. Validate the development framework prerequisites and requirements. Create the development framework transition documentation. Prepare the handoff to the `development/AI_ASSISTANT_STARTUP.md` file.
+1. **Prepare for the development framework:** Update the `.ai_context/framework_progress.md` file with the init completion and development readiness. Prepare the development framework context with project-specific information. Validate the development framework prerequisites and requirements. Create the development framework transition documentation. Prepare the handoff to the `development/AI_ASSISTANT_STARTUP.md` file.
 
 **Init Framework Output for Development:**
+
 - ✅ **Complete Framework v3.7 Structure** with full compliance and validation
 - ✅ **AI Context Optimization** configured for <5 second loading and maximum efficiency
 - ✅ **Project Integration** with existing constraints and requirements
@@ -571,7 +607,8 @@ Create init framework handoff package for development framework including:
 - ✅ **Version Control Safety** with backup procedures and clean working directory
 
 **Next Steps:**
-```
+
+```plaintext
 🚀 Init Framework Complete - Ready for Development Framework
 
 Continue with: development/AI_ASSISTANT_STARTUP.md
@@ -585,18 +622,21 @@ This guide will handle Phase 1 (Requirements Analysis & Specification) through P
 ### **Target Performance Indicators**
 
 **Project Initialization Excellence:**
+
 - 100% Framework v3.7 structure compliance achieved
 - <5 second AI context loading time for development acceleration
 - 100% pre-work requirement completion with human approval
 - Zero data loss with complete version control safety
 
 **Migration and Integration Excellence:**
+
 - 100% existing project content preserved and integrated
 - Framework compliance achieved without losing project-specific value
 - Security-by-design foundation established for entire lifecycle
 - Development environment optimized for framework methodology
 
 **Quality and Safety Excellence:**
+
 - Complete validation reports for all initialization phases
 - Risk mitigation strategies implemented for all identified risks
 - Human approval and oversight for all critical decisions
@@ -609,12 +649,14 @@ This guide will handle Phase 1 (Requirements Analysis & Specification) through P
 ### **Essential Checkpoints for Init Success**
 
 **Pre-Work Validation Complete:**
+
 - [ ] Project migration assessment completed with comprehensive analysis
 - [ ] Human developer migration choice approved and documented
 - [ ] Version control preparation completed with clean working directory
 - [ ] All mandatory pre-work requirements validated and approved
 
 **Framework Initialization Complete:**
+
 - [ ] Framework v3.7 structure created and 100% compliant
 - [ ] AI context optimization configured and performance validated
 - [ ] Development environment setup and optimized for framework
@@ -622,6 +664,7 @@ This guide will handle Phase 1 (Requirements Analysis & Specification) through P
 - [ ] Project integration completed with all constraints and requirements
 
 **Development Framework Readiness:**
+
 - [ ] Init framework handoff package created and complete
 - [ ] Development framework prerequisites validated and ready
 - [ ] .ai_context state management operational for development phases

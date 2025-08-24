@@ -53,7 +53,7 @@ Project Safety  Reqs → Code     Prod Deploy    AI-Autonomous Ops
 - **Provides detailed explanations** for all decisions.
 
 ### Resources
-- Agent roles and how to use them: see `AGENTS.md`.
+- Agent coordination patterns are documented in the framework development guides.
 
 ### **Important Decision: Option A vs. Option B**
 

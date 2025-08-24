@@ -3,7 +3,7 @@
 
 **Purpose**: Detailed technical specifications for framework implementation  
 **Format**: SPECS-NNNN format with comprehensive technical implementation details  
-**Integration**: Links to [`../templates/framework/design.md.template`](../../templates/framework/design.md.template) for overall system architecture  
+**Integration**: Links to [`../templates/framework/design.md`](../../templates/framework/design.md) for overall system architecture  
 
 ---
 
@@ -87,7 +87,7 @@ Technical Specifications (SPECS) provide detailed technical implementation guida
 ### **Security Specifications**
 
 #### **SPECS-020: Security-by-Design Implementation**
-**File**: [specs-020-security-by-templates/framework/design.md.template](specs-020-security-by-templates/framework/design.md.template)
+**File**: [specs-020-security-by-templates/framework/design.md](specs-020-security-by-templates/framework/design.md)
 - **Status**: Approved
 - **Owner**: Security Architect
 - **Purpose**: Comprehensive security integration throughout framework

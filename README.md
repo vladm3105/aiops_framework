@@ -27,6 +27,7 @@ The AI Agent Development Framework v3.7 provides a complete **AI-first methodolo
 - **Operations**: AI-autonomous operations with predictive monitoring and optimization
 
 ### **Core Principles**
+
 1. **AI-First Methodology**: AI assistants drive execution, humans provide supervision
 2. **Security-by-Design**: Integrated security throughout the complete lifecycle
 3. **Complete Lifecycle Coverage**: Init → Development → Deployment → Operations workflow
@@ -119,7 +120,7 @@ graph TD
 
 ## 📁 **Directory Structure**
 
-```
+```plaintext
 📁 .aiops_v3.7/
 ├── 📁 agents/                  # Specialized AI agents
 │   ├── README.md              # Agent coordination guide
@@ -168,12 +169,14 @@ graph TD
 The framework provides comprehensive implementation templates for immediate deployment:
 
 **Quick Start Templates:**
+
 - [Project initialization script](templates/init/setup-script.sh) - Creates complete project structure
 - [GitHub Actions workflows](templates/workflows/github-actions/) - AI-powered CI/CD pipelines
 - [Terraform infrastructure](templates/infrastructure/terraform/gcp/) - Production-ready GCP deployment
 - [AI agent scripts](templates/ai-agents/) - Intelligent automation and analysis
 
 **Development Templates:**
+
 - [EARS requirements](templates/development/ears-template.md) - Structured requirements format
 - [BDD scenarios](templates/development/bdd-scenario-template.md) - Behavior-driven development
 - [Architecture decisions](templates/development/adr-template.md) - Decision documentation
@@ -185,18 +188,21 @@ See the [Templates Documentation](templates/README.md) and [Getting Started Guid
 ## Framework Benefits
 
 ### Development Phase
+
 - **10x Development Velocity**: AI-accelerated coding with framework compliance
 - **95% Test Coverage**: AI-generated comprehensive test suites
 - **Security-by-Design**: Integrated security throughout development
 - **Complete Documentation**: ADRs, PRDs, and technical specifications
 
 ### Deployment Phase
+
 - **99.9% Deployment Reliability**: Zero-downtime production deployments
 - **10x Deployment Speed**: AI-autonomous infrastructure provisioning
 - **Comprehensive Security**: Automated security scanning and compliance
 - **Intelligent Strategies**: Blue-green, canary, and rolling deployments
 
 ### Operations Phase
+
 - **99.9% System Availability**: AI-autonomous monitoring and optimization
 - **Sub-2-minute MTTR**: AI-powered incident detection and resolution
 - **10x Operational Efficiency**: AI-autonomous operations with human oversight
@@ -208,35 +214,36 @@ See the [Templates Documentation](templates/README.md) and [Getting Started Guid
 
 This framework is designed to be executed by an AI assistant with a human developer providing supervision and approval. The AI assistant is responsible for the following:
 
-*   **Code generation and implementation**
-*   **Infrastructure provisioning and configuration**
-*   **Monitoring and incident response**
-*   **Performance optimization and scaling**
-*   **Security scanning and compliance validation**
-*   **Testing automation and quality assurance**
+- **Code generation and implementation**
+- **Infrastructure provisioning and configuration**
+- **Monitoring and incident response**
+- **Performance optimization and scaling**
+- **Security scanning and compliance validation**
+- **Testing automation and quality assurance**
 
 The human developer is responsible for the following:
 
-*   **Providing the initial PRD and architecture**
-*   **Confirming the completion of each phase**
-*   **Making strategic architecture decisions**
-*   **Assessing business impact**
-*   **Approving policy and compliance changes**
-*   **Authorizing production deployments**
-*   **Handling critical incident escalations**
-*   **Evolving the framework and methodology**
+- **Providing the initial PRD and architecture**
+- **Confirming the completion of each phase**
+- **Making strategic architecture decisions**
+- **Assessing business impact**
+- **Approving policy and compliance changes**
+- **Authorizing production deployments**
+- **Handling critical incident escalations**
+- **Evolving the framework and methodology**
 
 ---
 
 ## Contributor Guidelines
 
-- Agent roles and contributor practices: see `AGENTS.md` for project-specific guidance, naming conventions, and review expectations.
+- Agent coordination patterns and specialized agent capabilities are documented throughout the framework guides.
 
 ---
 
 ## 🛡️ **Security & Compliance**
 
 ### **Security-by-Design Integration**
+
 - **Threat Modeling**: Integrated throughout development lifecycle
 - **Security Scanning**: SAST, DAST, and dependency analysis
 - **Compliance Automation**: Regulatory, SOC 2, ISO 27001 validation
@@ -244,6 +251,7 @@ The human developer is responsible for the following:
 - **Incident Response**: Automated security incident detection and response
 
 ### **Regulatory Compliance**
+
 - **Government Standards**: FedRAMP, FISMA compliance ready
 - **Regulatory Compliance**: Industry-specific document processing and validation
 - **Audit Trails**: Comprehensive audit logging and compliance reporting
@@ -255,6 +263,7 @@ The human developer is responsible for the following:
 ## 📊 **Success Metrics**
 
 ### **Framework Effectiveness Targets**
+
 - **Development Velocity**: 10x improvement over traditional development
 - **Deployment Reliability**: >99.9% success rate with zero-downtime
 - **System Availability**: >99.9% uptime with AI-autonomous operations
@@ -263,6 +272,7 @@ The human developer is responsible for the following:
 - **Cost Optimization**: 20-50% cost reduction through AI optimization
 
 ### **Quality Assurance Standards**
+
 - **Test Coverage**: 95% unit, 85% integration, 75% end-to-end testing
 - **Security Validation**: 100% critical vulnerability remediation
 - **Performance Standards**: <2s response time, >1000 RPS throughput
@@ -274,31 +284,41 @@ The human developer is responsible for the following:
 ## 🚀 **Getting Started (Choose Your Path)**
 
 ### 📝 **I Want to Start a New Project**
+
 **→ [GET STARTED in 5 minutes](GET_STARTED.md#new-project-5-minute-setup)**
+
 - Complete setup with AI guidance
 - Framework structure creation
 - Ready for development in minutes
 
 ### 🔄 **I Have an Existing Project**
+
 **→ [Integrate Framework](GET_STARTED.md#existing-project-integration)**
+
 - Safe integration options (modify OR copy)
 - Existing code protection
 - Enhanced with AI development
 
 ### 🚀 **I Want to Deploy Existing Code**
+
 **→ [Deploy in 15 minutes](GET_STARTED.md#deployment-only)**
+
 - Zero-downtime deployment strategies
 - Infrastructure-as-Code setup
 - Production monitoring included
 
 ### 🤖 **I Want AI-Autonomous Operations**
+
 **→ [Operations Setup](GET_STARTED.md#operations-setup)**
+
 - Predictive monitoring
 - Self-healing systems
 - Cost optimization
 
 ### ❓ **I Want to Learn More**
+
 **→ [Framework Overview](GET_STARTED.md#framework-overview)**
+
 - Understand the methodology  
 - See proven results
 - Review agent capabilities
@@ -314,12 +334,15 @@ For a detailed explanation of the session management protocols, please see the [
 ## 📚 **Additional Resources**
 
 ### **Support and Documentation**
+
 - **Agent Coordination**: [Agents Directory](agents/) - Specialized AI agents
 - **Style Guide**: [STYLE_GUIDE.md](STYLE_GUIDE.md) - The style guide for the framework documentation.
 - **Glossary**: [GLOSSARY.md](GLOSSARY.md) - A glossary of key terms and concepts.
 
 ### **Framework Evolution**
+
 This framework evolves continuously based on:
+
 - **Operational Feedback**: Real-world implementation lessons
 - **AI Technology Advances**: Integration of new AI capabilities  
 - **Industry Best Practices**: Adoption of emerging methodologies

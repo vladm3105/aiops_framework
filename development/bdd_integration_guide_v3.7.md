@@ -60,7 +60,7 @@ The framework provides ready-to-use BDD templates for immediate implementation:
 
 This is the fundamental pattern that connects business requirements to technical code through behavioral scenarios.
 
-#### EARS Requirement (templates/framework/requirements.md.template)
+#### EARS Requirement (templates/framework/requirements.md)
 
 ```markdown
 REQ-001: WHEN a user requests fire danger analysis for a location 
@@ -114,7 +114,7 @@ class FireRiskAgent:
 
 This pattern validates complex multi-agent interactions through behavioral scenarios.
 
-#### Design Specification (templates/framework/design.md.template)
+#### Design Specification (templates/framework/design.md)
 
 ```markdown
 ## Parallel Execution Pattern
@@ -558,7 +558,7 @@ And overall system performance should be maintained
 
 ↓ Drives Technical Design
 
-templates/framework/design.md.template: Auto-scaling Architecture
+templates/framework/design.md: Auto-scaling Architecture
 - Container orchestration platform selection
 - Load monitoring and scaling triggers
 - Infrastructure scaling patterns
@@ -566,7 +566,7 @@ templates/framework/design.md.template: Auto-scaling Architecture
 ↓ Validates ADR Decision
 
 ADR-0015: Container Orchestration with Kubernetes HPA
-- Based on templates/framework/design.md.template architecture specifications
+- Based on templates/framework/design.md architecture specifications
 - Architectural choice for container scaling implementation
 
 ↓ Creates Technical Specifications

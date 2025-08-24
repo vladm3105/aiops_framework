@@ -147,7 +147,7 @@
 ### **Complete Development Lifecycle**
 
 ```
-📊 Business Vision (templates/framework/product.md.template + PRD) → 📋 EARS Requirements (templates/framework/requirements.md.template + docs/ears/) → 
+📊 Business Vision (templates/framework/product.md + PRD) → 📋 EARS Requirements (templates/framework/requirements.md + docs/ears/) → 
 🧪 BDD Scenarios (docs/bdd/) → 🏛️ ADR Decisions (docs/adr/) → 
 🤖 AI-Optimized Implementation (.ai_context/ + AI assistants) → 
 🚀 AI-First Deployment (deployment/) → ✅ Production Validation

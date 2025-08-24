@@ -21,7 +21,7 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 
 ### **Framework Components Integration**
 ```
-📊 Business Vision (templates/framework/product.md.template) → 📋 EARS Requirements (templates/framework/requirements.md.template) → 
+📊 Business Vision (templates/framework/product.md) → 📋 EARS Requirements (templates/framework/requirements.md) → 
 🧪 BDD Scenarios (docs/bdd/) → 🏛️ ADR Decisions (docs/adr/) → 
 🤖 AI-Optimized Implementation (.ai_context/) → 🚀 AI-First Deployment (deployment/) → 
 ✅ Production Validation
@@ -34,15 +34,15 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 ### **0.1 Framework Structure Validation**
 ```bash
 # Validate complete framework structure before any development
-"general-purpose: Validate framework v3.7 structure exists with all required files: templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template, and directories: docs/ears/, docs/bdd/, docs/adr/, .ai_context/, deployment/"
+"general-purpose: Validate framework v3.7 structure exists with all required files: templates/framework/product.md, templates/framework/requirements.md, templates/framework/design.md, templates/framework/tasks.md, templates/framework/deployment.md, and directories: docs/ears/, docs/bdd/, docs/adr/, .ai_context/, deployment/"
 ```
 
 **Required Framework Files (100% Compliance):**
-- [ ] templates/framework/product.md.template (system vision and capabilities)
-- [ ] templates/framework/requirements.md.template (EARS technical requirements)
-- [ ] templates/framework/design.md.template (technical architecture with ADR references)
-- [ ] templates/framework/tasks.md.template (implementation roadmap with validation)
-- [ ] templates/framework/deployment.md.template (AI-first deployment strategy)
+- [ ] templates/framework/product.md (system vision and capabilities)
+- [ ] templates/framework/requirements.md (EARS technical requirements)
+- [ ] templates/framework/design.md (technical architecture with ADR references)
+- [ ] templates/framework/tasks.md (implementation roadmap with validation)
+- [ ] templates/framework/deployment.md (AI-first deployment strategy)
 - [ ] .ai_context/current_context.md (AI optimization)
 - [ ] .ai_context/team_patterns.md (coding standards)
 - [ ] .ai_context/domain_context.md (domain knowledge)
@@ -51,7 +51,7 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 ### **0.2 Requirements Traceability Setup**
 ```bash
 # Establish complete requirements traceability before development
-"api-design-architect + security-auditor: Analyze templates/framework/requirements.md.template and create traceability matrix mapping business requirements to EARS format, BDD scenarios, and security controls"
+"api-design-architect + security-auditor: Analyze templates/framework/requirements.md and create traceability matrix mapping business requirements to EARS format, BDD scenarios, and security controls"
 ```
 
 **Traceability Requirements:**
@@ -93,12 +93,12 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 ### **1.1 EARS Requirements Implementation**
 ```bash
 # Implement specific EARS requirements with full traceability
-"coder-agent: Implement REQ-[DOMAIN]-[NUMBER] following EARS format specification from templates/framework/requirements.md.template, ensuring BDD scenario validation and security controls from threat model"
+"coder-agent: Implement REQ-[DOMAIN]-[NUMBER] following EARS format specification from templates/framework/requirements.md, ensuring BDD scenario validation and security controls from threat model"
 ```
 
 **EARS Implementation Pattern:**
 - **WHEN** [trigger condition] identified and coded
-- **THE** [system/component] implemented according to templates/framework/design.md.template
+- **THE** [system/component] implemented according to templates/framework/design.md
 - **SHALL** [required behavior] validated through BDD scenarios
 - **WITHIN/WITH** [constraint] verified through testing
 
@@ -177,12 +177,12 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 ### **3.1 Deployment Context Integration**
 ```bash
 # Integrate development work with AI-first deployment strategy
-"cloud-devops-expert: Update deployment context in .ai_context/deployment_context.md with infrastructure requirements for [functionality], ensuring alignment with templates/framework/deployment.md.template strategy and framework automation"
+"cloud-devops-expert: Update deployment context in .ai_context/deployment_context.md with infrastructure requirements for [functionality], ensuring alignment with templates/framework/deployment.md strategy and framework automation"
 ```
 
 **Deployment Framework Integration:**
 - [ ] Infrastructure requirements documented
-- [ ] Deployment strategy updated in templates/framework/deployment.md.template
+- [ ] Deployment strategy updated in templates/framework/deployment.md
 - [ ] AI deployment context reflects changes
 - [ ] Security controls integrated with deployment
 - [ ] Monitoring requirements specified
@@ -264,7 +264,7 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 ### **5.1 Framework Structure Compliance**
 ```bash
 # Validate complete framework compliance
-"project-manager: Validate framework v3.7 compliance including complete traceability from templates/framework/product.md.template through EARS requirements to BDD scenarios, ADR decisions, and deployment automation"
+"project-manager: Validate framework v3.7 compliance including complete traceability from templates/framework/product.md through EARS requirements to BDD scenarios, ADR decisions, and deployment automation"
 ```
 
 **Framework Compliance Checklist:**
@@ -421,7 +421,7 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 ### **Framework-Integrated Deployment Execution**
 ```bash
 # Execute deployment using framework v3.7 AI-first strategy
-"cloud-devops-expert: Execute AI-first deployment following templates/framework/deployment.md.template strategy, using deployment context from .ai_context/, with comprehensive validation and monitoring"
+"cloud-devops-expert: Execute AI-first deployment following templates/framework/deployment.md strategy, using deployment context from .ai_context/, with comprehensive validation and monitoring"
 ```
 
 **Framework Deployment Process:**
@@ -458,7 +458,7 @@ This template is fully integrated with the **AI Agent Development Framework v3.7
 ### **Framework Integration Commands**
 ```bash
 # Complete Framework Traceability
-"project-manager: Validate complete traceability from templates/framework/product.md.template through requirements to deployment"
+"project-manager: Validate complete traceability from templates/framework/product.md through requirements to deployment"
 
 # Framework Pattern Implementation
 "coder-agent: Implement [functionality] following framework patterns from team_patterns.md"

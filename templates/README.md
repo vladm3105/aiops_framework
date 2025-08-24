@@ -27,17 +27,17 @@ templates/
 
 ### Framework Templates (`framework/`)
 Framework-compliant project template files:
-- `product.md.template` - Business vision and product definition
-- `requirements.md.template` - Master requirements document (EARS format)
-- `design.md.template` - System architecture and design specifications
-- `tasks.md.template` - Project tasks and implementation planning
-- `deployment.md.template` - Deployment strategy and procedures
+- `product.md` - Business vision and product definition
+- `requirements.md` - Master requirements document (EARS format)
+- `design.md` - System architecture and design specifications
+- `tasks.md` - Project tasks and implementation planning
+- `deployment.md` - Deployment strategy and procedures
 
 **Usage:**
 ```bash
 # Copy and customize root templates for your project
-cp templates/framework/product.md.template product.md
-cp templates/framework/requirements.md.template requirements.md
+cp templates/framework/product.md product.md
+cp templates/framework/requirements.md requirements.md
 # Edit templates with your project-specific content
 ```
 
@@ -68,7 +68,7 @@ Platform-specific setup configurations:
 ### Integrations (`integrations/`)
 Development tool integrations:
 - VS Code settings and extensions
-- Claude Code project context
+- AI assistant project context
 - IDE-specific configurations
 
 ## Usage Instructions

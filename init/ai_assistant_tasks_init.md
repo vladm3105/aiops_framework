@@ -64,7 +64,7 @@ Create analysis in .ai_context/project_analysis.md and update .ai_context/framew
 "general-purpose: Execute Framework v3.7 compliance gap analysis including:
 1. Compare current structure against Framework v3.7 requirements
 2. Identify missing directories: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, docs/validation/
-3. Identify missing root files: templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template
+3. Identify missing root files: templates/framework/product.md, templates/framework/requirements.md, templates/framework/design.md, templates/framework/tasks.md, templates/framework/deployment.md
 4. Assess .ai_context/ optimization requirements and current state
 5. Document complete compliance gaps and remediation requirements
 Create gap analysis in .ai_context/compliance_gaps.md and update .ai_context/framework_progress.md"
@@ -225,12 +225,12 @@ Document implementation results and validation in .ai_context/structure_implemen
 "general-purpose: Create complete Framework v3.7 directory structure including:
 
 **Root Level Files:**
-1. templates/framework/product.md.template - Business vision template with project-specific content
-2. templates/framework/requirements.md.template - Master requirements template with initial content
-3. templates/framework/design.md.template - System architecture template ready for development
-4. templates/framework/tasks.md.template - Project tasks template with framework integration
-5. templates/framework/deployment.md.template - Deployment strategy template with project context
-6. CLAUDE.md - AI assistant instructions with project-specific guidance
+1. templates/framework/product.md - Business vision template with project-specific content
+2. templates/framework/requirements.md - Master requirements template with initial content
+3. templates/framework/design.md - System architecture template ready for development
+4. templates/framework/tasks.md - Project tasks template with framework integration
+5. templates/framework/deployment.md - Deployment strategy template with project context
+6. AI_ASSISTANT.md - AI assistant configuration with project-specific guidance
 7. .gitignore - Framework-optimized ignore patterns with project additions
 8. README.md - Project overview with framework integration and quick start
 

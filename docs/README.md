@@ -17,14 +17,14 @@
 │   ├── adr-001-ai-first-methodology.md
 │   ├── adr-002-framework-phases.md
 │   ├── adr-003-state-management.md
-│   ├── adr-004-security-by-templates/framework/design.md.template
+│   ├── adr-004-security-by-templates/framework/design.md
 │   └── adr-005-multi-agent-architecture.md
 ├── 📁 ears/                       # EARS Format Requirements  
 │   ├── README.md                  # EARS directory overview and templates
 │   ├── fr-001-lifecycle-coverage.md
 │   ├── fr-002-ai-autonomous-operations.md
 │   ├── nfr-001-development-velocity.md
-│   └── sr-001-security-by-templates/framework/design.md.template
+│   └── sr-001-security-by-templates/framework/design.md
 ├── 📁 bdd/                        # Behavior-Driven Development Scenarios
 │   ├── README.md                  # BDD directory overview and templates
 │   ├── core-system-lifecycle.feature
@@ -41,7 +41,7 @@
 │   ├── README.md                  # SPECS directory overview and templates
 │   ├── specs-001-framework-architecture.md
 │   ├── specs-002-ai-agent-coordination.md
-│   ├── specs-020-security-by-templates/framework/design.md.template
+│   ├── specs-020-security-by-templates/framework/design.md
 │   └── specs-040-infrastructure-automation.md
 └── 📁 validation/                 # Validation Reports
     ├── README.md                  # Validation directory overview and templates
@@ -61,13 +61,13 @@ The docs/ directory provides complete documentation supporting the AI Agent Deve
 #### **Architecture Decision Records (ADRs)**
 - **Purpose**: Document significant architectural decisions and their rationale
 - **Format**: Structured ADR format with context, decision, consequences
-- **Integration**: Links to system architecture in [`../templates/framework/design.md.template`](../templates/framework/design.md.template)
+- **Integration**: Links to system architecture in [`../templates/framework/design.md`](../templates/framework/design.md)
 - **Usage**: Reference for understanding architectural choices and evolution
 
 #### **EARS Format Requirements**  
 - **Purpose**: Structured requirements specification using EARS syntax
 - **Format**: WHEN-THE-SHALL-WITHIN format for clear, testable requirements
-- **Integration**: Links to master requirements in [`../templates/framework/requirements.md.template`](../templates/framework/requirements.md.template)
+- **Integration**: Links to master requirements in [`../templates/framework/requirements.md`](../templates/framework/requirements.md)
 - **Usage**: Foundation for all framework implementation and validation
 
 #### **BDD Scenarios**
@@ -79,13 +79,13 @@ The docs/ directory provides complete documentation supporting the AI Agent Deve
 #### **Product Requirements Documents (PRDs)**
 - **Purpose**: Product feature specifications with user stories
 - **Format**: Comprehensive PRDs with success metrics and acceptance criteria
-- **Integration**: Links to product vision in [`../templates/framework/product.md.template`](../templates/framework/product.md.template)
+- **Integration**: Links to product vision in [`../templates/framework/product.md`](../templates/framework/product.md)
 - **Usage**: Feature development guidance and success validation
 
 #### **Technical Specifications (SPECS)**
 - **Purpose**: Detailed technical implementation specifications
 - **Format**: SPECS-NNNN format with comprehensive technical details
-- **Integration**: Implements architecture from [`../templates/framework/design.md.template`](../templates/framework/design.md.template)
+- **Integration**: Implements architecture from [`../templates/framework/design.md`](../templates/framework/design.md)
 - **Usage**: Implementation guidance for development teams
 
 #### **Validation Reports**
@@ -148,20 +148,20 @@ The docs/ directory provides complete documentation supporting the AI Agent Deve
 ### **For Framework Users**
 
 #### **Getting Started with Documentation**
-1. **Start with Product Vision**: Read [`../templates/framework/product.md.template`](../templates/framework/product.md.template) for overall framework understanding
+1. **Start with Product Vision**: Read [`../templates/framework/product.md`](../templates/framework/product.md) for overall framework understanding
 2. **Review Requirements**: Explore [`ears/`](ears/) for detailed requirements understanding
-3. **Understand Architecture**: Review [`../templates/framework/design.md.template`](../templates/framework/design.md.template) and [`adr/`](adr/) for technical architecture
+3. **Understand Architecture**: Review [`../templates/framework/design.md`](../templates/framework/design.md) and [`adr/`](adr/) for technical architecture
 4. **Implementation Guidance**: Use [`specs/`](specs/) for detailed implementation specifications
 
 #### **For Different Roles**
 
 ##### **Product Managers**
-- **Product Vision**: [`../templates/framework/product.md.template`](../templates/framework/product.md.template) - Overall product strategy and vision
+- **Product Vision**: [`../templates/framework/product.md`](../templates/framework/product.md) - Overall product strategy and vision
 - **Product Requirements**: [`prd/`](prd/) - Feature specifications and user stories
 - **Success Validation**: [`validation/`](validation/) - Success metrics and achievement evidence
 
 ##### **Software Architects**
-- **System Architecture**: [`../templates/framework/design.md.template`](../templates/framework/design.md.template) - Complete system architecture
+- **System Architecture**: [`../templates/framework/design.md`](../templates/framework/design.md) - Complete system architecture
 - **Architecture Decisions**: [`adr/`](adr/) - Architectural decision records and rationale
 - **Technical Specifications**: [`specs/`](specs/) - Detailed technical implementation specifications
 
@@ -178,7 +178,7 @@ The docs/ directory provides complete documentation supporting the AI Agent Deve
 ##### **Compliance Officers**
 - **Security Requirements**: [`ears/sr-*`](ears/) - Security and compliance requirements
 - **Validation Evidence**: [`validation/`](validation/) - Compliance validation and audit evidence
-- **Architecture Security**: [`adr/adr-004-security-by-templates/framework/design.md.template`](adr/) - Security architectural decisions
+- **Architecture Security**: [`adr/adr-004-security-by-templates/framework/design.md`](adr/) - Security architectural decisions
 
 ---
 
@@ -213,8 +213,8 @@ The docs/ directory provides complete documentation supporting the AI Agent Deve
 
 #### **Understanding the Framework**
 1. **Framework Overview**: Start with main [`README.md`](../README.md)
-2. **Product Vision**: Review [`templates/framework/product.md.template`](../templates/framework/product.md.template) for strategic context
-3. **System Architecture**: Study [`templates/framework/design.md.template`](../templates/framework/design.md.template) for technical understanding
+2. **Product Vision**: Review [`templates/framework/product.md`](../templates/framework/product.md) for strategic context
+3. **System Architecture**: Study [`templates/framework/design.md`](../templates/framework/design.md) for technical understanding
 4. **Requirements**: Explore [`ears/README.md`](ears/README.md) for detailed requirements
 
 #### **Implementing the Framework** 

@@ -86,7 +86,7 @@ Update .ai_context/framework_progress.md with analysis validation"
 "general-purpose: Execute Framework v3.7 compliance gap analysis including:
 1. Compare current project structure against required Framework v3.7 structure
 2. Identify missing directories: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, docs/validation/
-3. Identify missing root files: templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template
+3. Identify missing root files: templates/framework/product.md, templates/framework/requirements.md, templates/framework/design.md, templates/framework/tasks.md, templates/framework/deployment.md
 4. Assess .ai_context/ directory requirements and AI optimization needs
 5. Document compliance gaps and remediation plan
 Create gap analysis in .ai_context/compliance_gaps.md and update .ai_context/framework_progress.md with gap analysis completion"
@@ -342,11 +342,11 @@ Document implementation results in .ai_context/structure_implementation.md and u
 "general-purpose: Create complete Framework v3.7 directory structure including:
 
 **Root Level Files Creation:**
-1. templates/framework/product.md.template - Business vision and product definition (template applied)
-2. templates/framework/requirements.md.template - Master requirements document (template applied)
-3. templates/framework/design.md.template - System architecture and design (template applied)
-4. templates/framework/tasks.md.template - Project tasks and implementation plan (template applied)
-5. templates/framework/deployment.md.template - Deployment strategy and procedures (template applied)
+1. templates/framework/product.md - Business vision and product definition (template applied)
+2. templates/framework/requirements.md - Master requirements document (template applied)
+3. templates/framework/design.md - System architecture and design (template applied)
+4. templates/framework/tasks.md - Project tasks and implementation plan (template applied)
+5. templates/framework/deployment.md - Deployment strategy and procedures (template applied)
 7. .gitignore - Version control ignore patterns (framework optimized)
 8. README.md - Project overview and quick start (framework integrated)
 

@@ -146,8 +146,7 @@ docs/validation/temp_*
 docs/specs/draft_*
 
 # AI Assistant Configuration Files
-AGENTS.md
-CLAUDE.md
+AI_ASSISTANT.md
 GEMINI.md
 EOF
 
@@ -243,11 +242,11 @@ EOF
 
 echo "✅ README.md created"
 
-# Create CLAUDE.md for Claude Code integration
-cat > CLAUDE.md << EOF
-# CLAUDE.md
+# Create AI assistant configuration file
+cat > AI_ASSISTANT.md << EOF
+# AI Assistant Configuration
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to AI assistants when working with code in this repository.
 
 ## Project Overview
 
@@ -343,7 +342,7 @@ fi)
 This project is designed for systematic, AI-first software development with comprehensive lifecycle coverage.
 EOF
 
-echo "✅ CLAUDE.md created for Claude Code integration"
+echo "✅ AI_ASSISTANT.md created for AI assistant integration"
 
 # Create AI context files
 cat > .ai_context/framework_progress.md << EOF
@@ -435,7 +434,7 @@ git commit -m "🚀 Initial commit: AI Agent Development Framework v$FRAMEWORK_V
 - Git repository initialized with comprehensive .gitignore
 - Environment configuration template created
 - AI context system initialized
-- CLAUDE.md created for Claude Code integration
+- AI_ASSISTANT.md created for AI assistant integration
 - Basic documentation and README established
 - AI agent dependencies configured
 

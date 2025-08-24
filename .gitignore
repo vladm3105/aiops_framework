@@ -234,8 +234,7 @@ TODO_personal.md
 ai_session_*.md
 
 # AI Assistant Configuration Files
-AGENTS.md
-CLAUDE.md
+AI_ASSISTANT.md
 GEMINI.md
 
 # Production Exclusions

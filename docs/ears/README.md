@@ -3,7 +3,7 @@
 
 **Purpose**: EARS (Easy Approach to Requirements Syntax) format requirements specification  
 **Format**: WHEN [trigger] THE [system] SHALL [response] WITHIN [performance criteria]  
-**Integration**: Links to [`../templates/framework/requirements.md.template`](../../templates/framework/requirements.md.template) for master requirements overview  
+**Integration**: Links to [`../templates/framework/requirements.md`](../../templates/framework/requirements.md) for master requirements overview  
 
 ---
 
@@ -85,7 +85,7 @@ EARS (Easy Approach to Requirements Syntax) provides a structured approach to wr
 ### **Security Requirements**
 
 #### **SR-001: Security-by-Design**
-**File**: [sr-001-security-by-templates/framework/design.md.template](sr-001-security-by-templates/framework/design.md.template)
+**File**: [sr-001-security-by-templates/framework/design.md](sr-001-security-by-templates/framework/design.md)
 ```markdown
 **WHEN** any framework phase is executed
 **THE** framework **SHALL** implement security-by-design principles

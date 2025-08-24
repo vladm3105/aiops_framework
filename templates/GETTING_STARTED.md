@@ -22,7 +22,7 @@ chmod +x templates/init/setup-script.sh
 # - Git repository with .gitignore
 # - Environment configuration files
 # - AI context system
-# - CLAUDE.md for Claude Code integration
+# - AI assistant configuration file for integration
 ```
 
 ### 2. Set Up Your Environment
@@ -267,7 +267,7 @@ python templates/ai-agents/code-quality-agent.py \
 - Debug configurations
 - AI assistant integrations
 
-#### Claude Code (`templates/integrations/claude/`)
+#### AI Assistant Integration (`templates/integrations/claude/`)
 
 - Project context templates
 - AI assistant configuration

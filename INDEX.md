@@ -34,11 +34,11 @@
 | [QUICK_START.md](QUICK_START.md) | Detailed setup | 10 min |
 | [NAVIGATION.md](NAVIGATION.md) | Find anything fast | 2 min |
 | [SESSION_MANAGEMENT.md](SESSION_MANAGEMENT.md) | Session protocols | 3 min |
-| [templates/framework/product.md.template](templates/framework/product.md.template) | Business vision template | 2 min |
-| [templates/framework/requirements.md.template](templates/framework/requirements.md.template) | Requirements (EARS) template | 3 min |
-| [templates/framework/design.md.template](templates/framework/design.md.template) | Architecture template | 5 min |
-| [templates/framework/tasks.md.template](templates/framework/tasks.md.template) | Implementation plan template | 3 min |
-| [templates/framework/deployment.md.template](templates/framework/deployment.md.template) | Deployment strategy template | 4 min |
+| [templates/framework/product.md](templates/framework/product.md) | Business vision template | 2 min |
+| [templates/framework/requirements.md](templates/framework/requirements.md) | Requirements (EARS) template | 3 min |
+| [templates/framework/design.md](templates/framework/design.md) | Architecture template | 5 min |
+| [templates/framework/tasks.md](templates/framework/tasks.md) | Implementation plan template | 3 min |
+| [templates/framework/deployment.md](templates/framework/deployment.md) | Deployment strategy template | 4 min |
 
 ---
 

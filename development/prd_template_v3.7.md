@@ -121,7 +121,7 @@
 - **Priority:** [Must Have | Should Have | Nice to Have]
 - **Complexity:** [Low | Medium | High]
 - **Framework Integration:** [How this uses framework patterns and AI-first development]
-- **EARS Requirement Preview:** [Initial EARS format requirement to be refined in templates/framework/requirements.md.template]
+- **EARS Requirement Preview:** [Initial EARS format requirement to be refined in templates/framework/requirements.md]
   - **WHEN** [trigger condition] **THE** [system] **SHALL** [behavior] **WITHIN** [constraint]
 - **BDD Scenario Preview:** [Key behavioral scenario to be detailed in docs/bdd/]
 - **Dependencies:** [Framework components, ADR decisions, other features]
@@ -387,7 +387,7 @@
 ## 11. Framework Integration and Implementation
 
 ### EARS Requirements Mapping
-[Reference to specific EARS requirements this PRD addresses - to be detailed in templates/framework/requirements.md.template]
+[Reference to specific EARS requirements this PRD addresses - to be detailed in templates/framework/requirements.md]
 - **REQ-[DOMAIN]-001:** [High-level requirement mapped from this PRD]
 - **REQ-[DOMAIN]-002:** [Security requirement mapped from threat model]
 - **REQ-[DOMAIN]-003:** [Performance requirement aligned with framework targets]
@@ -488,7 +488,7 @@
 ### Post-Approval Framework Implementation Steps
 1. **Framework Setup (Week 1):**
    - Implement complete framework v3.7 structure
-   - Create initial EARS requirements in templates/framework/requirements.md.template
+   - Create initial EARS requirements in templates/framework/requirements.md
    - Setup AI context optimization in .ai_context/
    - Initialize threat model and security-by-design architecture
 
