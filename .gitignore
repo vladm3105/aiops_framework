@@ -233,6 +233,11 @@ TODO_personal.md
 .context_temp/
 ai_session_*.md
 
+# AI Assistant Configuration Files
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+
 # Production Exclusions
 .production/
 prod_config/
