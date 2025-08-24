@@ -116,7 +116,7 @@
 - [`TodoWrite Integration`] - Real-time task management throughout framework
 
 ### **Reference Materials**
-- [`_shared/terminology.md`](_shared/terminology.md) - Standardized framework terms
+- [`TERMINOLOGY.md`](TERMINOLOGY.md) - Standardized framework terms
 - [`.github/workflows/`](.github/workflows/) - CI/CD automation workflows
 
 ---
@@ -173,7 +173,7 @@
 | Topic | Primary Location | Secondary Resources |
 |-------|------------------|-------------------|
 | **Getting Started** | [GET_STARTED.md](GET_STARTED.md) | [README.md](README.md) |
-| **AI Agents** | [Agents Directory](agents/) | [Agent Quick Reference](GET_STARTED.md#-ai-agent-quick-reference) |
+| **AI Agents** | [Agents Directory](agents/) | [Agent Quick Reference](#-ai-agent-quick-reference) |
 | **Development** | [development/](development/) | [BDD Integration](development/bdd_integration_guide_v3.7.md) |
 | **Deployment** | [deployment/](deployment/) | [CI/CD Pipeline](deployment/ci_cd_pipeline_v3.7.md) |
 | **Validation** | [validation/](validation/) | [Dynamic Testing](validation/dynamic_test_generation_v3.7.md) |
@@ -190,7 +190,7 @@
 | **SRE/Operations** | [Operations Framework](operations/) | [Monitoring Guide](operations/monitoring_observability_v3.7.md) |
 | **Architect** | [System Architecture](templates/framework/design.md) | [ADR Guide](development/adr_guide_v3.7.md) |
 | **Project Manager** | [Framework Overview](README.md) | [Session Management](SESSION_MANAGEMENT.md) |
-| **Security Engineer** | [Security Integration](docs/bdd/security_bdd.md) | [Security Auditor Agent](agents/) |
+| **Security Engineer** | [Security Integration](docs/bdd/) | [Security Auditor Agent](agents/) |
 
 ---
 
