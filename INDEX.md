@@ -17,6 +17,7 @@
 ### I need to...
 - **Start new project** → [GET_STARTED.md#new-project](GET_STARTED.md#new-project-5-minute-setup)
 - **Deploy existing code** → [GET_STARTED.md#deployment](GET_STARTED.md#deployment-only)  
+- **Validate production system** → [validation/](validation/)
 - **Fix production issue** → [operations/](operations/)
 - **Add new feature** → [development/](development/)
 - **Find AI agent** → [agents/](agents/)
@@ -49,6 +50,7 @@
 | **Init** | [init/](init/) | 30-60 min | Framework setup |
 | **Development** | [development/](development/) | 2-8 hours | Working code |
 | **Deployment** | [deployment/](deployment/) | 1-3 hours | Production system |
+| **Validation** | [validation/](validation/) | 2-4 hours | Validated system |
 | **Operations** | [operations/](operations/) | Ongoing | Optimized ops |
 
 ---
@@ -95,6 +97,9 @@
 
 # Deploy to production
 "cloud-devops-expert: Execute zero-downtime deployment"
+
+# Validate production system
+"test-engineer: Execute comprehensive validation testing"
 
 # Performance optimization
 "performance-optimizer: Analyze and optimize [component]"

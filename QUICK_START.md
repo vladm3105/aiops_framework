@@ -18,13 +18,14 @@ This guide enforces **three mandatory requirements** to protect your project fro
 
 ### **Framework v3.7 Lifecycle**
 
-Framework v3.7 provides a complete **Init → Development → Deployment → Operations** lifecycle:
+Framework v3.7 provides a complete **Init → Development → Deployment → Validation → Operations** lifecycle:
 
 ```
-🎯 Init      → 🔨 Development → 🚀 Deployment → ⚙️ Operations
-(Phase -1 & 0)  (Phases 1-6)    (Phase 7)      (Phase 8)
-      ↓             ↓               ↓              ↓
-Project Safety  Reqs → Code     Prod Deploy    AI-Autonomous Ops
+🎯 Init      → 🔨 Development → 🚀 Deployment → ✅ Validation → ⚙️ Operations
+(Phase -1 & 0)  (Phases 1-6)    (Phase 7)     (Phase 7.5)    (Phase 8)
+      ↓             ↓               ↓             ↓              ↓
+Project Safety  Reqs → Code     Prod Deploy   Post-Deploy    AI-Autonomous Ops
+                                              Validation
 ```
 
 **This guide covers the INIT FRAMEWORK ONLY** - the foundation for all subsequent frameworks.
@@ -310,6 +311,11 @@ To start the framework implementation, the AI will be instructed to:
 - Infrastructure automation and CI/CD pipelines.
 - Zero-downtime production deployment.
 
+**✅ Validation Framework (Phase 7.5)**
+- Comprehensive post-deployment validation.
+- Security, performance, and business logic verification.
+- Operations team preparation and handoff.
+
 **⚙️ Operations Framework (Phase 8)**
 - AI-autonomous observability.
 - Predictive monitoring and incident response.
@@ -401,6 +407,7 @@ To start the framework implementation, the AI will be instructed to:
 
 **Option 3: Jump to a Specific Framework**
 - **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP.md`
+- **Validation Framework**: `validation/AI_ASSISTANT_STARTUP.md`
 - **Operations Framework**: `operations/AI_ASSISTANT_STARTUP.md`
 
 ---
@@ -417,6 +424,7 @@ To start the framework implementation, the AI will be instructed to:
 - **Init Framework**: `init/AI_ASSISTANT_STARTUP.md`
 - **Development Framework**: `development/AI_ASSISTANT_STARTUP.md`
 - **Deployment Framework**: `deployment/AI_ASSISTANT_STARTUP.md`
+- **Validation Framework**: `validation/AI_ASSISTANT_STARTUP.md`
 - **Operations Framework**: `operations/AI_ASSISTANT_STARTUP.md`
 - **Framework Overview**: `README.md`
 

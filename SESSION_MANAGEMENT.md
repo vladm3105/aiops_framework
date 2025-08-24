@@ -17,7 +17,7 @@ The Framework v3.7 implements a **Hybrid Session Management System** that combin
 - **Cross-Session Continuity**: Seamless context preservation across sessions
 - **Framework Compliance**: Maintained quality gates and methodology adherence
 - **Universal Compatibility**: Consistent experience across all framework phases
-- **Complete Lifecycle Support**: Init → Development → Deployment → Operations workflow
+- **Complete Lifecycle Support**: Init → Development → Deployment → Validation → Operations workflow
 
 ### **Core Session Management Components**
 
@@ -56,6 +56,7 @@ Each framework phase has specialized session management protocols:
 - **Init Framework**: [Safety-First Session Management](init/session_management_protocols_init.md)
 - **Development Framework**: [Quality-Driven Session Management](development/session_management_protocols_development.md)
 - **Deployment Framework**: [Production-Ready Session Management](deployment/session_management_protocols_deployment.md)
+- **Validation Framework**: [Post-Deployment Validation Session Management](validation/session_management_protocols_validation.md)
 - **Operations Framework**: [Autonomous Operations Session Management](operations/session_management_protocols_operations.md)
 
 ### **Session Lifecycle Protocol**

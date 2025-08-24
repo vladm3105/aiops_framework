@@ -84,6 +84,13 @@
 - **Time**: 1-3 hours depending on infrastructure complexity
 - **Output**: Production system with monitoring
 
+### **Phase 7.5: Validation Framework** ✅
+**Purpose**: Comprehensive post-deployment validation and operations handoff
+- [`validation/`](validation/) - Complete validation methodology
+- **Focus**: Security, performance, integration validation, operations team preparation
+- **Time**: 2-4 hours depending on system complexity
+- **Output**: Validated production system ready for operations
+
 ### **Phase 8: Operations Framework** ⚙️
 **Purpose**: AI-autonomous operations and optimization
 - [`operations/`](operations/) - Complete operations methodology  
@@ -151,6 +158,13 @@
 "test-engineer: Create security-focused BDD scenarios and tests"
 ```
 
+### **Validation Commands**
+```bash
+"test-engineer: Execute comprehensive validation testing for production readiness"
+"security-auditor: Perform post-deployment security validation and compliance verification"  
+"performance-optimizer: Validate system performance against SLA requirements"
+```
+
 ---
 
 ## 🔍 **Find Information Fast**
@@ -162,6 +176,7 @@
 | **AI Agents** | [Agents Directory](agents/) | [Agent Quick Reference](GET_STARTED.md#-ai-agent-quick-reference) |
 | **Development** | [development/](development/) | [BDD Integration](development/bdd_integration_guide_v3.7.md) |
 | **Deployment** | [deployment/](deployment/) | [CI/CD Pipeline](deployment/ci_cd_pipeline_v3.7.md) |
+| **Validation** | [validation/](validation/) | [Dynamic Testing](validation/dynamic_test_generation_v3.7.md) |
 | **Operations** | [operations/](operations/) | [Monitoring](operations/monitoring_observability_v3.7.md) |
 | **Security** | [Security Integration](development/ai_assistant_guide_v3.7.md) | [Threat Modeling](docs/adr/) |
 | **Quality** | [Testing Guide](development/bdd_integration_guide_v3.7.md) | [Validation](docs/validation/) |
@@ -171,6 +186,7 @@
 |------|------------|---------------|
 | **Developer** | [Development Framework](development/) | [AI Assistant Guide](development/ai_assistant_guide_v3.7.md) |
 | **DevOps Engineer** | [Deployment Framework](deployment/) | [Infrastructure Automation](deployment/infrastructure_automation_v3.7.md) |
+| **QA Engineer** | [Validation Framework](validation/) | [AI Testing Guide](validation/ai_assistant_guide_v3.7.md) |
 | **SRE/Operations** | [Operations Framework](operations/) | [Monitoring Guide](operations/monitoring_observability_v3.7.md) |
 | **Architect** | [System Architecture](templates/framework/design.md) | [ADR Guide](development/adr_guide_v3.7.md) |
 | **Project Manager** | [Framework Overview](README.md) | [Session Management](SESSION_MANAGEMENT.md) |
