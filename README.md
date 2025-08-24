@@ -119,7 +119,7 @@ graph TD
 
 ```
 📁 .aiops_v3.7/
-├── 📁 agents/                  # 16 specialized AI agents
+├── 📁 agents/                  # Specialized AI agents
 │   ├── README.md              # Agent coordination guide
 │   └── [agent-definitions]     # Individual agent specifications
 ├── 📁 init/                   # Init Framework v3.7
@@ -201,18 +201,24 @@ The human developer is responsible for the following:
 
 ---
 
+## Contributor Guidelines
+
+- Agent roles and contributor practices: see `AGENTS.md` for project-specific guidance, naming conventions, and review expectations.
+
+---
+
 ## 🛡️ **Security & Compliance**
 
 ### **Security-by-Design Integration**
 - **Threat Modeling**: Integrated throughout development lifecycle
 - **Security Scanning**: SAST, DAST, and dependency analysis
-- **Compliance Automation**: NEPA, SOC 2, ISO 27001 validation
+- **Compliance Automation**: Regulatory, SOC 2, ISO 27001 validation
 - **Access Management**: IAM, RBAC, and principle of least privilege
 - **Incident Response**: Automated security incident detection and response
 
 ### **Regulatory Compliance**
 - **Government Standards**: FedRAMP, FISMA compliance ready
-- **Environmental Compliance**: NEPA document processing and validation
+- **Regulatory Compliance**: Industry-specific document processing and validation
 - **Audit Trails**: Comprehensive audit logging and compliance reporting
 - **Data Protection**: Encryption at rest and in transit
 - **Privacy Controls**: PII protection and data governance

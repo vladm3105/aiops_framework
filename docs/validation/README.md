@@ -119,7 +119,7 @@ Validation Reports provide comprehensive evidence of framework compliance, quali
 **File**: [val-021-compliance-validation.md](val-021-compliance-validation.md)
 - **Status**: Template Ready
 - **Purpose**: Validate regulatory compliance achievement
-- **Scope**: NEPA, SOC 2, ISO 27001, audit trails
+- **Scope**: Regulatory, SOC 2, ISO 27001, audit trails
 - **Success Criteria**: 100% regulatory compliance, complete audit trails
 
 ### **Performance Validation**

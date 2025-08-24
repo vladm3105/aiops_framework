@@ -98,7 +98,7 @@ Technical Specifications (SPECS) provide detailed technical implementation guida
 - **Status**: Approved
 - **Owner**: Compliance Lead
 - **Purpose**: Automated regulatory compliance validation and reporting
-- **Components**: NEPA validation, SOC 2 controls, ISO 27001 compliance, audit trails
+- **Components**: Regulatory validation, SOC 2 controls, ISO 27001 compliance, audit trails
 
 ### **Performance Specifications**
 

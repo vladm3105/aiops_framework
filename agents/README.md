@@ -1,6 +1,6 @@
 # AI Agent Ecosystem for Framework v3.7
 
-This directory contains the complete collection of 16 specialized AI agents that provide domain expertise and task coordination for the AI Agent Development Framework v3.7 methodology.
+This directory contains the complete collection of specialized AI agents that provide domain expertise and task coordination for the AI Agent Development Framework v3.7 methodology.
 
 ## Available Agents
 

@@ -98,10 +98,10 @@ Feature: Regulatory Compliance Validation
   I want automated compliance validation throughout development
   So that regulatory requirements are satisfied continuously
 
-  Scenario: NEPA compliance validation
+  Scenario: Regulatory compliance validation
     Given environmental compliance requirements apply to the project
     When deployment framework provisions infrastructure
-    Then NEPA compliance checks are executed automatically
+    Then regulatory compliance checks are executed automatically
     And compliance documentation is generated and validated
     And non-compliant deployments are blocked automatically
 ```

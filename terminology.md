@@ -78,7 +78,7 @@ Use exact names: api-design-architect, security-auditor, test-engineer, cloud-de
 - **Compliance Validation**: Regulatory requirement verification
 
 ### **Compliance Standards**
-- **Regulatory Compliance**: NEPA, SOC 2, ISO 27001 adherence
+- **Regulatory Compliance**: Industry-specific, SOC 2, ISO 27001 adherence
 - **Audit Trails**: Comprehensive activity logging and evidence
 - **Government-Grade Security**: Enterprise and government compliance capability
 - **Policy Enforcement**: Automated policy compliance monitoring

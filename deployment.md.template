@@ -210,7 +210,7 @@ graph LR
 - **Monitoring Security**: Security event monitoring, threat detection, incident response
 
 #### **Compliance Deployment**
-- **Regulatory Compliance**: NEPA, SOC 2, ISO 27001 compliance validation
+- **Regulatory Compliance**: Industry-specific, SOC 2, ISO 27001 compliance validation
 - **Audit Trails**: Comprehensive audit logging and compliance reporting
 - **Policy Enforcement**: Automated policy enforcement and compliance monitoring
 - **Governance Controls**: Data governance and privacy protection implementation

@@ -2,7 +2,7 @@
 ## Framework-Integrated BDD Development for AI-First Projects
 
 **Version:** 3.7 - Framework Integration Edition  
-**Date:** 2025-08-16  
+**Date:** 2025-08-23  
 **Framework:** AI Agent Development Framework v3.7  
 **Focus:** BDD integration with EARS requirements, technical design, ADR decisions, technical specifications, and AI context optimization  
 

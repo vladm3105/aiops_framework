@@ -97,7 +97,7 @@ EARS (Easy Approach to Requirements Syntax) provides a structured approach to wr
 ```markdown
 **WHEN** framework methodology is implemented
 **THE** framework **SHALL** support regulatory compliance requirements
-**WITHIN** NEPA, SOC 2, ISO 27001, and industry-specific compliance standards
+**WITHIN** regulatory, SOC 2, ISO 27001, and industry-specific compliance standards
 ```
 
 ---

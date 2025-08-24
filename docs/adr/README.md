@@ -64,7 +64,7 @@ Each ADR follows this standardized format:
 
 #### **ADR-005: Multi-Agent AI Architecture**
 - **Status**: Accepted
-- **Decision**: 16 specialized AI agents with coordination patterns
+- **Decision**: Multiple specialized AI agents with coordination patterns
 - **File**: [adr-005-multi-agent-architecture.md](adr-005-multi-agent-architecture.md)
 
 ---

@@ -44,7 +44,7 @@ This document serves as the master requirements specification for the AI Agent D
 - [ ] AI agents handle technical implementation, infrastructure, and routine operations
 - [ ] Human approval required for strategic decisions, architecture choices, production deployment
 - [ ] Clear delineation between autonomous and supervised operations documented
-- [ ] 16 specialized AI agents provide domain expertise and task coordination
+- [ ] Specialized AI agents provide domain expertise and task coordination
 - [ ] Multi-agent coordination patterns enable complex workflow execution
 
 ### **FR-003: Framework Compliance**
@@ -69,7 +69,7 @@ This document serves as the master requirements specification for the AI Agent D
 - [ ] Security controls implemented throughout development lifecycle
 - [ ] Security scanning and validation automated in deployment processes
 - [ ] Security operations monitoring integrated in operations framework
-- [ ] Compliance frameworks (NEPA, SOC 2, ISO 27001) supported
+- [ ] Compliance frameworks (Regulatory, SOC 2, ISO 27001) supported
 
 ### **FR-005: Session Management System**
 **WHEN** AI assistants work within framework phases  

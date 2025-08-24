@@ -23,8 +23,7 @@ This project is composed entirely of Markdown files. The most important files ar
 *   **`deployment/deployment_framework_v3.7.md`**: The guide for the deployment phase. It describes the AI-first deployment automation, security validation, and production deployment strategies.
 *   **`operations/operations_framework_v3.7.md`**: The guide for the operations phase. It covers AI-autonomous observability, intelligent monitoring, and operational excellence.
 *   **`agents/README.md`**: Provides a list of the available AI agents and their specializations. These agents are designed to be used to execute tasks within the framework.
-*   **`CLAUDE.md`**: A document that appears to be for a different AI model, but contains information about universal session management.
-*   **`QUICK_START.md`**: A guide to getting started with the framework.
+*   **`GET_STARTED.md`**: A guide to getting started with the framework.
 
 ## Usage
 

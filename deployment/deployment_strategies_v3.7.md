@@ -2,7 +2,7 @@
 ## AI-First Deployment Automation with Advanced Release Management
 
 **Version:** 3.7 - Production Ready Deployment Strategies  
-**Date:** 2025-08-20  
+**Date:** 2025-08-23  
 **Status:** Production Ready  
 **Integration:** Framework v3.7 compliant with AI-first development methodology  
 **Focus:** Enterprise-grade deployment strategies with zero-downtime and intelligent automation  
@@ -334,7 +334,7 @@ Canary deployment provides **risk-mitigated releases** through progressive traff
 
 **Metrics Collection and Analysis:**
 - **Istio Metrics Integration**: Request success rates, error rates, and response time distribution from Istio service mesh
-- **Business Metrics Integration**: Custom CARA business metrics including document processing rates and success rates
+- **Business Metrics Integration**: Custom business metrics including application processing rates and success rates
 - **Prometheus Query Optimization**: Optimized Prometheus queries for real-time metrics collection and analysis
 - **Threshold-Based Decision Making**: Multi-criteria decision making with configurable thresholds for each deployment stage
 
@@ -346,7 +346,7 @@ Canary deployment provides **risk-mitigated releases** through progressive traff
 
 ```bash
 # Blue-green deployment execution
-"cloud-devops-expert: Execute blue-green deployment strategy for CARA agent with zero-downtime switch, comprehensive validation, health checks, performance monitoring, and automated rollback capability"
+"cloud-devops-expert: Execute blue-green deployment strategy for target application with zero-downtime switch, comprehensive validation, health checks, performance monitoring, and automated rollback capability"
 
 # Canary deployment with intelligent analysis
 "cloud-devops-expert: Deploy [Project Name] agent using intelligent canary strategy with progressive traffic migration (5%->10%->25%->50%->100%), real-time metrics analysis, automated rollback triggers, and business impact assessment"

@@ -204,7 +204,7 @@
 
 ### **Common Issues**
 - **Framework structure missing**: Run Phase 0 initialization
-- **AI agent not responding**: Check [CLAUDE.md](CLAUDE.md) for correct commands
+
 - **Quality gate failures**: Review [framework compliance](docs/validation/)
 - **Deployment issues**: Check [deployment guide](deployment/)
 - **Performance problems**: Use [performance optimizer](agents/)

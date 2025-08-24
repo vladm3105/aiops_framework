@@ -52,6 +52,9 @@ Project Safety  Reqs → Code     Prod Deploy    AI-Autonomous Ops
 - **Follows exact framework patterns** with no deviations.
 - **Provides detailed explanations** for all decisions.
 
+### Resources
+- Agent roles and how to use them: see `AGENTS.md`.
+
 ### **Important Decision: Option A vs. Option B**
 
 You will be asked to choose between:
