@@ -23,6 +23,29 @@ The Init Framework v3.7 provides comprehensive project initialization capabiliti
 - **AI Context Optimization** for maximum development acceleration
 - **Version Control Integration** with proper backup and safety protocols
 
+### Implementation Templates Available
+
+The init framework includes ready-to-use templates for immediate project setup:
+
+**Project Initialization:**
+- [Project structure template](../templates/init/project-structure.template) - Complete directory layout
+- [Setup automation script](../templates/init/setup-script.sh) - Automated project initialization
+- Environment configuration templates with cloud provider support
+
+**Quick Start Command:**
+```bash
+# Initialize new AI-first project
+chmod +x templates/init/setup-script.sh
+./templates/init/setup-script.sh my-project gcp
+
+# This creates complete project structure with:
+# - Framework-compliant directory organization
+# - Git repository with comprehensive .gitignore  
+# - Environment configuration files
+# - AI context system initialization
+# - CLAUDE.md for Claude Code integration
+```
+
 ### **Init Framework Integration**
 
 **Complete Workflow Integration:**
@@ -91,14 +114,14 @@ Update analysis results in .ai_context/project_analysis.md"
 "general-purpose: Execute Framework v3.7 compliance gap analysis including:
 1. Compare current project structure against Framework v3.7 requirements
 2. Identify missing directories: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/
-3. Identify missing root files: product.md.template, requirements.md.template, design.md.template, tasks.md.template, deployment.md.template
+3. Identify missing root template files: templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template
 4. Assess .ai_context/ directory and optimization files
 5. Document compliance gaps and remediation requirements
 Update gap analysis in .ai_context/compliance_gaps.md"
 ```
 
 **Compliance Validation Checklist:**
-- [ ] **Root Files**: product.md.template, requirements.md.template, design.md.template, tasks.md.template, deployment.md.template
+- [ ] **Root Templates**: templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template
 - [ ] **Documentation Structure**: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/
 - [ ] **Framework Directories**: .ai_context/, development/, deployment/, operations/
 - [ ] **Validation Directory**: docs/validation/ for phase completion reports
@@ -351,11 +374,13 @@ Document implementation results in .ai_context/structure_implementation.md"
 **Root Level Files:**
 ```
 .
-├── product.md.template                    # Business vision and product definition
-├── requirements.md.template              # Master requirements document
-├── design.md.template                    # System architecture and design
-├── tasks.md.template                     # Project tasks and implementation plan
-├── deployment.md.template                # Deployment strategy and procedures
+├── templates/                   # Framework templates directory
+│   └── framework/               # Framework project templates
+│       ├── templates/framework/product.md.template                    # Business vision and product definition
+│       ├── templates/framework/requirements.md.template              # Master requirements document
+│       ├── templates/framework/design.md.template                    # System architecture and design
+│       ├── templates/framework/tasks.md.template                     # Project tasks and implementation plan
+│       └── templates/framework/deployment.md.template                # Deployment strategy and procedures
 ├── .gitignore                   # Version control ignore patterns
 └── README.md                    # Project overview and quick start
 ```

@@ -39,13 +39,28 @@ BDD scenarios bridge the gap between business requirements and technical impleme
 3. **Creating a shared language between stakeholders and developers**
 4. **Enabling automated testing of agent behaviors**
 
+### **BDD Templates Available**
+
+The framework provides ready-to-use BDD templates for immediate implementation:
+
+**BDD Development Templates:**
+- [BDD scenario template](../templates/development/bdd-scenario-template.md) - Complete Gherkin scenario structure
+- [EARS requirements template](../templates/development/ears-template.md) - Technical requirements for BDD validation
+- [ADR template](../templates/development/adr-template.md) - Architecture decisions with BDD scenario references
+
+**Quick Start Command:**
+```bash
+# Create BDD scenarios from template
+"test-engineer: Use templates/development/bdd-scenario-template.md to create comprehensive behavioral scenarios for [feature], ensuring EARS requirement validation and framework v3.7 compliance"
+```
+
 ## Core Integration Patterns
 
 ### Pattern 1: EARS Requirement → BDD Scenario → Technical Implementation
 
 This is the fundamental pattern that connects business requirements to technical code through behavioral scenarios.
 
-#### EARS Requirement (requirements.md.template)
+#### EARS Requirement (templates/framework/requirements.md.template)
 
 ```markdown
 REQ-001: WHEN a user requests fire danger analysis for a location 
@@ -99,7 +114,7 @@ class FireRiskAgent:
 
 This pattern validates complex multi-agent interactions through behavioral scenarios.
 
-#### Design Specification (design.md.template)
+#### Design Specification (templates/framework/design.md.template)
 
 ```markdown
 ## Parallel Execution Pattern
@@ -543,7 +558,7 @@ And overall system performance should be maintained
 
 ↓ Drives Technical Design
 
-design.md.template: Auto-scaling Architecture
+templates/framework/design.md.template: Auto-scaling Architecture
 - Container orchestration platform selection
 - Load monitoring and scaling triggers
 - Infrastructure scaling patterns
@@ -551,7 +566,7 @@ design.md.template: Auto-scaling Architecture
 ↓ Validates ADR Decision
 
 ADR-0015: Container Orchestration with Kubernetes HPA
-- Based on design.md.template architecture specifications
+- Based on templates/framework/design.md.template architecture specifications
 - Architectural choice for container scaling implementation
 
 ↓ Creates Technical Specifications

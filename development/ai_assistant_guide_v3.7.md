@@ -276,6 +276,44 @@ This guide provides AI assistants with comprehensive guidance for working within
 
 ---
 
+## 📁 **Development Templates Integration**
+
+### **Ready-to-Use Development Templates**
+
+The framework provides comprehensive implementation templates for immediate development acceleration:
+
+**Development Phase Templates:**
+- [EARS requirements template](../templates/development/ears-template.md) - Structured requirements format
+- [BDD scenario template](../templates/development/bdd-scenario-template.md) - Behavior-driven development
+- [ADR template](../templates/development/adr-template.md) - Architecture decision documentation
+
+**AI Agent Scripts:**
+- [Code quality agent](../templates/ai-agents/code-quality-agent.py) - Comprehensive code analysis
+- [Deployment strategy agent](../templates/ai-agents/deployment-strategy-agent.py) - Intelligent deployment decisions
+
+#### **Template Integration Commands**
+```bash
+# Apply EARS template for requirements
+"api-design-architect: Use templates/development/ears-template.md to create structured requirements for [feature], ensuring framework v3.7 compliance"
+
+# Generate BDD scenarios from template
+"test-engineer: Use templates/development/bdd-scenario-template.md to create behavioral scenarios validating requirement REQ-[ID]"
+
+# Create architecture decisions from template
+"gcp-ai-architect: Use templates/development/adr-template.md to document [architectural decision] with comprehensive analysis"
+```
+
+#### **AI Agent Template Usage**
+```bash
+# Run code quality analysis
+"Run templates/ai-agents/code-quality-agent.py on changed files to validate framework compliance and quality standards"
+
+# Analyze deployment strategy
+"Execute templates/ai-agents/deployment-strategy-agent.py to determine optimal deployment approach for current changes"
+```
+
+---
+
 ## 📚 **AI Assistant Framework v3.7 Quick Reference**
 
 ### **Essential AI Commands**

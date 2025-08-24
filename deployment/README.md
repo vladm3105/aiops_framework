@@ -237,7 +237,7 @@ graph TD
 ## 📚 **Additional Resources**
 
 ### **Core Documentation**
-- **Master Deployment Strategy**: [`../deployment.md.template`](../deployment.md.template) - Framework-wide deployment strategy
+- **Master Deployment Strategy**: [`../templates/framework/deployment.md.template`](../templates/framework/deployment.md.template) - Framework-wide deployment strategy
 - **Session Management**: [Deployment Session Protocols](session_management_protocols.md)
 - **Framework Integration**: [Core Deployment Framework](deployment_framework_v3.7.md)
 

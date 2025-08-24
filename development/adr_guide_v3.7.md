@@ -49,6 +49,21 @@ Unlike traditional ADRs, Framework v3.7 ADRs include:
 4. **Security-by-Design Impact:** Security architecture implications
 5. **Deployment Strategy Impact:** Effect on AI-first deployment automation
 
+### **ADR Templates Available**
+
+The framework provides comprehensive ADR templates for immediate use:
+
+**ADR Development Templates:**
+- [ADR template](../templates/development/adr-template.md) - Complete framework-compliant ADR structure
+- [EARS requirements template](../templates/development/ears-template.md) - Requirements linking to ADR decisions
+- [BDD scenario template](../templates/development/bdd-scenario-template.md) - Behavioral validation for architecture decisions
+
+**Quick Start Command:**
+```bash
+# Create framework-compliant ADR
+"gcp-ai-architect: Use templates/development/adr-template.md to create ADR-[NUMBER] for [architectural decision], ensuring EARS requirement integration, BDD scenario specification, and framework v3.7 compliance"
+```
+
 ### **ADR Integration Workflow in Framework v3.7**
 
 ```

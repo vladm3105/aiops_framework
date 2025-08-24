@@ -1,3 +1,60 @@
+# AI Agent Development Framework v3.7
+## Complete Development Methodology for Enterprise AI-First Projects
+
+**Version:** 3.7 - Production Ready Development Edition  
+**Date:** 2025-08-23  
+**Framework:** AI Agent Development Framework v3.7  
+**Purpose:** Complete development methodology from requirements through deployment  
+**Scope:** Phase 1 (Requirements Analysis) through Phase 6 (Testing & QA)  
+**Integration:** Development → Deployment → Operations workflow  
+
+---
+
+## **DEVELOPMENT FRAMEWORK OVERVIEW**
+
+### **Framework Mission**
+
+The Development Framework v3.7 provides comprehensive development capabilities including:
+
+- **AI-First Development** with intelligent code generation and pattern recognition
+- **EARS Requirements Integration** with behavioral-driven development (BDD)
+- **Architecture Decision Records (ADR)** with comprehensive decision tracking
+- **Security-by-Design** integration throughout the development lifecycle
+- **Quality Gates** and automated validation at every development phase
+- **Template-Driven Development** with ready-to-use implementation patterns
+
+### **Implementation Templates Available**
+
+The development framework includes comprehensive templates for immediate development acceleration:
+
+**Development Phase Templates:**
+- [EARS requirements template](../templates/development/ears-template.md) - Structured requirements format
+- [BDD scenario template](../templates/development/bdd-scenario-template.md) - Behavior-driven development
+- [ADR template](../templates/development/adr-template.md) - Architecture decision documentation
+
+**AI Agent Scripts:**
+- [Code quality agent](../templates/ai-agents/code-quality-agent.py) - Comprehensive code analysis
+- [Deployment strategy agent](../templates/ai-agents/deployment-strategy-agent.py) - Intelligent deployment decisions
+
+**Quick Start Command:**
+```bash
+# Initialize development with templates
+"api-design-architect: Use templates/development/ears-template.md to create structured requirements for [feature], then use templates/development/bdd-scenario-template.md for behavioral validation"
+```
+
+### **Development Framework Integration**
+
+**Complete Workflow Integration:**
+```
+Development Framework (Phases 1-6) → Deployment Framework (Phase 7) → Operations Framework (Phase 8)
+```
+
+## AI-First Development Workflow
+
+This framework is designed to be executed by an AI assistant with a human developer providing supervision and approval. The human developer provides the initial PRD and architecture during the development stage, and the AI assistant handles implementation, testing, and quality assurance with human validation at key checkpoints.
+
+---
+
 #### **AI Context Implementation Command**
 
 **AI Assistant Action Steps:**

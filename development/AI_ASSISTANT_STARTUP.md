@@ -115,7 +115,7 @@ STOP if any prerequisite fails - return to init/AI_ASSISTANT_STARTUP.md"
 "general-purpose: Execute ls -la .ai_context/ development/ deployment/ operations/ to check framework directories"
 
 # 2. MANDATORY SECOND STEP: Framework Compliance Validation
-"general-purpose: Verify all Framework v3.7 root files exist (product.md.template, requirements.md.template, design.md.template, tasks.md.template, deployment.md.template), check required directories (docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, .ai_context/, development/), identify missing framework components and document gaps in .ai_context/framework_progress.md"
+"general-purpose: Verify all Framework v3.7 root files exist (templates/framework/product.md.template, templates/framework/requirements.md.template, templates/framework/design.md.template, templates/framework/tasks.md.template, templates/framework/deployment.md.template), check required directories (docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, .ai_context/, development/), identify missing framework components and document gaps in .ai_context/framework_progress.md"
 
 # 3. MANDATORY THIRD STEP: Gap Remediation  
 "general-purpose: Create missing framework files following v3.7 specifications, populate empty required directories with appropriate content, update existing files to meet framework compliance standards, achieve 100% framework structure compliance before development tasks, update .ai_context/framework_progress.md with compliance status"
@@ -290,7 +290,7 @@ Update .ai_context/framework_progress.md with structure setup progress"
 **AI Action Steps:**
 ```bash
 # Create comprehensive product vision
-"api-design-architect: Work with project-manager to create product.md.template with business vision, system capabilities, stakeholder needs, success criteria"
+"api-design-architect: Work with project-manager to create templates/framework/product.md.template with business vision, system capabilities, stakeholder needs, success criteria"
 
 # Create Product Requirements Documents
 "api-design-architect: Create PRD using prd_template_v3.7.md including business objectives, user stories, functional requirements"
@@ -434,7 +434,7 @@ Any scenario modifications needed?"
 **AI Action Steps:**
 ```bash
 # Create system architecture documentation
-"gcp-ai-architect: Create or update design.md.template with comprehensive technical architecture including system components, integration patterns, technology stack"
+"gcp-ai-architect: Create or update templates/framework/design.md.template with comprehensive technical architecture including system components, integration patterns, technology stack"
 
 # Create foundational ADRs
 "gcp-ai-architect: Create foundational ADRs using adr_template_v3.7.md for major architectural decisions including technology choices, patterns, frameworks"
@@ -471,7 +471,7 @@ Any scenario modifications needed?"
 "project-manager: Create Phase 3 completion validation report in docs/validation/phase_3_completion_report.md using mandatory framework template, documenting architecture design validation, ADR completeness, framework compliance"
 
 # Create Validated Architecture Document
-"system-architect: Create validated architecture document in docs/validation/validated_architecture.md consolidating design.md.template and all ADRs into single implementation-ready specification with executive summary, complete system architecture, and implementation guidance for development teams"
+"system-architect: Create validated architecture document in docs/validation/validated_architecture.md consolidating templates/framework/design.md.template and all ADRs into single implementation-ready specification with executive summary, complete system architecture, and implementation guidance for development teams"
 
 # Update development state
 "general-purpose: Update .ai_context/framework_progress.md Phase 3 status to 'completed' and ready for human approval"
@@ -480,7 +480,7 @@ Any scenario modifications needed?"
 **🚨 HUMAN GUIDANCE CHECKPOINT:**
 ```
 "Human Developer: I have completed Phase 3 architecture and ADR development. Please review:
-1. System architecture in design.md.template
+1. System architecture in templates/framework/design.md.template
 2. ADR decisions in docs/adr/ with complete rationale
 3. Security, performance, integration, and deployment architecture
 4. Architecture alignment with requirements and BDD scenarios
@@ -508,7 +508,7 @@ Any architectural changes needed?"
 **AI Action Steps:**
 ```bash
 # Create architectural component mapping
-"system-architect: Create complete architectural component mapping document in docs/specs/ARCHITECTURAL_COMPONENT_MAPPING.md that identifies ALL components from Phase 3 validated architecture and design.md.template. Map each component to appropriate SPECS-NNNN document with ADR references, priority levels, and implementation traceability"
+"system-architect: Create complete architectural component mapping document in docs/specs/ARCHITECTURAL_COMPONENT_MAPPING.md that identifies ALL components from Phase 3 validated architecture and templates/framework/design.md.template. Map each component to appropriate SPECS-NNNN document with ADR references, priority levels, and implementation traceability"
 
 # Create SPECS document master plan
 "project-manager: Create complete list of ALL required SPECS-NNNN documents in docs/specs/SPECS_DOCUMENT_LIST.md with component assignments, priorities, coverage scope, and implementation roadmap. This serves as master plan for Phase 4 execution"

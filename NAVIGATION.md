@@ -24,11 +24,11 @@
 - [`GET_STARTED.md`](GET_STARTED.md) - Quick start for all scenarios
 
 ### **Project Templates**
-- [`product.md.template`](product.md.template) - Business vision and strategic objectives template
-- [`requirements.md.template`](requirements.md.template) - Master requirements (EARS format) template
-- [`design.md.template`](design.md.template) - System architecture and technical design template
-- [`tasks.md.template`](tasks.md.template) - Implementation roadmap and task management template
-- [`deployment.md.template`](deployment.md.template) - Deployment strategy and procedures template
+- [`templates/framework/product.md.template`](templates/framework/product.md.template) - Business vision and strategic objectives template
+- [`templates/framework/requirements.md.template`](templates/framework/requirements.md.template) - Master requirements (EARS format) template
+- [`templates/framework/design.md.template`](templates/framework/design.md.template) - System architecture and technical design template
+- [`templates/framework/tasks.md.template`](templates/framework/tasks.md.template) - Implementation roadmap and task management template
+- [`templates/framework/deployment.md.template`](templates/framework/deployment.md.template) - Deployment strategy and procedures template
 
 ---
 
@@ -172,7 +172,7 @@
 | **Developer** | [Development Framework](development/) | [AI Assistant Guide](development/ai_assistant_guide_v3.7.md) |
 | **DevOps Engineer** | [Deployment Framework](deployment/) | [Infrastructure Automation](deployment/infrastructure_automation_v3.7.md) |
 | **SRE/Operations** | [Operations Framework](operations/) | [Monitoring Guide](operations/monitoring_observability_v3.7.md) |
-| **Architect** | [System Architecture](design.md.template) | [ADR Guide](development/adr_guide_v3.7.md) |
+| **Architect** | [System Architecture](templates/framework/design.md.template) | [ADR Guide](development/adr_guide_v3.7.md) |
 | **Project Manager** | [Framework Overview](README.md) | [Session Management](SESSION_MANAGEMENT.md) |
 | **Security Engineer** | [Security Integration](docs/bdd/security_bdd.md) | [Security Auditor Agent](agents/) |
 

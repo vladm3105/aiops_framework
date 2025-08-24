@@ -95,7 +95,7 @@
 #### **1.1 Business Vision & Product Definition**
 ```bash
 # Business Vision and PRD Creation
-"api-design-architect: Work with project-manager to create product.md.template with business vision, system capabilities, and stakeholder needs"
+"api-design-architect: Work with project-manager to create templates/framework/product.md.template with business vision, system capabilities, and stakeholder needs"
 "project-manager: Create comprehensive PRD using prd_template_v3.7.md with business objectives, user stories, and stakeholder requirements"
 ```
 
@@ -174,7 +174,7 @@
 #### **3.1 System Architecture Design**
 ```bash
 # System Architecture and ADR Foundation
-"gcp-ai-architect: Create or update design.md.template with comprehensive technical architecture including system overview, component interactions, and technology stack"
+"gcp-ai-architect: Create or update templates/framework/design.md.template with comprehensive technical architecture including system overview, component interactions, and technology stack"
 "gcp-ai-architect: Create foundational ADRs using adr_template_v3.7.md for core architectural decisions"
 ```
 
@@ -204,7 +204,7 @@
 # Phase 3 Completion Validation
 "project-manager: Create Phase 3 validation report in docs/validation/phase_3_completion_report.md and prepare human checkpoint review including system architecture, ADR decisions, and validated architecture document"
 
-# HUMAN CHECKPOINT REQUIRED: "Human Developer: I have completed Phase 3 architecture and ADR development. Please review: 1. System architecture in design.md.template 2. ADR decisions in docs/adr/ with complete rationale 3. Security, performance, integration, and deployment architecture. Do you approve this architecture to proceed to Phase 4 specifications?"
+# HUMAN CHECKPOINT REQUIRED: "Human Developer: I have completed Phase 3 architecture and ADR development. Please review: 1. System architecture in templates/framework/design.md.template 2. ADR decisions in docs/adr/ with complete rationale 3. Security, performance, integration, and deployment architecture. Do you approve this architecture to proceed to Phase 4 specifications?"
 ```
 
 ---

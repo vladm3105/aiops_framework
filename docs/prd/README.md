@@ -3,7 +3,7 @@
 
 **Purpose**: Product Requirements Documents for framework features and capabilities  
 **Format**: Comprehensive product specifications with user stories and acceptance criteria  
-**Integration**: Links to [`../product.md.template`](../../product.md.template) for overall product vision  
+**Integration**: Links to [`../templates/framework/product.md.template`](../../templates/framework/product.md.template) for overall product vision  
 
 ---
 
@@ -198,7 +198,7 @@ Acceptance Criteria:
 ## 🔗 **PRD Integration Points**
 
 ### **Requirements Traceability**
-- **Product Vision**: All PRDs trace to strategic objectives in product.md.template
+- **Product Vision**: All PRDs trace to strategic objectives in templates/framework/product.md.template
 - **EARS Requirements**: PRDs link to specific EARS requirements validation
 - **BDD Scenarios**: PRDs include behavioral validation criteria
 - **Technical Specs**: PRDs reference detailed technical implementation specs

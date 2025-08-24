@@ -109,7 +109,7 @@ Validation Reports provide comprehensive evidence of framework compliance, quali
 ### **Security Validation**
 
 #### **VAL-020: Security-by-Design Validation**
-**File**: [val-020-security-by-design.md.template](val-020-security-by-design.md.template)
+**File**: [val-020-security-by-templates/framework/design.md.template](val-020-security-by-templates/framework/design.md.template)
 - **Status**: Template Ready
 - **Purpose**: Validate security integration throughout framework
 - **Scope**: Threat modeling, security controls, incident response

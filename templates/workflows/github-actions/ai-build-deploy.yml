@@ -1,0 +1,359 @@
+# AI Build and Deploy Workflow Template
+# AI Agent Development Framework v3.7
+#
+# Configuration Variables:
+# - GCP_PROJECT_ID: Your GCP project ID
+# - GCP_REGION: Your preferred GCP region  
+# - ARTIFACT_REGISTRY: Container registry URL
+# - WIF_PROVIDER: Workload Identity Federation provider
+# - WIF_SERVICE_ACCOUNT: Service account for GCP authentication
+#
+# This workflow uses AI to determine optimal deployment strategies,
+# optimize builds, and manage zero-downtime deployments automatically.
+
+name: AI Build and Deploy
+
+on:
+  workflow_call:
+    inputs:
+      environment:
+        required: true
+        type: string
+        description: 'Target environment (dev, staging, prod)'
+      deployment_strategy:
+        required: false
+        type: string
+        default: 'ai-decide'
+        description: 'Deployment strategy: ai-decide, blue-green, canary, rolling'
+      force_strategy:
+        required: false
+        type: boolean
+        default: false
+        description: 'Force specific strategy instead of AI decision'
+
+env:
+  GCP_PROJECT_ID: ${{ "{{" }} vars.GCP_PROJECT_ID {{ "}}" }}
+  GCP_REGION: ${{ "{{" }} vars.GCP_REGION {{ "}}" }}
+  ARTIFACT_REGISTRY: ${{ "{{" }} vars.ARTIFACT_REGISTRY {{ "}}" }}
+
+jobs:
+  ai-deployment-strategy:
+    runs-on: ubuntu-latest
+    outputs:
+      strategy: ${{ "{{" }} steps.ai-decision.outputs.strategy {{ "}}" }}
+      risk-level: ${{ "{{" }} steps.ai-decision.outputs.risk-level {{ "}}" }}
+      
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '{{ PYTHON_VERSION | default: 3.11 }}'
+
+    - name: Install AI Agent Dependencies
+      run: |
+        pip install -r scripts/ai-agents/requirements.txt
+
+    - name: AI Deployment Strategy Decision
+      id: ai-decision
+      run: |
+        # AI analyzes changes and determines optimal deployment strategy
+        if [ "${{ "{{" }} inputs.force_strategy {{ "}}" }}" = "true" ]; then
+          STRATEGY="${{ "{{" }} inputs.deployment_strategy {{ "}}" }}"
+          RISK_LEVEL="medium"
+        else
+          python scripts/ai-agents/deployment-strategy-agent.py \
+            --analyze-changes "$(git diff --name-only HEAD~1)" \
+            --environment ${{ "{{" }} inputs.environment {{ "}}" }} \
+            --historical-data deployment-history.json \
+            --framework-version v3.7 \
+            --output-decision
+
+          STRATEGY=$(jq -r '.strategy' deployment-decision.json)
+          RISK_LEVEL=$(jq -r '.risk_level' deployment-decision.json)
+        fi
+        
+        echo "strategy=$STRATEGY" >> $GITHUB_OUTPUT
+        echo "risk-level=$RISK_LEVEL" >> $GITHUB_OUTPUT
+        
+        echo "🤖 AI Selected Deployment Strategy: $STRATEGY"
+        echo "📊 Risk Level: $RISK_LEVEL"
+
+    - name: Upload Strategy Decision
+      uses: actions/upload-artifact@v4
+      with:
+        name: deployment-decision
+        path: deployment-decision.json
+
+  ai-optimized-build:
+    needs: ai-deployment-strategy
+    runs-on: ubuntu-latest
+    outputs:
+      image-uri: ${{ "{{" }} steps.build.outputs.image-uri {{ "}}" }}
+      
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Authenticate to GCP
+      uses: google-github-actions/auth@v2
+      with:
+        workload_identity_provider: ${{ "{{" }} secrets.WIF_PROVIDER {{ "}}" }}
+        service_account: ${{ "{{" }} secrets.WIF_SERVICE_ACCOUNT {{ "}}" }}
+
+    - name: Set up Cloud SDK
+      uses: google-github-actions/setup-gcloud@v2
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '{{ PYTHON_VERSION | default: 3.11 }}'
+
+    - name: Install Build Dependencies
+      run: |
+        pip install -r scripts/ai-agents/requirements.txt
+
+    - name: AI Dockerfile Optimization
+      run: |
+        # Use AI to optimize Dockerfile for target platform
+        python scripts/ai-agents/dockerfile-optimizer.py \
+          --dockerfile {{ DOCKERFILE_PATH | default: Dockerfile }} \
+          --target {{ DEPLOYMENT_TARGET | default: cloud-run }} \
+          --optimize-for {{ OPTIMIZATION_TARGET | default: cold-start }} \
+          --framework-version v3.7 \
+          --output Dockerfile.optimized
+
+        if [ -f Dockerfile.optimized ]; then
+          mv Dockerfile.optimized {{ DOCKERFILE_PATH | default: Dockerfile }}
+        fi
+
+    - name: AI-Optimized Docker Build
+      id: build
+      run: |
+        # AI determines optimal build strategy and caching
+        BUILD_STRATEGY=$(python scripts/ai-agents/build-optimizer.py \
+          --analyze-dependencies \
+          --cache-strategy intelligent \
+          --framework-compliance v3.7)
+
+        IMAGE_NAME="{{ IMAGE_NAME | default: app }}"
+        IMAGE_TAG="${{ "{{" }} github.sha {{ "}}" }}"
+        IMAGE_URI="${ARTIFACT_REGISTRY}/${IMAGE_NAME}:${IMAGE_TAG}"
+        
+        echo "🤖 AI Build Strategy: $BUILD_STRATEGY"
+        echo "📦 Building image: $IMAGE_URI"
+        
+        # Configure Docker buildx for advanced features
+        docker buildx create --use --name ai-builder --driver docker-container
+        
+        # Build with AI-optimized strategy
+        if [ "$BUILD_STRATEGY" = "multi-stage" ]; then
+          docker buildx build \
+            --platform linux/amd64 \
+            --target {{ BUILD_TARGET | default: production }} \
+            --cache-from type=gha \
+            --cache-to type=gha,mode=max \
+            -t $IMAGE_URI \
+            --push .
+        else
+          docker buildx build \
+            --platform linux/amd64 \
+            --cache-from type=gha \
+            --cache-to type=gha,mode=max \
+            -t $IMAGE_URI \
+            --push .
+        fi
+
+        echo "image-uri=$IMAGE_URI" >> $GITHUB_OUTPUT
+
+    - name: AI Security Scanning
+      run: |
+        # Scan container for vulnerabilities
+        gcloud container images scan ${{ "{{" }} steps.build.outputs.image-uri {{ "}}" }} \
+          --remote --format="value(response.scan)" || true
+
+        # AI analysis of scan results
+        python scripts/ai-agents/vulnerability-analyzer.py \
+          --image-uri ${{ "{{" }} steps.build.outputs.image-uri {{ "}}" }} \
+          --risk-threshold {{ SECURITY_RISK_THRESHOLD | default: high }} \
+          --framework-security v3.7 \
+          --auto-patch-suggestions
+
+    - name: Upload Build Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-artifacts
+        path: |
+          vulnerability-scan.json
+          build-optimization-report.json
+
+  blue-green-deployment:
+    needs: [ai-deployment-strategy, ai-optimized-build]
+    runs-on: ubuntu-latest
+    if: needs.ai-deployment-strategy.outputs.strategy == 'blue-green'
+    environment: ${{ "{{" }} inputs.environment {{ "}}" }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Authenticate to GCP
+      uses: google-github-actions/auth@v2
+      with:
+        workload_identity_provider: ${{ "{{" }} secrets.WIF_PROVIDER {{ "}}" }}
+        service_account: ${{ "{{" }} secrets.WIF_SERVICE_ACCOUNT {{ "}}" }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '{{ PYTHON_VERSION | default: 3.11 }}'
+
+    - name: Install Deployment Dependencies
+      run: |
+        pip install -r scripts/ai-agents/requirements.txt
+
+    - name: AI Blue-Green Deployment
+      run: |
+        # AI-controlled blue-green deployment
+        python scripts/ai-agents/blue-green-deployer.py \
+          --image-uri ${{ "{{" }} needs.ai-optimized-build.outputs.image-uri {{ "}}" }} \
+          --environment ${{ "{{" }} inputs.environment {{ "}}" }} \
+          --service-name {{ SERVICE_NAME | default: app }} \
+          --health-check-timeout {{ HEALTH_CHECK_TIMEOUT | default: 300 }} \
+          --rollback-threshold {{ ROLLBACK_THRESHOLD | default: 5 }} \
+          --framework-version v3.7
+
+    - name: AI Health Validation
+      run: |
+        # AI validates deployment health before traffic switch
+        python scripts/ai-agents/health-validator.py \
+          --service {{ SERVICE_NAME | default: app }}-green \
+          --environment ${{ "{{" }} inputs.environment {{ "}}" }} \
+          --validation-tests comprehensive \
+          --framework-compliance v3.7 \
+          --switch-traffic-on-success
+
+    - name: AI Traffic Management
+      run: |
+        # Gradually shift traffic with AI monitoring
+        python scripts/ai-agents/traffic-manager.py \
+          --service {{ SERVICE_NAME | default: app }} \
+          --environment ${{ "{{" }} inputs.environment {{ "}}" }} \
+          --strategy gradual \
+          --monitoring-window {{ MONITORING_WINDOW | default: 600 }} \
+          --rollback-on-errors {{ ROLLBACK_ERROR_THRESHOLD | default: 5 }} \
+          --framework-monitoring v3.7
+
+  canary-deployment:
+    needs: [ai-deployment-strategy, ai-optimized-build]
+    runs-on: ubuntu-latest
+    if: needs.ai-deployment-strategy.outputs.strategy == 'canary'
+    environment: ${{ "{{" }} inputs.environment {{ "}}" }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Authenticate to GCP
+      uses: google-github-actions/auth@v2
+      with:
+        workload_identity_provider: ${{ "{{" }} secrets.WIF_PROVIDER {{ "}}" }}
+        service_account: ${{ "{{" }} secrets.WIF_SERVICE_ACCOUNT {{ "}}" }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '{{ PYTHON_VERSION | default: 3.11 }}'
+
+    - name: Install Deployment Dependencies
+      run: |
+        pip install -r scripts/ai-agents/requirements.txt
+
+    - name: AI Canary Deployment
+      run: |
+        # AI-managed canary deployment
+        python scripts/ai-agents/canary-deployer.py \
+          --image-uri ${{ "{{" }} needs.ai-optimized-build.outputs.image-uri {{ "}}" }} \
+          --environment ${{ "{{" }} inputs.environment {{ "}}" }} \
+          --canary-percentage {{ CANARY_PERCENTAGE | default: 10 }} \
+          --success-criteria "{{ SUCCESS_CRITERIA | default: error_rate<1%,latency_p99<200ms }}" \
+          --promotion-strategy {{ PROMOTION_STRATEGY | default: automatic }} \
+          --framework-version v3.7
+
+  rolling-deployment:
+    needs: [ai-deployment-strategy, ai-optimized-build]
+    runs-on: ubuntu-latest
+    if: needs.ai-deployment-strategy.outputs.strategy == 'rolling'
+    environment: ${{ "{{" }} inputs.environment {{ "}}" }}
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Authenticate to GCP
+      uses: google-github-actions/auth@v2
+      with:
+        workload_identity_provider: ${{ "{{" }} secrets.WIF_PROVIDER {{ "}}" }}
+        service_account: ${{ "{{" }} secrets.WIF_SERVICE_ACCOUNT {{ "}}" }}
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '{{ PYTHON_VERSION | default: 3.11 }}'
+
+    - name: Install Deployment Dependencies
+      run: |
+        pip install -r scripts/ai-agents/requirements.txt
+
+    - name: AI Rolling Deployment
+      run: |
+        # AI-managed rolling deployment
+        python scripts/ai-agents/rolling-deployer.py \
+          --image-uri ${{ "{{" }} needs.ai-optimized-build.outputs.image-uri {{ "}}" }} \
+          --environment ${{ "{{" }} inputs.environment {{ "}}" }} \
+          --service-name {{ SERVICE_NAME | default: app }} \
+          --max-unavailable {{ MAX_UNAVAILABLE | default: 25% }} \
+          --max-surge {{ MAX_SURGE | default: 25% }} \
+          --framework-version v3.7
+
+  post-deployment-monitoring:
+    needs: [blue-green-deployment, canary-deployment, rolling-deployment]
+    if: always() && (needs.blue-green-deployment.result == 'success' || needs.canary-deployment.result == 'success' || needs.rolling-deployment.result == 'success')
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '{{ PYTHON_VERSION | default: 3.11 }}'
+
+    - name: Install Monitoring Dependencies
+      run: |
+        pip install -r scripts/ai-agents/requirements.txt
+
+    - name: AI Post-Deployment Analysis
+      run: |
+        # AI monitors deployment and provides insights
+        python scripts/ai-agents/deployment-monitor.py \
+          --environment ${{ "{{" }} inputs.environment {{ "}}" }} \
+          --service {{ SERVICE_NAME | default: app }} \
+          --monitoring-duration {{ MONITORING_DURATION | default: 1800 }} \
+          --generate-insights \
+          --framework-metrics v3.7 \
+          --alert-on-anomalies
+
+    - name: Upload Deployment Results
+      uses: actions/upload-artifact@v4
+      with:
+        name: deployment-results
+        path: |
+          deployment-analysis.json
+          monitoring-insights.json
+          performance-metrics.json

@@ -3,7 +3,7 @@
 
 **Purpose**: Architecture Decision Records document significant architectural decisions made during framework implementation  
 **Format**: Standard ADR format with context, decision, rationale, and consequences  
-**Integration**: Links to [`../design.md.template`](../../design.md.template) for overall architecture overview  
+**Integration**: Links to [`../templates/framework/design.md.template`](../../templates/framework/design.md.template) for overall architecture overview  
 
 ---
 
@@ -60,7 +60,7 @@ Each ADR follows this standardized format:
 #### **ADR-004: Security-by-Design Integration**
 - **Status**: Accepted
 - **Decision**: Integrated security throughout all framework phases
-- **File**: [adr-004-security-by-design.md.template](adr-004-security-by-design.md.template)
+- **File**: [adr-004-security-by-templates/framework/design.md.template](adr-004-security-by-templates/framework/design.md.template)
 
 #### **ADR-005: Multi-Agent AI Architecture**
 - **Status**: Accepted
