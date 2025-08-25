@@ -37,7 +37,90 @@ The AI Agent Development Framework v3.7 provides a complete **AI-first methodolo
 
 ---
 
-## **Framework Workflow**
+## Roles and Goals in AI Agent Development Framework v3.7
+
+### Core Philosophy: AI-First with Human Strategic Oversight
+
+The framework operates on a **90-95% AI execution, 5-10% human supervision** model across all phases, where AI assistants handle operational tasks while humans maintain strategic control.
+
+### AI Assistant Role & Goals
+
+**Primary Role: Autonomous Execution Engine**  
+AI assistants serve as the **primary execution agents** responsible for implementing the entire software development lifecycle with minimal human intervention.
+
+**Core Goals:**
+
+- **10x Development Acceleration** through optimized context management and automated workflows
+- **95%+ Code Accuracy** through framework pattern recognition and systematic validation
+- **Complete Framework Compliance** through structured guidance and quality gates
+- **Production-Ready Output** with integrated security, testing, and deployment automation
+
+**AI Assistant Responsibilities by Phase:**
+
+#### Phase -1 to 0: Init (AI: 90%, Human: 10%)
+
+- **AI Autonomous:** Project structure analysis, framework directory creation, template application, version control integration, AI context optimization
+
+#### Phase 1-6: Development (AI: 90-95%, Human: 5-10%)
+
+- **AI Autonomous:** EARS requirements analysis, BDD scenario development, ADR generation, code implementation using framework patterns, automated testing and quality validation, security integration
+
+#### Phase 7: Deployment (AI: 90%, Human: 10%)
+
+- **AI Autonomous:** Infrastructure-as-Code deployment, CI/CD pipeline execution, zero-downtime deployment strategies, performance validation, security compliance verification
+
+#### Phase 8: Operations (AI: 95%, Human: 5%)
+
+- **AI Autonomous:** Intelligent monitoring and anomaly detection, automated incident response, performance optimization, cost analysis, security monitoring and threat response
+
+### Human Developer Role & Goals
+
+**Primary Role: Strategic Supervisor & Decision Authority**  
+Human developers provide **strategic oversight, business alignment, and final approval authority** while delegating operational execution to AI assistants.
+
+**Core Goals:**
+- **Strategic Direction:** Provide business context, requirements, and architectural vision
+- **Quality Assurance:** Validate AI-generated outputs meet business and technical requirements
+- **Risk Management:** Ensure security, compliance, and business impact considerations
+- **Innovation Guidance:** Direct technical strategy and architectural decisions
+
+**Human Developer Responsibilities by Phase:**
+
+#### Phase -1 to 0: Init (Human: 10%)
+
+- **Strategic Decisions:** Project migration strategy approval, version control approach confirmation, business requirements validation, final framework authorization
+
+#### Phase 1-6: Development (Human: 5-10%)
+
+- **Strategic Oversight:** PRD creation and validation, architecture decision approval for business-critical components, user experience validation, framework compliance approval
+
+#### Phase 7: Deployment (Human: 10%)
+
+- **Strategic Validation:** Production deployment strategy approval, infrastructure architecture validation, security configuration approval, performance targets validation
+
+#### Phase 8: Operations (Human: 5%)
+
+- **Strategic Operations:** Major operational strategy changes approval, business impact assessment, policy and compliance validation, critical incident escalation, resource investment approval
+
+### Collaborative Workflow Model
+
+**AI-Human Partnership Structure:**
+
+1. **Human Sets Direction** → **AI Executes Implementation** → **Human Validates Results**
+2. **Continuous Feedback Loop:** Human provides business context → AI implements using framework patterns → Human reviews for business alignment → AI refines based on feedback
+3. **Escalation Protocol:** AI handles routine tasks autonomously → AI escalates strategic decisions to human → Human provides guidance and approval → AI continues with approved direction
+
+**Key Success Metrics:**
+
+- **10x Development Velocity** through AI acceleration
+- **99.9% Deployment Reliability** with zero-downtime strategies
+- **Sub-2-minute MTTR** for AI-powered incident response
+- **95%+ Framework Compliance** for structure and implementation
+- **Complete Security Integration** throughout all phases
+
+---
+
+## Framework Workflow
 
 ### **Complete Init → Development → Deployment → Validation → Operations Flow**
 
@@ -138,7 +221,7 @@ graph TD
 
 ---
 
-## 📁 **Directory Structure**
+## Directory Structure
 
 ```plaintext
 📁 .aiops_v3.7/
@@ -276,9 +359,9 @@ The human developer is responsible for the following:
 
 ---
 
-## 🛡️ **Security & Compliance**
+## Security & Compliance
 
-### **Security-by-Design Integration**
+### Security-by-Design Integration
 
 - **Threat Modeling**: Integrated throughout development lifecycle
 - **Security Scanning**: SAST, DAST, and dependency analysis
@@ -286,7 +369,7 @@ The human developer is responsible for the following:
 - **Access Management**: IAM, RBAC, and principle of least privilege
 - **Incident Response**: Automated security incident detection and response
 
-### **Regulatory Compliance**
+### Regulatory Compliance
 
 - **Government Standards**: FedRAMP, FISMA compliance ready
 - **Regulatory Compliance**: Industry-specific document processing and validation
@@ -296,9 +379,9 @@ The human developer is responsible for the following:
 
 ---
 
-## 📊 **Success Metrics**
+## Success Metrics
 
-### **Framework Effectiveness Targets**
+### Framework Effectiveness Targets
 
 - **Development Velocity**: 10x improvement over traditional development
 - **Deployment Reliability**: >99.9% success rate with zero-downtime
@@ -307,7 +390,7 @@ The human developer is responsible for the following:
 - **Framework Compliance**: 100% structure compliance, >95% implementation
 - **Cost Optimization**: 20-50% cost reduction through AI optimization
 
-### **Quality Assurance Standards**
+### Quality Assurance Standards
 
 - **Test Coverage**: 95% unit, 85% integration, 75% end-to-end testing
 - **Security Validation**: 100% critical vulnerability remediation
@@ -317,9 +400,9 @@ The human developer is responsible for the following:
 
 ---
 
-## 🚀 **Getting Started (Choose Your Path)**
+## Getting Started (Choose Your Path)
 
-### 📝 **I Want to Start a New Project**
+### I Want to Start a New Project
 
 **→ [GET STARTED in 5 minutes](GET_STARTED.md#new-project-5-minute-setup)**
 
@@ -327,7 +410,7 @@ The human developer is responsible for the following:
 - Framework structure creation
 - Ready for development in minutes
 
-### 🔄 **I Have an Existing Project**
+### I Have an Existing Project
 
 **→ [Integrate Framework](GET_STARTED.md#existing-project-integration)**
 
@@ -335,7 +418,7 @@ The human developer is responsible for the following:
 - Existing code protection
 - Enhanced with AI development
 
-### 🚀 **I Want to Deploy Existing Code**
+### I Want to Deploy Existing Code
 
 **→ [Deploy in 15 minutes](GET_STARTED.md#deployment-only)**
 
@@ -343,7 +426,7 @@ The human developer is responsible for the following:
 - Infrastructure-as-Code setup
 - Production monitoring included
 
-### 🤖 **I Want AI-Autonomous Operations**
+### I Want AI-Autonomous Operations
 
 **→ [Operations Setup](GET_STARTED.md#operations-setup)**
 
@@ -351,7 +434,7 @@ The human developer is responsible for the following:
 - Self-healing systems
 - Cost optimization
 
-### ❓ **I Want to Learn More**
+### I Want to Learn More
 
 **→ [Framework Overview](GET_STARTED.md#framework-overview)**
 
@@ -361,21 +444,21 @@ The human developer is responsible for the following:
 
 ---
 
-## 📋 **Session Management**
+## Session Management
 
 For a detailed explanation of the session management protocols, please see the [SESSION_MANAGEMENT.md](SESSION_MANAGEMENT.md) file.
 
 ---
 
-## 📚 **Additional Resources**
+## Additional Resources
 
-### **Support and Documentation**
+### Support and Documentation
 
 - **Agent Coordination**: [Agents Directory](agents/) - Specialized AI agents
 - **Style Guide**: [STYLE_GUIDE.md](STYLE_GUIDE.md) - The style guide for the framework documentation.
 - **Glossary**: [GLOSSARY.md](GLOSSARY.md) - A glossary of key terms and concepts.
 
-### **Framework Evolution**
+### Framework Evolution
 
 This framework evolves continuously based on:
 
@@ -386,7 +469,7 @@ This framework evolves continuously based on:
 
 ---
 
-## 🎯 **Conclusion**
+## Conclusion
 
 Framework v3.7 provides **complete AI-first methodology** covering the entire software lifecycle from development through operations excellence. By following the **Development → Deployment → Validation → Operations** workflow with AI-autonomous execution and human supervision, teams achieve:
 
