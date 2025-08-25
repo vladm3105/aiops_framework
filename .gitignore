@@ -216,6 +216,12 @@ restore_*
 *.rar
 *.7z
 
+# Archived Legacy Files (DO NOT TRACK)
+.archive_devops_legacy_files/
+devops_archive_not_used/
+*_archive_not_used/
+.archive_*/
+
 # Framework Development
 .framework_dev/
 .development_notes/
@@ -226,6 +232,13 @@ TODO_personal.md
 .ai_working/
 .context_temp/
 ai_session_*.md
+
+# AI Assistant Configuration Files
+CLAUDE.md
+GEMINI.md
+AGENTS.md
+.claude/
+.github/
 
 # Production Exclusions
 .production/

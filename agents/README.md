@@ -1,106 +1,99 @@
-# Claude Code Agents for RisenOne Fire Risk Analysis System
+# AI Agent Ecosystem for Framework v3.7
 
-This directory contains local copies of all Claude Code specialized agents, extracted from global settings and customized for the RisenOne Fire Risk Analysis Agent System development.
+This directory contains the complete collection of specialized AI agents that provide domain expertise and task coordination for the AI Agent Development Framework v3.7 methodology.
 
 ## Available Agents
 
 ### Core Development Agents
-- **coder-agent.md** - Central programming coordinator for TDD-based implementation
+- **coder.md** - Central programming coordinator for TDD-based implementation
 - **test-engineer.md** - Test-first development and comprehensive validation strategies
 - **code-reviewer.md** - Code quality review and standards compliance
-- **refactoring-specialist.md** - Code quality improvement and technical debt reduction
+- **refactor-specialist.md** - Code quality improvement and technical debt reduction
 
 ### Architecture & Design Agents
 - **system-architect.md** - Strategic technical planning and architecture design
-- **gcp-ai-architect.md** - Google Cloud Platform and AI services architecture
-- **api-design-architect.md** - API design and specification for backend development
-- **database-specialist.md** - Database schema design and query optimization
+- **gcp-architect.md** - Google Cloud Platform and AI services architecture
+- **api-architect.md** - API design and specification for backend development
+- **db-specialist.md** - Database schema design and query optimization
 
 ### DevOps & Cloud Operations
-- **cloud-devops-expert.md** - DevOps, MLOps, and cloud environment automation
-- **cloud-ops-engineer.md** - Cloud operations and production troubleshooting
-- **performance-optimizer.md** - Performance analysis and optimization
+- **devops-expert.md** - DevOps, MLOps, and cloud environment automation
+- **ops-engineer.md** - Cloud operations and production troubleshooting
+- **perf-optimizer.md** - Performance analysis and optimization
 
 ### Security & Quality
 - **security-auditor.md** - Security analysis and vulnerability assessment
 - **frontend-specialist.md** - UI/UX design and frontend development
-- **documentation-specialist.md** - Technical documentation and API documentation
+- **docs-specialist.md** - Technical documentation and API documentation
 
 ### Project Management
 - **project-manager.md** - Multi-agent coordination and workflow orchestration
 
-## Usage in RisenOne Development
+## Usage in Framework Development
 
-Based on the CLAUDE.md guidelines, recommended agent combinations for RisenOne development:
+Based on the Framework v3.7 methodology, recommended agent combinations for framework implementation:
 
-### Fire Risk Analysis Workflows
+### System Development
 ```bash
-# Comprehensive fire risk system development
-"gcp-ai-architect + test-engineer + coder-agent + security-auditor"
+# Comprehensive system development
+"gcp-architect + test-engineer + coder + security-auditor"
 
-# Fire danger visualization optimization  
-"frontend-specialist + performance-optimizer + code-reviewer"
+# UI/UX development
+"frontend-specialist + perf-optimizer + code-reviewer"
 
-# NFDRS calculation validation
-"database-specialist + test-engineer + performance-optimizer"
+# Database development
+"db-specialist + test-engineer + perf-optimizer"
 ```
 
 ### Cloud Deployment & Operations
 ```bash
 # Google Cloud Run deployment
-"cloud-devops-expert + security-auditor + gcp-ai-architect"
+"devops-expert + security-auditor + gcp-architect"
 
 # Production monitoring and operations
-"cloud-ops-engineer + performance-optimizer + system-architect"
+"ops-engineer + perf-optimizer + system-architect"
 ```
 
 ### Documentation & Quality
 ```bash
 # Architecture documentation
-"documentation-specialist + system-architect + gcp-ai-architect"
+"docs-specialist + system-architect + gcp-architect"
 
 # Code quality and refactoring
-"refactoring-specialist + code-reviewer + test-engineer"
+"refactor-specialist + code-reviewer + test-engineer"
 ```
 
 ## Configuration
 
-All agents use the following configuration:
-- Default model: `sonnet` (configurable per agent via frontmatter)
-- Local settings: `.claude/settings.json`
-- Project-specific instructions: `CLAUDE.md` (root level)
+All agents can be configured by editing the frontmatter in their respective markdown files.
 
-## Fire Risk Analysis Context
+## Framework v3.7 Context
 
-These agents are specifically configured for the RisenOne Fire Risk Analysis Agent System, which includes:
+These agents are specifically configured for the AI Agent Development Framework v3.7, which includes:
 
-- **Mission Critical Application**: Fire danger assessment for wildfire management
-- **Technology Stack**: Google ADK Framework, AlloyDB, BigQuery, ASCII visualization
-- **Performance Targets**: Sub-second response times for critical fire assessments
-- **Compliance**: Fire safety validation and NFDRS accuracy requirements
+- **AI-First Methodology**: Complete lifecycle automation with human strategic oversight
+- **Framework Phases**: Init → Development → Deployment → Operations workflow
+- **Performance Targets**: 10x development velocity, >99.9% reliability, >95% quality
+- **Compliance**: Framework compliance validation and regulatory adherence
 
-Each agent understands the fire risk domain context and will apply appropriate safety and performance considerations when working on RisenOne components.
+Each agent understands the framework methodology context and will apply appropriate quality and compliance considerations when working on framework components.
 
 ## Agent Coordination
 
-The agents follow the multi-agent coordination patterns defined in:
-- `docs/specs/SPECS-0016-multi-agent-orchestrator.md` 
-- `docs/architecture/ARCHITECTURE_INTEGRATION.md`
+The agents follow the multi-agent coordination patterns defined in the framework. Key coordination principles:
 
-Key coordination principles:
 - Test-driven development with test-engineer leading requirements
 - Security-first approach with security-auditor validation
 - Performance optimization integrated throughout development
-- Documentation maintained continuously with documentation-specialist
+- Documentation maintained continuously with docs-specialist
 
 ## Local Customization
 
-To customize agents for specific RisenOne requirements:
+To customize agents for specific project requirements:
 
 1. Edit individual agent `.md` files in this directory
 2. Modify the `model` field in frontmatter to use specific models
-3. Add RisenOne-specific instructions to agent descriptions
-4. Update `.claude/settings.json` for project-wide configuration
+3. Add project-specific instructions to agent descriptions
 
 Last updated: 2025-08-19
 Agent source: Global Claude Code settings (/home/ya/.claude/agents/)

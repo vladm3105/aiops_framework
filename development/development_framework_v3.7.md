@@ -1,206 +1,68 @@
-# AI Agent Development Framework v3.7: Production-Ready Edition
-## Complete Specification-Driven Development with AI-First Deployment
+# AI Agent Development Framework v3.7
+## Complete Development Methodology for Enterprise AI-First Projects
 
-**Version:** 3.7 - Production Ready with Complete Framework Integration  
-**Date:** 2025-08-16  
-**Status:** Production Ready  
-**Breaking Changes:** Enhanced structure compliance, BDD integration, deployment automation  
-**Migration Guide:** See Appendix F for v3.6 → v3.7 upgrade path  
-
----
-
-## 🚀 **Executive Summary & Framework Value Proposition**
-
-### **Framework v3.7 Core**
-The AI Agent Development Framework v3.7 delivers **production-ready development acceleration** through complete integration of:
-
-- **Specification-Driven Development:** product.md + PRD files → requirements.md + EARS files + BDD files → design.md + ADR files → SPECS files + deployment.md → tasks.md → AI assistant implementation
-- **AI-First Development:** Optimized context management for 10x development velocity
-- **AI-First Deployment:** Automated infrastructure with intelligent deployment orchestration
-- **Security-by-Design:** Integrated security architecture and threat modeling
-- **Quality Gates:** Comprehensive validation and framework compliance enforcement
-- **Development Velocity:** 2-3x improvement through AI context optimization
-- **Quality Assurance:** >95% first-pass compliance with comprehensive quality gates
-- **Deployment Success:** >95% automated deployment success rate
-- **Framework Compliance:** 100% structure compliance, >95% implementation adherence
-- **Security Integration:** Complete security-by-design implementation
-
-### **Production Readiness Indicators**
-✅ **Complete Framework Structure:** All required files and directories defined  
-✅ **Requirements Traceability:** product.md + PRD → requirements.md + EARS + BDD → design.md + ADR → SPECS + deployment.md → tasks.md → AI implementation  
-✅ **BDD Integration:** Complete behavioral validation and scenario-driven development  
-✅ **IDE Configuration:** Development environment optimized for framework v3.7 patterns  
-✅ **AI Context Optimization:** <5 second context loading, >90% code accuracy  
-✅ **Deployment Automation:** Infrastructure-as-code with AI-first orchestration  
-✅ **Security Integration:** Threat modeling and security-by-design throughout  
-✅ **Quality Gates:** Comprehensive validation at every development stage  
+**Version:** 3.7 - Production Ready Development Edition  
+**Date:** 2025-08-23  
+**Framework:** AI Agent Development Framework v3.7  
+**Purpose:** Complete development methodology from requirements through deployment  
+**Scope:** Phase 1 (Requirements Analysis) through Phase 6 (Testing & QA)  
+**Integration:** Development → Deployment → Operations workflow  
 
 ---
 
-## 🎯 **Framework v3.7 Workflow Diagrams**
+## **DEVELOPMENT FRAMEWORK OVERVIEW**
 
-### **Complete Document Flow - Multi-Document Workflow**
+### **Framework Mission**
 
-```mermaid
-graph TD
-    subgraph "Stage 1: Product & Business"
-        A["product.md | Business Vision"]
-        A1["docs/prd/ | PRD Files"]
-    end
-    
-    subgraph "Stage 2: Requirements & Validation"
-        B["requirements.md | EARS Requirements"]
-        B1["docs/ears/ | EARS Files"]
-        B2["docs/bdd/ | BDD Files"]
-    end
-    
-    subgraph "Stage 3: Architecture & Design"
-        C["design.md | Technical Architecture"]
-        C1["docs/adr/ | ADR Files"]
-    end
-    
-    subgraph "Stage 4: Specifications & Deployment"
-        D["docs/specs/ | SPECS Files"]
-        D1["deployment.md | Deployment Strategy"]
-    end
-    
-    subgraph "Stage 5: Implementation"
-        E["tasks.md | Implementation Tasks"]
-        E1["AI Assistant | Code Implementation"]
-    end
-    
-    A --> A1
-    A1 --> B
-    A1 --> B1
-    
-    
-    B --> B1
-    B --> B2
-    A1 --> B2
-    B1 --> C
-    B1 --> C1
-    B2 --> C
-    B2 --> C1
-    
-    C --> D
-    C1 --> D
-    C --> C1
-    
-    D --> E
-    D1 --> E
-    
-    E --> E1
-    
-    style A fill:#e1f5fe
-    style A1 fill:#ffe0b2
-    style B fill:#f3e5f5
-    style B1 fill:#f3e5f5
-    style B2 fill:#e8f5e8
-    style C fill:#fff3e0
-    style C1 fill:#fce4ec
-    style D fill:#e1f5f7
-    style D1 fill:#e0f2f1
-    style E fill:#f1f8e9
-    style E1 fill:#f9fbe7
+The Development Framework v3.7 provides comprehensive development capabilities including:
+
+- **AI-First Development** with intelligent code generation and pattern recognition
+- **EARS Requirements Integration** with behavioral-driven development (BDD)
+- **Architecture Decision Records (ADR)** with comprehensive decision tracking
+- **Security-by-Design** integration throughout the development lifecycle
+- **Quality Gates** and automated validation at every development phase
+- **Template-Driven Development** with ready-to-use implementation patterns
+
+### **Implementation Templates Available**
+
+The development framework includes comprehensive templates for immediate development acceleration:
+
+**Development Phase Templates:**
+- [EARS requirements template](../templates/development/ears-template.md) - Structured requirements format
+- [BDD scenario template](../templates/development/bdd-scenario-template.md) - Behavior-driven development
+- [ADR template](../templates/development/adr-template.md) - Architecture decision documentation
+
+**AI Agent Scripts:**
+- [Code quality agent](../templates/ai-agents/code-quality-agent.py) - Comprehensive code analysis
+- [Deployment strategy agent](../templates/ai-agents/deployment-strategy-agent.py) - Intelligent deployment decisions
+
+**Quick Start Command:**
+```bash
+# Initialize development with templates
+"api-design-architect: Use templates/development/ears-template.md to create structured requirements for [feature], then use templates/development/bdd-scenario-template.md for behavioral validation"
 ```
 
-### **Complete Multi-Document Workflow Description**
+### **Development Framework Integration**
 
-**Stage 1 → Stage 2:** `product.md + PRD files → requirements.md + EARS files + BDD files`
-- Business vision and product requirements drive technical requirements
-- PRD files provide detailed feature specifications for EARS requirements
-- BDD files validate requirements through behavioral scenarios
-
-**Stage 2 → Stage 3:** `requirements.md + EARS files + BDD files → design.md + ADR files`  
-- Technical requirements and behavioral validation inform architecture design
-- EARS and BDD scenarios drive architectural decisions
-- ADR files document architectural choices based on design
-
-**Stage 3 → Stage 4:** `design.md + ADR files → SPECS files + deployment.md`
-- Technical architecture and decisions create implementation specifications  
-- SPECS files provide detailed technical implementation guidance
-- Deployment strategy aligns with architectural decisions
-
-**Stage 4 → Stage 5:** `SPECS files + deployment.md → tasks.md`
-- Technical specifications and deployment strategy drive implementation tasks
-- Tasks.md is the final document containing structured work items for development
-
-**Stage 5 Execution:** `tasks.md → AI assistant implementation`
-- AI assistants execute the tasks defined in tasks.md
-- Implementation follows specifications and deployment requirements
-- Tasks provide complete guidance for code generation and development
-
-### **Document Workflow & Relationships - Complete PRD Integration**
-
-```mermaid
-graph TB
-    subgraph "Business Layer"
-        A["product.md | Business Vision"]
-    end
-    
-    subgraph "Product Requirements Layer"
-        E["docs/prd/ | Product Requirements | PRD-001, PRD-002, etc."]
-    end
-    
-    subgraph "Technical Requirements Layer"
-        B["requirements.md | EARS Requirements"]
-        C["docs/ears/ | Domain Requirements"]
-        D["docs/bdd/ | BDD Scenarios"]
-    end
-    
-   
-    subgraph "Architecture Layer"
-        F["design.md | Technical Architecture"]
-        G["docs/adr/ | Architecture Decisions"]
-    end
-    
-    subgraph "Technical Specifications Layer"
-        H["docs/specs/ | Technical Specs"]
-    end
-    
-    subgraph "Implementation Layer"
-        I["tasks.md | Implementation Tasks"]
-    end
-    
-    subgraph "Deployment Layer"
-        K["deployment.md | Deployment Strategy"]
-        L["deployment/ | Infrastructure Code"]
-    end
-    
-    A --> E
-    E --> B
-    E --> C
-    
-    B --> C
-    B --> D
-    E --> D
-    C --> F
-    C --> G
-    D --> F
-    D --> G
-    
-    F --> G
-    F --> H
-    G --> H
-    
-    H --> I
-    I --> K
-    K --> L
-    
-    
-    style A fill:#e3f2fd
-    style E fill:#ffe0b2
-    style B fill:#f3e5f5
-    style C fill:#f3e5f5
-    style D fill:#e8f5e8
-    style F fill:#fff3e0
-    style G fill:#fff3e0
-    style H fill:#fce4ec
-    style I fill:#fff8e1
-    style K fill:#e0f2f1
+**Complete Workflow Integration:**
+```
+Development Framework (Phases 1-6) → Deployment Framework (Phase 7) → Operations Framework (Phase 8)
 ```
 
-### **Complete Multi-Document Development Flow**
+## AI-First Development Workflow
+
+This framework is designed to be executed by an AI assistant with a human developer providing supervision and approval. The human developer provides the initial PRD and architecture during the development stage, and the AI assistant handles implementation, testing, and quality assurance with human validation at key checkpoints.
+
+---
+
+#### **AI Context Implementation Command**
+
+**AI Assistant Action Steps:**
+
+1.  **Implement comprehensive AI context optimization:** Implement comprehensive AI context optimization, including the current project state in `current_context.md`, framework patterns in `team_patterns.md`, domain knowledge in `domain_context.md`, and deployment intelligence in `deployment_context.md`.
+```
+
+#- **Development Velocity**: 10x improvement over non-framework development
 
 ```mermaid
 flowchart LR
@@ -970,7 +832,7 @@ REQ-CORE-001: WHEN a user submits a login request THE authentication system SHAL
 - **Hybrid Session Management:** Implement session lifecycle management with cumulative tracking and clean session focus
 
 ### Session Management Integration
-- **Three-Tier Tracking System:** Session-level (TODOS.md) + Project-level (framework_tasks.md) + Framework-level (init_framework_tasks.md)
+- **Three-Tier Tracking System:** Session-level (TODOS.md) + Project-level (framework_tasks.md) + Framework-level (ai_assistant_tasks_development.md)
 - **Session Lifecycle:** Start Protocol → During Protocol → End Protocol with automated archiving
 - **Cross-Project Compatibility:** Session management designed for reuse across all Framework v3.7 projects
 - **TodoWrite Integration:** Real-time session tracking with tool-based status management
@@ -1161,7 +1023,7 @@ project_root/
 └── development/               # Development framework methodology
     ├── development_framework_v3.7.md
     ├── AI_ASSISTANT_STARTUP.md
-    └── init_framework_tasks.md
+    └── ai_assistant_tasks_development.md
 ```
 
 ### Session Lifecycle Protocols
@@ -1526,10 +1388,10 @@ Every architectural component from Phase 3 validated architecture MUST have corr
 
 ### **1.1 Complete Framework Structure Implementation**
 
-```bash
-# Initialize complete v3.7 framework structure
-"general-purpose: Create complete framework v3.7 structure including all mandatory files and directories: product.md, requirements.md, design.md, tasks.md, deployment.md, docs/ears/, docs/bdd/, docs/adr/, docs/prd/, .ai_context/, deployment/, ensuring 100% structure compliance"
-```
+**AI Assistant Action Steps:**
+
+1.  **Initialize the framework structure:** Create the complete Framework v3.7 structure, including all the mandatory files and directories.
+2.  **Validate the framework structure:** Validate that the framework structure is 100% compliant with the v3.7 specification.
 
 **Framework Setup Requirements:**
 - **Structure Compliance:** 100% adherence to v3.7 directory specification
@@ -1774,7 +1636,7 @@ The framework implements enhanced ADR templates with complete framework integrat
    # AI assistants MUST execute this analysis first
    find . -maxdepth 1 -name "*.md" | sort  # Check root framework files
    find docs/ -type d | sort               # Check documentation structure  
-   ls -la .ai_context/ development/ devops/ deployment/ 2>/dev/null  # Check framework directories
+   ls -la .ai_context/ development/ deployment/ operations/ 2>/dev/null  # Check framework directories
    ```
 
 2. **Framework Compliance Validation (MANDATORY SECOND STEP)**
@@ -1808,10 +1670,10 @@ The framework implements sophisticated AI context management for maximum develop
 - **Code Generation:** >90% first-time correctness with framework compliance
 
 #### **AI Context Implementation Command**
-```bash
-# Implement comprehensive AI context optimization
-"general-purpose: Implement comprehensive AI context optimization including current project state in current_context.md, framework patterns in team_patterns.md, domain knowledge in domain_context.md, and deployment intelligence in deployment_context.md"
-```
+
+**AI Assistant Action Steps:**
+
+1.  **Implement comprehensive AI context optimization:** Implement comprehensive AI context optimization, including the current project state in `current_context.md`, framework patterns in `team_patterns.md`, domain knowledge in `domain_context.md`, and deployment intelligence in `deployment_context.md`.
 
 **AI Context Components (Detailed Specification):**
 
@@ -1872,10 +1734,10 @@ The framework implements sophisticated AI context management for maximum develop
 ### **4.2 Multi-Agent Framework Collaboration**
 
 #### **Agent Coordination Patterns (Framework v3.7)**
-```bash
-# Implement multi-agent coordination with framework compliance
-"project-manager: Coordinate multi-agent development workflow including coder-agent for implementation, security-auditor for security validation, test-engineer for BDD scenario creation, and database-specialist for data layer compliance, ensuring complete framework integration"
-```
+
+**AI Assistant Action Steps:**
+
+1.  **Implement multi-agent coordination:** Coordinate the multi-agent development workflow, including the `coder-agent` for implementation, the `security-auditor` for security validation, the `test-engineer` for BDD scenario creation, and the `database-specialist` for data layer compliance. Ensure complete framework integration.
 
 **Framework-Compliant Agent Collaboration Patterns:**
 
@@ -1905,11 +1767,11 @@ The framework implements sophisticated AI context management for maximum develop
 
 ### **4.3 Framework Quality Gates Integration**
 
-#### **Comprehensive Quality Gate Framework**
-```bash
-# Implement comprehensive framework quality gates
-"project-manager: Implement comprehensive quality gates including EARS compliance validation, BDD scenario execution, ADR decision adherence, security-by-design verification, and deployment readiness assessment"
-```
+#### **Comprehensive Quality Gate Framework
+
+**AI Assistant Action Steps:**
+
+1.  **Implement comprehensive framework quality gates:** Implement comprehensive quality gates, including EARS compliance validation, BDD scenario execution, ADR decision adherence, security-by-design verification, and deployment readiness assessment.
 
 **Framework Quality Gates (Production Standard):**
 
@@ -1949,11 +1811,11 @@ The framework implements sophisticated AI context management for maximum develop
 
 ### **5.1 Infrastructure-as-Code with AI Intelligence**
 
-#### **Deployment Automation Framework (Production Implementation)**
-```bash
-# Implement comprehensive deployment automation
-"cloud-devops-expert: Implement complete deployment automation including Terraform infrastructure-as-code, cloud platform configurations (GCP/AWS/Azure), deployment scripts, monitoring configuration, and AI-first deployment orchestration"
-```
+#### **Deployment Automation Framework (Production Implementation)
+
+**AI Assistant Action Steps:**
+
+1.  **Implement comprehensive deployment automation:** Implement complete deployment automation, including Terraform infrastructure-as-code, cloud platform configurations (GCP/AWS/Azure), deployment scripts, monitoring configuration, and AI-first deployment orchestration.
 
 **Deployment Automation Components:**
 
@@ -2819,7 +2681,7 @@ The Framework v3.7 transforms software development from traditional manual proce
 ---
 
 *Framework Version: 3.7 - Production Ready with Complete Integration*  
-*Created: 2025-08-16*  
+*Created: 2025-08-23*  
 *Status: Production Ready for Enterprise Deployment*
 
 *Next Review: Quarterly framework effectiveness assessment and optimization*

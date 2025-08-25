@@ -2,7 +2,7 @@
 ## Framework-Integrated ADR Development for AI-First Projects
 
 **Version:** 3.7 - Framework Integration Edition  
-**Date:** 2025-08-16  
+**Date:** 2025-08-23  
 **Framework:** AI Agent Development Framework v3.7  
 **Focus:** ADR integration with EARS requirements, BDD scenarios, and AI context optimization  
 
@@ -48,6 +48,21 @@ Unlike traditional ADRs, Framework v3.7 ADRs include:
 3. **BDD Scenario Requirements:** Behavioral scenarios needed for validation
 4. **Security-by-Design Impact:** Security architecture implications
 5. **Deployment Strategy Impact:** Effect on AI-first deployment automation
+
+### **ADR Templates Available**
+
+The framework provides comprehensive ADR templates for immediate use:
+
+**ADR Development Templates:**
+- [ADR template](../templates/development/adr-template.md) - Complete framework-compliant ADR structure
+- [EARS requirements template](../templates/development/ears-template.md) - Requirements linking to ADR decisions
+- [BDD scenario template](../templates/development/bdd-scenario-template.md) - Behavioral validation for architecture decisions
+
+**Quick Start Command:**
+```bash
+# Create framework-compliant ADR
+"gcp-ai-architect: Use templates/development/adr-template.md to create ADR-[NUMBER] for [architectural decision], ensuring EARS requirement integration, BDD scenario specification, and framework v3.7 compliance"
+```
 
 ### **ADR Integration Workflow in Framework v3.7**
 

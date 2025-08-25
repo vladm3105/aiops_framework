@@ -2,7 +2,7 @@
 ## Framework-Integrated BDD Development for AI-First Projects
 
 **Version:** 3.7 - Framework Integration Edition  
-**Date:** 2025-08-16  
+**Date:** 2025-08-23  
 **Framework:** AI Agent Development Framework v3.7  
 **Focus:** BDD integration with EARS requirements, technical design, ADR decisions, technical specifications, and AI context optimization  
 
@@ -39,13 +39,28 @@ BDD scenarios bridge the gap between business requirements and technical impleme
 3. **Creating a shared language between stakeholders and developers**
 4. **Enabling automated testing of agent behaviors**
 
+### **BDD Templates Available**
+
+The framework provides ready-to-use BDD templates for immediate implementation:
+
+**BDD Development Templates:**
+- [BDD scenario template](../templates/development/bdd-scenario-template.md) - Complete Gherkin scenario structure
+- [EARS requirements template](../templates/development/ears-template.md) - Technical requirements for BDD validation
+- [ADR template](../templates/development/adr-template.md) - Architecture decisions with BDD scenario references
+
+**Quick Start Command:**
+```bash
+# Create BDD scenarios from template
+"test-engineer: Use templates/development/bdd-scenario-template.md to create comprehensive behavioral scenarios for [feature], ensuring EARS requirement validation and framework v3.7 compliance"
+```
+
 ## Core Integration Patterns
 
 ### Pattern 1: EARS Requirement → BDD Scenario → Technical Implementation
 
 This is the fundamental pattern that connects business requirements to technical code through behavioral scenarios.
 
-#### EARS Requirement (requirements.md)
+#### EARS Requirement (templates/framework/requirements.md)
 
 ```markdown
 REQ-001: WHEN a user requests fire danger analysis for a location 
@@ -99,7 +114,7 @@ class FireRiskAgent:
 
 This pattern validates complex multi-agent interactions through behavioral scenarios.
 
-#### Design Specification (design.md)
+#### Design Specification (templates/framework/design.md)
 
 ```markdown
 ## Parallel Execution Pattern
@@ -451,27 +466,27 @@ fire_analysis_config:
 - Behavior changes require explicit scenario updates
 - Technical debt is visible through failing scenarios
 
-## Integration with RisenOne Framework
+## Integration with Framework v3.7
 
 ### File Organization
 
 ```text
-📁 specs/
-├── 📄 fire_agent_specs.md        → Core fire analysis behaviors
-├── 📄 coordination_specs.md      → Multi-agent coordination
-├── 📄 ascii_visualization_specs.md → Visualization behaviors
-├── 📄 nfdrs_calculation_specs.md  → Fire danger calculations
-├── 📄 error_handling_specs.md    → Failure and recovery
-└── 📄 performance_specs.md       → Performance and load testing
+📁 docs/bdd/
+├── 📄 core-system-lifecycle.feature        → Core framework lifecycle behaviors
+├── 📄 security-by-design.feature          → Security integration behaviors
+├── 📄 performance-development-velocity.feature → Performance validation scenarios
+├── 📄 integration-phase-handoff.feature   → Framework integration behaviors
+├── 📄 error-handling-scenarios.feature    → Failure and recovery scenarios
+└── 📄 ai-agent-coordination.feature       → Multi-agent coordination scenarios
 ```
 
 ### Framework Integration
 
 ```python
-# Integration with RisenOne testing framework
-class RisenOneScenarioValidator:
+# Integration with Framework v3.7 testing framework
+class FrameworkScenarioValidator:
     def __init__(self):
-        self.fire_agent = FireRiskAgent()
+        self.framework_manager = FrameworkManager()
         self.coordinator = MultiAgentCoordinator()
         
     def validate_fire_analysis_scenarios(self):
@@ -543,7 +558,7 @@ And overall system performance should be maintained
 
 ↓ Drives Technical Design
 
-design.md: Auto-scaling Architecture
+templates/framework/design.md: Auto-scaling Architecture
 - Container orchestration platform selection
 - Load monitoring and scaling triggers
 - Infrastructure scaling patterns
@@ -551,7 +566,7 @@ design.md: Auto-scaling Architecture
 ↓ Validates ADR Decision
 
 ADR-0015: Container Orchestration with Kubernetes HPA
-- Based on design.md architecture specifications
+- Based on templates/framework/design.md architecture specifications
 - Architectural choice for container scaling implementation
 
 ↓ Creates Technical Specifications

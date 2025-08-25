@@ -2,7 +2,7 @@
 ## Complete Project Initialization Task Automation
 
 **Version:** 3.7 - AI Init Task Automation Edition  
-**Date:** 2025-08-22  
+**Date:** 2025-08-23  
 **Framework:** AI Agent Init Framework v3.7  
 **Purpose:** Complete AI assistant task automation for project initialization  
 **Scope:** Phase -1 (Pre-Work) through Phase 0 (Framework Setup)  
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 **INIT FRAMEWORK TASK AUTOMATION**
+## **INIT FRAMEWORK TASK AUTOMATION**
 
 ### **Framework Mission**
 
@@ -24,7 +24,7 @@ The Init Framework tasks provide comprehensive project initialization automation
 
 ### **AI-Autonomous Init Operations (90%)**
 
-**🤖 AI AUTONOMOUS Tasks:**
+**AI AUTONOMOUS Tasks:**
 - Project structure discovery and comprehensive analysis
 - Framework compliance gap identification and remediation planning
 - Directory structure creation with template application
@@ -34,7 +34,7 @@ The Init Framework tasks provide comprehensive project initialization automation
 
 ### **Human Supervision Required (10%)**
 
-**👤 HUMAN SUPERVISION Tasks:**
+**HUMAN SUPERVISION Tasks:**
 - Migration approach decision (Option A vs B) approval
 - Project constraints and business requirements validation
 - Version control strategy confirmation and safety approval
@@ -42,7 +42,7 @@ The Init Framework tasks provide comprehensive project initialization automation
 
 ---
 
-## 🚨 **PHASE -1: MANDATORY PRE-WORK TASK AUTOMATION**
+## **PHASE -1: MANDATORY PRE-WORK TASK AUTOMATION**
 
 ### **Critical Pre-Work Foundation Tasks**
 
@@ -64,7 +64,7 @@ Create analysis in .ai_context/project_analysis.md and update .ai_context/framew
 "general-purpose: Execute Framework v3.7 compliance gap analysis including:
 1. Compare current structure against Framework v3.7 requirements
 2. Identify missing directories: docs/adr/, docs/ears/, docs/bdd/, docs/prd/, docs/specs/, docs/validation/
-3. Identify missing root files: product.md, requirements.md, design.md, tasks.md, deployment.md
+3. Identify missing root files: templates/framework/product.md, templates/framework/requirements.md, templates/framework/design.md, templates/framework/tasks.md, templates/framework/deployment.md
 4. Assess .ai_context/ optimization requirements and current state
 5. Document complete compliance gaps and remediation requirements
 Create gap analysis in .ai_context/compliance_gaps.md and update .ai_context/framework_progress.md"
@@ -109,7 +109,7 @@ Create VCS status in .ai_context/version_control_status.md and update .ai_contex
 ```bash
 "CRITICAL HUMAN DECISION TASK: Present migration approach options to human developer:
 
-🚨 MANDATORY HUMAN INTERACTION - Cannot proceed without explicit choice
+MANDATORY HUMAN INTERACTION - Cannot proceed without explicit choice
 
 Present the following decision to human developer:
 
@@ -193,7 +193,7 @@ Create validation report in docs/validation/pre_work_validation_report.md and up
 
 ---
 
-## 🚀 **PHASE 0: FRAMEWORK INITIALIZATION TASK AUTOMATION**
+## **PHASE 0: FRAMEWORK INITIALIZATION TASK AUTOMATION**
 
 ### **Framework Structure Implementation Tasks**
 
@@ -225,12 +225,12 @@ Document implementation results and validation in .ai_context/structure_implemen
 "general-purpose: Create complete Framework v3.7 directory structure including:
 
 **Root Level Files:**
-1. product.md - Business vision template with project-specific content
-2. requirements.md - Master requirements template with initial content
-3. design.md - System architecture template ready for development
-4. tasks.md - Project tasks template with framework integration
-5. deployment.md - Deployment strategy template with project context
-6. CLAUDE.md - AI assistant instructions with project-specific guidance
+1. templates/framework/product.md - Business vision template with project-specific content
+2. templates/framework/requirements.md - Master requirements template with initial content
+3. templates/framework/design.md - System architecture template ready for development
+4. templates/framework/tasks.md - Project tasks template with framework integration
+5. templates/framework/deployment.md - Deployment strategy template with project context
+6. AI_ASSISTANT.md - AI assistant configuration with project-specific guidance
 7. .gitignore - Framework-optimized ignore patterns with project additions
 8. README.md - Project overview with framework integration and quick start
 
@@ -298,7 +298,7 @@ Create integration documentation in .ai_context/project_integration.md and updat
 
 **Configuration and Performance Optimization:**
 - Initialize all context files with project-specific content and framework integration
-- Configure AI context for <5 second loading performance target
+- Configure AI context with target <5 second loading performance
 - Validate context relevance and development acceleration capability
 - Ensure complete state management and progress tracking functionality operational
 
@@ -308,7 +308,7 @@ Document context setup in .ai_context/ai_context_setup.md and validate performan
 ##### **Task: AI Context Performance Validation**
 ```bash
 "general-purpose: Execute AI context performance validation including:
-1. Test context loading time and validate <5 second performance target achievement
+1. Test context loading time and validate target <5 second performance
 2. Verify context relevance and project-specific information accuracy
 3. Validate state management functionality and progress tracking capability
 4. Test context integration with framework methodology and development workflow
@@ -399,7 +399,7 @@ Document Phase 0 completion in .ai_context/phase_0_completion.md with comprehens
 - Security foundation establishment and threat model documentation
 - Version control safety confirmation and backup procedures validation
 
-Prepare transition to development/AI_ASSISTANT_STARTUP_DEVELOPMENT.md with complete readiness"
+Prepare transition to development/AI_ASSISTANT_STARTUP.md with complete readiness"
 ```
 
 ---
