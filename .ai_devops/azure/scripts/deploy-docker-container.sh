@@ -132,6 +132,7 @@ DEPLOY_CMD="az container create \
     --image '$IMAGE_NAME' \
     --dns-name-label '$DNS_NAME' \
     --ports 80 443 \
+    --os-type Linux \
     --cpu 1 \
     --memory 1 \
     --restart-policy Always \
