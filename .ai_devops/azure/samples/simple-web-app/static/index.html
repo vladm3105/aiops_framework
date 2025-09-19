@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Container Instance - Sample Application</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            padding: 2rem;
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #0078d4, #106ebe);
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+        }
+
+        .status {
+            background: #e8f5e8;
+            border: 2px solid #4caf50;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .status-title {
+            color: #2e7d32;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .status-message {
+            color: #4caf50;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 1rem;
+            border-left: 4px solid #0078d4;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .info-value {
+            color: #666;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+
+        .actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-primary {
+            background: #0078d4;
+            color: white;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .footer {
+            color: #888;
+            font-size: 0.9rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+
+        .health-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: #4caf50;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+                margin: 1rem;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">AZ</div>
+        <h1>Azure Container Instance</h1>
+        <p class="subtitle">Sample Web Application</p>
+
+        <div class="status">
+            <div class="status-title">
+                <span class="health-indicator"></span>
+                Application Status: Running
+            </div>
+            <div class="status-message">
+                Container is healthy and ready to serve requests
+            </div>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <div class="info-label">Container Name</div>
+                <div class="info-value" id="containerName">Loading...</div>
+            </div>
+            <div class="info-card">
+                <div class="info-label">Deployment Time</div>
+                <div class="info-value" id="deploymentTime">Loading...</div>
+            </div>
+            <div class="info-card">
+                <div class="info-label">Environment</div>
+                <div class="info-value" id="environment">Loading...</div>
+            </div>
+            <div class="info-card">
+                <div class="info-label">Version</div>
+                <div class="info-value">1.0.0</div>
+            </div>
+        </div>
+
+        <div class="actions">
+            <a href="/health" class="btn btn-primary">Health Check</a>
+            <a href="/ready" class="btn btn-secondary">Readiness Check</a>
+        </div>
+
+        <div class="footer">
+            <p><strong>Azure Container Instances</strong> - Deployed via AI DevOps Framework</p>
+            <p>🤖 Managed by Claude Agent | ⚡ Powered by Azure</p>
+        </div>
+    </div>
+
+    <script>
+        // Load environment information
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set container name from hostname or default
+            const containerName = window.location.hostname || 'azure-container-app';
+            document.getElementById('containerName').textContent = containerName;
+
+            // Set current time as deployment time
+            const now = new Date();
+            document.getElementById('deploymentTime').textContent = now.toLocaleString();
+
+            // Try to detect environment from hostname or default to 'development'
+            let environment = 'development';
+            if (containerName.includes('prod')) {
+                environment = 'production';
+            } else if (containerName.includes('staging')) {
+                environment = 'staging';
+            }
+            document.getElementById('environment').textContent = environment;
+
+            // Health check functionality
+            const healthBtn = document.querySelector('a[href="/health"]');
+            const readyBtn = document.querySelector('a[href="/ready"]');
+
+            healthBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                fetch('/health')
+                    .then(response => response.text())
+                    .then(data => alert('Health Check Response: ' + data))
+                    .catch(error => alert('Health check failed: ' + error));
+            });
+
+            readyBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                fetch('/ready')
+                    .then(response => response.text())
+                    .then(data => alert('Readiness Check Response: ' + data))
+                    .catch(error => alert('Readiness check failed: ' + error));
+            });
+        });
+
+        // Simple analytics/monitoring simulation
+        setInterval(function() {
+            console.log('Application heartbeat:', new Date().toISOString());
+        }, 30000);
+    </script>
+</body>
+</html>
